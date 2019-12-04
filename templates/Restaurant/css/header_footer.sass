@@ -1,0 +1,271 @@
+$mainColor: #FCDA9A
+ul,p
+    margin: 0px
+*
+    padding: 0px
+    margin: 0px
+a
+    text-decoration: none
+    color: black
+    &:hover
+        text-decoration: none
+        color: black
+button
+    outline: none !important
+    transition: 0.3s !important
+
+.header_top_open
+    background: #131822 !important
+    .logo
+        width: 100px !important
+        height: 50px !important
+.navbar 
+    background: #0b0e137d 
+    position: fixed
+    width: 100%
+    z-index: 9999999
+    transition: 0.4s
+    .logo
+        float: left
+        width: 100px
+        height: 60px
+        transition: .4s
+        img
+            width: 100%
+            height: 100%
+    button
+        i
+            color: $mainColor
+    ul
+        width: 92%
+        text-align: center
+        display: block
+        margin-left: 150px
+        li
+            width: 13%
+            float: left
+            a
+                color: white !important
+                display: inline-flex
+                &:before
+                    content: ""
+                    position: relative
+                    width: 9px
+                    height: 9px
+                    border-radius: 50%
+                    display: inline-block
+                    margin-right: 9px
+                    background: $mainColor
+                    opacity: 0
+                    transform: translateX(20px)
+                    transition: 0.3s
+                    top: 9px
+            &:hover
+                a
+                    color: $mainColor !important
+                    &:before
+                        transform: translateX(0px)
+                        opacity: 1
+            i
+                line-height: 40px
+                display: block
+                width: 60%
+                position: relative
+                margin: auto
+                font-size: 27px
+                color: white
+        .header_icon
+            width: 10%
+        .active
+            a
+                color: $mainColor !important
+                &:before
+                    transform: translateX(0px)
+                    opacity: 1
+.header_icon
+    a
+        padding: 0px
+        &:before
+            display: none !important
+        &:hover
+            &:before
+                display: none !important
+footer
+    overflow: hidden
+    background-color: #0B0E13
+    position: relative
+    width: 100%
+    min-height: 400px
+    .footer_top
+        position: relative
+        #img
+            width: 100%
+            height: 100%
+            position: absolute
+            top:0px
+            left: 0px
+            opacity: 0.6
+        .social_list
+            position: relative
+            z-index: 999
+            span
+                width: 65px
+                height: 65px
+                border: 1px solid rgba(255, 255, 255, 0.5)
+                background: transparent
+                border-radius: 50%
+                color: white
+                display: inline-block
+                margin: 0px 10px
+                line-height: 65px
+                font-size: 22px
+                cursor: pointer
+                transition: 0.3s
+                &:hover
+                    border: 1px solid $mainColor
+                    color: $mainColor
+
+        .logo
+            position: relative
+            margin: auto
+            width: 100px
+            height: 80px
+            img
+                width: 100%
+                height: 100%
+        .footer_link
+            li
+                margin-bottom: 5px
+                span
+                    color: $mainColor
+                p
+                    color: rgba(200,200,200,0.8)
+                    font-size: 15px
+                    span
+                        color: white
+    .footer_img
+        position: absolute
+        bottom: 0px
+        width: 500px
+        z-index: 9999
+    .footer_left
+        left: 0px
+    .footer_right
+        right: 0px
+    .copyright
+        background: #090a0d
+        width: 100%
+        position: relative
+        height: 50px
+        line-height: 50px
+        color: white
+        span
+            color: $mainColor
+.template_style
+    position: relative
+    width: 100%
+    height: 80px
+    .template_
+        width: 100px
+        height: 100%
+        position: relative
+        margin: auto
+        img
+            width: 100%
+            height: 100%
+            position: relative
+        &:after
+            content: ""
+            width: 40px
+            height: 2px
+            background: $mainColor
+            display: inline-block
+            position: absolute
+            top: 51%
+            right: -15px
+        &:before
+            content: ""
+            width: 40px
+            height: 2px
+            background: $mainColor
+            display: inline-block
+            position: absolute
+            top: 51%
+            left: -15px
+.loading-overlay
+    position: fixed
+    top: 0px
+    left: 0px
+    width: 100%
+    height: 100%
+    background: white
+    opacity: 1
+    z-index: 99999999999999
+    .spinner 
+        width: 40px
+        height: 40px
+        position: relative
+        margin:  auto
+        top: 50%
+        transform: translateY(-50%)
+        .double-bounce1
+            width: 100%
+            height: 100%
+            border-radius: 50%
+            background-color: #5C636B
+            opacity: .7
+            position: absolute
+            top: 0
+            left: 0
+            -webkit-animation: sk-bounce 2.0s infinite ease-in-out
+            animation: sk-bounce 2.0s infinite ease-in-out
+        .double-bounce2 
+            width: 100%
+            height: 100%
+            border-radius: 50%
+            background-color: $mainColor
+            opacity: .6
+            position: absolute
+            top: 0
+            left: 0
+            -webkit-animation: sk-bounce 2.0s infinite ease-in-out
+            animation: sk-bounce 2.0s infinite ease-in-out
+            -webkit-animation-delay: -1.0s
+            animation-delay: -1.0s
+@-webkit-keyframes sk-bounce 
+    0%, 
+    100%
+        -webkit-transform: scale(0.0) 
+    50%
+        -webkit-transform: scale(1.0) 
+@keyframes sk-bounce 
+    0%, 
+    100% 
+        transform: scale(0.0)
+        -webkit-transform: scale(0.0)
+    50%
+        transform: scale(1.0)
+        -webkit-transform: scale(1.0)
+.goTop
+    position: fixed
+    bottom: 0px
+    right: 60px
+    opacity: 0
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    line-height: 50px
+    border: 1px solid $mainColor
+    background: #0B0E13
+    text-align: center
+    transition: 0.8s
+    visibility: hidden
+    cursor: pointer 
+    z-index: 99999999999999
+    i
+        color: $mainColor
+        font-size: 24px
+.goTop_open
+    visibility: visible
+    opacity: 1
+    bottom: 50px

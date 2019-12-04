@@ -1,0 +1,661 @@
+@media (max-width: 576px) {
+  header {
+    z-index: 999999999999999 !important;
+    background: white;
+    position: relative;
+  }
+
+  header .logo {
+    width: 50px !important;
+  }
+.header_text img {
+    width: 300px;
+  }
+
+  header nav ul li a {
+    color: black !important;
+  }
+
+  header .collapse {
+    display: inline;
+  }
+
+  header nav .collapse .navbar-nav {
+    position: relative !important;
+    width: 100% !important;
+    right: 0px !important;
+  }
+
+  header .collapse .navbar-nav .active a {
+    color: #3976FD !important;
+  }
+
+  .feature_section p {
+    width: 100%;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .feature_section .feature {
+    box-shadow: 0px 10px 60px rgba(200, 200, 200, 0.2);
+  }
+
+  .feature_section .feature p {
+    width: 100% !important;
+  }
+
+  .about .about_text .list_links li {
+    width: 32.5%;
+    padding: 10px 0px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+  }
+
+  .about .about_text .list_info {
+    position: relative;
+    top: -17px;
+    width: 99%;
+    left: 1px;
+    border-radius: 0px;
+  }
+
+  .process {
+    clip-path: polygon(29% 0, 100% 3%, 100% 96%, 66% 100%, 0 96%, 0 3%);
+  }
+
+  .process h3 {
+    margin-top: 0px;
+  }
+
+  .process .container {
+    margin-top: 40px;
+  }
+
+  .process .container .process_cover {
+    margin-bottom: 20px;
+  }
+
+  .protfolio p, .team p, .testimonials .layout p, .cards p, .latest_news p, .contact p, .process p {
+    width: 90% !important;
+  }
+
+  .protfolio ul {
+    width: 100%;
+  }
+
+  .why_us ul {
+    margin-top: 25px !important;
+  }
+
+  .why_us p {
+    font-size: 12px;
+  }
+
+  .cards {
+    padding-bottom: 100px;
+  }
+
+  .cards .container ._card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .cards .container ._card h1 {
+    right: 9px;
+  }
+
+  .work_with_us .layout .work_text {
+    width: 90%;
+  }
+
+  .testimonials .layout .owl-two .item, .testimonials .layout .owl-two p {
+    width: 100% !important;
+  }
+
+  .testimonials .layout .owl-two .item {
+    padding: 10px;
+  }
+}
+@media (min-width: 577px) and (max-width: 769px) {
+  header {
+    z-index: 999999999999999 !important;
+    background: white;
+    position: relative;
+  }
+
+  header nav ul li a {
+    color: black !important;
+  }
+
+  header .collapse {
+    display: inline;
+  }
+
+  header .collapse .navbar-nav {
+    position: relative !important;
+    width: 100% !important;
+    right: 0px !important;
+  }
+
+  header .collapse .navbar-nav .active a {
+    color: #3976FD !important;
+  }
+
+  .feature_section p {
+    width: 100%;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .feature_section .feature {
+    box-shadow: 0px 10px 60px rgba(200, 200, 200, 0.2);
+  }
+
+  .feature_section .feature p {
+    width: 100% !important;
+  }
+
+  .about .about_text .list_links li {
+    width: 32.5%;
+    padding: 10px 0px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+  }
+
+  .about .about_text .list_info {
+    position: relative;
+    top: -17px;
+    width: 99%;
+    left: 1px;
+    border-radius: 0px;
+  }
+
+  .process {
+    clip-path: polygon(29% 0, 100% 3%, 100% 96%, 66% 100%, 0 96%, 0 3%);
+  }
+
+  .process h3 {
+    margin-top: 0px;
+  }
+
+  .process .container {
+    margin-top: 40px;
+  }
+
+  .process .container .process_cover {
+    margin-bottom: 20px;
+  }
+
+  .protfolio p, .team p, .testimonials .layout p, .cards p, .latest_news p, .contact p, .process p {
+    width: 90% !important;
+  }
+
+  .protfolio ul {
+    width: 88%;
+  }
+
+  .why_us ul {
+    margin-top: 25px !important;
+  }
+
+  .cards {
+    padding-bottom: 100px;
+  }
+
+  .cards .container ._card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .cards .container ._card h1 {
+    right: 9px;
+  }
+
+  .work_with_us .layout .work_text {
+    width: 90%;
+  }
+
+  .testimonials .layout .owl-two .item, .testimonials .layout .owl-two p {
+    width: 100% !important;
+  }
+
+  .testimonials .layout .owl-two .item {
+    padding: 10px;
+  }
+}
+@media (min-width: 770px) and (max-width: 991px) {
+  header {
+    z-index: 999999999999999 !important;
+    background: white;
+    position: relative;
+  }
+
+  header nav ul li a {
+    color: black !important;
+  }
+
+  header .collapse {
+    display: inline;
+  }
+
+  header .collapse .navbar-nav {
+    position: relative !important;
+    width: 100% !important;
+    right: 0px !important;
+  }
+
+  header .collapse .navbar-nav .active a {
+    color: #3976FD !important;
+  }
+
+  .feature_section p {
+    width: 100%;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+
+  .feature_section .container .feature {
+    padding: 20px;
+    box-shadow: 0px 10px 60px rgba(200, 200, 200, 0.2);
+  }
+
+  .feature_section .container .feature p {
+    width: 100% !important;
+    padding-bottom: 0px;
+  }
+
+  .about .about_text .list_links li {
+    width: 32.5%;
+    padding: 10px 0px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+  }
+
+  .about .about_text .list_info {
+    position: relative;
+    top: -17px;
+    width: 99%;
+    left: 1px;
+    border-radius: 0px;
+  }
+
+  .process {
+    clip-path: polygon(29% 0, 100% 3%, 100% 96%, 66% 100%, 0 96%, 0 3%);
+  }
+
+  .process .dl-mt-40 {
+    margin-top: 0px;
+  }
+
+  .process h3 {
+    margin-top: 0px;
+  }
+
+  .process .container {
+    margin-top: 40px;
+  }
+
+  .process .container .process_cover {
+    margin-bottom: 20px;
+  }
+
+  .protfolio p, .team p, .testimonials .layout p, .cards p, .latest_news p, .contact p, .process p {
+    width: 90% !important;
+  }
+
+  .protfolio ul {
+    width: 50%;
+  }
+
+  .why_us ul {
+    margin-top: 25px !important;
+  }
+
+  .cards {
+    padding-bottom: 100px;
+  }
+
+  .cards .container ._card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .cards .container ._card h1 {
+    right: 9px;
+  }
+
+  .work_with_us .layout .work_text {
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  header .collapse .navbar-nav {
+    position: absolute !important;
+    right: 0px !important;
+  }
+
+  .protfolio ul {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=mediaQuery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+/*# sourceMappingURL=mediaquery.css.map */
+
+/*# sourceMappingURL=mediaquery.css.map */

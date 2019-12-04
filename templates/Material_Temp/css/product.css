@@ -1,0 +1,630 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+    cursor: pointer !important
+}
+.color-p ,P,label{color:#9e9e9e}
+Button:focus,
+input:focus,
+textarea:focus{outline: none !important;}
+.title{color:#112f6b !important;font-weight: 500;}
+.font-bold{font-weight: bold !important}
+.text-orange{color:  #fb5364!important;}
+.btn-white{background: white !important}
+.text-white{color: white !important}
+.text-black{color: black !important}
+.btn
+{
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    border-radius:40px;
+    transition: 0.3s;
+    padding: 0px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    font-size: 11px
+}
+.btn:hover{
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.35);
+    color: white
+}
+.btn-outline-white
+{
+    border: 2px solid white;
+    background: transparent !important;
+    color:#FFF !important
+}
+#hover-h{transition: 0.4s}
+
+#hover-h:hover
+{
+    color:rgba(30,30,30,0.9) !important
+}
+/* Section Header Start */
+.header 
+{
+    height: 100vh;
+    width: 100%;
+    background: url('../images/ability-.png') center center fixed;
+    background-size: cover;
+    overflow: hidden
+}
+.header .layout
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 98, 255, 0.58)
+}
+ .btn
+{
+    background: linear-gradient(40deg,#FF5858,#ee4392);
+    color:white;
+    font-weight: bold
+}
+.navbar 
+{
+    padding: 1.1% 7.5%;
+    transition: 0.5s;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+    background: #FFF;
+    z-index: 99999999
+}
+.navbar-open{
+    padding: 0.5% 7.5% !important
+}
+.navbar .nav-item > a
+{
+    font-size: 18px
+}
+.navbar .form-inline a
+{
+    margin-right: 22px;
+    
+}
+.navbar .form-inline a:last-of-type{
+    margin-right: 35px
+}
+.navbar .dropdown-menu{position: absolute !important}
+.navbar .dropdown-menu.show{display: none}
+.navbar .dropdown-item
+{
+    padding: 10px 36px 8px 15px;
+    transition: all 0.4s;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.navbar .dropdown-item:hover{
+    background-color:#112f6b;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.3);
+    color:white
+}
+ .navbar .navbar-nav .nav-item{    padding: 0px 17px;}
+.navbar .navbar-brand{font-weight: bold}
+.header .container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.navbar .btn{margin-right: 25px}
+.header-text
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header  h1
+{
+    font-size: 50px;
+    font-weight: bold
+}
+.header p
+{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.header  .btn
+{
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    width: 15%;
+}
+.header  i
+{
+    position: relative;
+    top: 50%;
+    font-size: 40px;
+    padding: 30px;
+    box-shadow: 0px 1px 7px rgba(0,0,0,.4);
+    border-radius: 3px;
+}
+.header-img 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.header-img img
+{
+    width: 100%;
+    height: 100%
+}
+/* Section Header End */
+/* Section Work Start*/
+.work ul
+{
+    cursor: default;
+}
+.work .hold ul
+{
+    cursor: default;
+    width: 33.3%;
+    display: inline-block
+}
+.images-panel
+{
+    position: relative;
+    height: auto;
+    
+}
+.work ul Button
+{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: red;
+    padding: 0px 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.work ul li
+{
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    border-radius: 30px;
+    width: inherit;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px 5px;
+    transition: 0.3s
+}
+.work ul li:hover
+{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+/* to start shuffle plugin */
+.mix{display: none}
+.img-cover
+{
+    height: auto
+}
+.img-cover ul li
+{
+    display: block;
+    box-shadow: none
+}
+.img-cover ul li:hover{box-shadow: none}
+.img-cover ul li img
+{
+    width: 100%;
+    height: 100%
+}
+.long-img
+{
+    position: relative;
+    width:97% !important;
+    height: 525px !important;
+    margin-bottom:20px !important
+}
+.short-img
+{
+    position: relative;
+    width:97% !important;
+    height: 250px !important;
+    margin-bottom:20px !important
+}
+.work .page
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+    margin: auto;
+    border-radius: 2px;   
+    overflow:hidden;
+    position: relative;
+    display: flex;
+    
+}
+.work  .page-edit-short
+{
+    position: relative;
+    height: 175px;
+    width: 32% !important;
+    display: inline;
+}
+.work .page-edit-long
+{
+    position: relative;
+    height: 375px; 
+    display:inline
+    
+}
+.img-cover
+{
+    height: auto;
+    width: 100%;
+}
+.work .page img
+{
+    width: 100%;
+    height: 100%;
+    transition: 1s ;
+}
+.work .page .page-back
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(208, 74, 135, 0.8);
+    z-index: 2;   
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all .5s
+}
+.work .page .page-back a 
+{ 
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+    top: 43%;
+    font-size: 25px;
+    color:white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+    transition: all .5s
+}
+.work .page:hover .page-back
+{
+    opacity: 1;
+    transform: translateY(0px)
+}
+.work .page .page-back:hover a
+{
+    top:47%;
+    opacity: 1
+}
+.work .page .page-back:hover span
+{
+    top: 50%;
+    opacity: 1
+}
+.work .page .page-back .page-box-icon
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.work .page .page-back span
+{
+    position: relative;
+    display: inline-block;
+    top: 55%;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    margin: 25px 2px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.work .page .page-back span i
+{
+    position: relative;
+    line-height: 40px;
+    font-size: 16px;
+    transition: .3s
+}
+.work .page .page-back span:hover{background: linear-gradient(40deg,#FF5858,#ee4392);}
+.work .page .page-back span:hover i{color:white}
+/*newClass in jQuery*/
+.img-scale{transform: scale(1.15)}
+
+/* Show box Start */
+.show-img
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    display: none;
+    transition: all 0.5s;
+    z-index: 9999999
+}
+.show-img-open
+{
+    opacity: 1;
+    display: block
+}
+.show-img .show-box
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 70%;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.show-img .show-box img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 3px
+}
+/* Show box End */
+/* Section Work End*/
+/* Section Plan Start */
+.plan
+{
+    background: #f4f4fa;
+    height: auto
+}
+#hover-h{transition: 0.4s}
+
+.plan .plan-box
+{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 4px;
+    transition: 0.8s
+}
+
+.plan .plan-box h5:before
+{
+    content: "";   
+    position: relative;
+    left: 0px;
+    width: 13px;
+    height: 13px;
+    background: #fb5364;
+    border-radius: 1px;
+    display: inline-block;
+    margin-right: 15px  
+}
+.plan .plan-box h5 
+{
+    letter-spacing: 2px;
+    transition: 0.2s;
+    font-size: 17px
+}
+#hover-h:hover,
+.plan .plan-box h5:hover
+{
+    color:rgba(30,30,30,0.9) !important
+}
+.plan .plan-box h5 span
+{
+    letter-spacing: normal
+}
+/* Section Plan End */
+
+/* Section mobile-app Start*/
+.mobile-app
+{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: url('../images/mobile-app.png') center center fixed;
+    background-size: cover;
+}
+.mobile-app .layout
+{
+    background: linear-gradient(40deg,#ff585870,#ee4392b8);;
+}
+.mobile-app .btn
+{
+    height: 53px;
+    width: 180px;
+    font-size: 17px;
+    margin-right: 10px;
+    background: white;
+    color:#fb5394
+}
+.mobile-app i
+{
+    margin-right: 7px;
+    font-size: 16px
+}
+/* Section mobile-app End*/
+.social-list
+{
+    width: 100%;
+    background: #f95168;
+    height: auto;
+    line-height: 70px
+}
+.social-list h6
+{
+    line-height: 70px;
+    font-size: 17px;
+    position: relative;
+
+}
+.social-list a
+{
+    color: white;
+    margin:0px 20px;
+    font-size: 22px;
+
+}
+/* Section contact-us End*/
+/* Section contact-us End*/
+.footer
+{
+    height: auto;
+    background: #1c2331;
+    width: 100%
+}
+.footer h5:after
+{
+    content: "";
+    position: relative;
+    height: 1px;
+    width: 60px;
+    display: inherit;
+    background: #e53974;
+    bottom: 0px;
+    margin-top: 20px;
+}
+.footer .col-lg-2
+{
+    margin-right: auto !important;
+    margin-left: auto !important
+}
+.footer li
+{
+    margin-bottom: 20px
+}
+.footer ul li a
+{
+    color:white;
+}
+.footer i
+{
+    margin-right: 10px
+}
+.copyright
+{
+    height: auto;
+    background: #161c27;
+}
+.copyright h6
+{
+    font-size: 17px
+}
+.copyright span
+{
+    color:#99a2a7
+}
+/* Section contact-us End*/
+
+
+
+
+/*Media Query*/
+@media (max-width: 576px)/*For xs*/
+{
+    .footer h5:after{margin: auto; margin-top: 20px}
+    .plan .plan-box{padding: 10px 30px}
+    .header .btn{width: 25%}
+   .long-img
+{
+    position: relative;
+    width:97% !important;
+    height: 225px !important;
+    margin-bottom:15px !important
+}
+.short-img
+{
+    position: relative;
+    width:97% !important;
+    height: 100px !important;
+    margin-bottom:15px !important
+} 
+}
+
+@media (min-width: 568px) and (max-width: 769px)/*max width for sm*/
+{
+    .footer h5:after{margin: auto; margin-top: 20px}
+    .plan .plan-box{padding: 10px 30px}
+    .header .btn{width: 25%}
+   .long-img
+{
+    position: relative;
+    width:97% !important;
+    height: 275px !important;
+    margin-bottom:20px !important
+}
+.short-img
+{
+    position: relative;
+    width:97% !important;
+    height: 125px !important;
+    margin-bottom:20px !important
+} 
+}
+
+@media (min-width: 769px) and (max-width: 991px)/*max width for md*/
+{
+    .header .btn{width: 25%}
+   .long-img
+{
+    position: relative;
+    width:97% !important;
+    height: 350px !important;
+    margin-bottom:20px !important
+}
+.short-img
+{
+    position: relative;
+    width:97% !important;
+    height: 175px !important;
+    margin-bottom:20px !important
+}     
+}
+@media (min-width: 991px) and (max-width: 1199px)/*max width for md*/
+{
+   .long-img
+{
+    position: relative;
+    width:97% !important;
+    height: 450px !important;
+    margin-bottom:20px !important
+}
+.short-img
+{
+    position: relative;
+    width:97% !important;
+    height: 225px !important;
+    margin-bottom:20px !important
+}     
+}

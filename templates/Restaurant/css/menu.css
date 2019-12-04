@@ -1,0 +1,148 @@
+.navbar {
+  position: absolute !important;
+  background: #0b0e137d !important;
+}
+.navbar .logo {
+  width: 200px !important;
+  height: 70px !important;
+}
+
+.menu_header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../images/new_food.png") no-repeat fixed;
+  background-size: cover;
+}
+.menu_header .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.menu_header .layout .header_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu_header .layout .header_text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: #FCDA9A;
+}
+.menu_header .layout .header_text p {
+  color: white;
+  font-size: 30px;
+}
+.menu_header .layout .header_text button {
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  margin: 30px 60px;
+  position: relative;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.menu_header .layout .header_text button:hover {
+  background: #131822;
+  color: #FCDA9A !important;
+  border: 1px solid #FCDA9A;
+}
+
+.list_food {
+  width: 100%;
+  min-height: 70px;
+  line-height: 40px;
+  background: #131822;
+  cursor: default;
+  transition: 0.6s;
+}
+.list_food ul li {
+  width: 13%;
+  display: inline-block;
+  color: white;
+}
+.list_food ul li a {
+  color: white;
+  display: block;
+  font-size: 19px;
+  line-height: 70px;
+  cursor: pointer;
+}
+.list_food ul li a:before {
+  content: "";
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 9px;
+  background: #FCDA9A;
+  transition: 0.3s;
+}
+
+.list_food_open {
+  background: #131822;
+  min-height: 50px !important;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  z-index: 999999;
+  opacity: 0.8;
+}
+.list_food_open a {
+  line-height: 50px !important;
+}
+
+.menu table {
+  position: relative;
+  top: 50px;
+}
+.menu th {
+  background: #FCDA9A;
+  border: 1px solid #1318226b;
+  color: #131822;
+  padding: 7px;
+}
+.menu td {
+  border: 1px solid rgba(170, 170, 170, 0.6);
+  padding: 7px;
+  background: #131822;
+  color: #FCDA9A;
+}
+.menu .menu_text {
+  padding-top: 30px;
+}
+.menu .menu_text ul {
+  position: relative;
+  width: 100%;
+}
+.menu .menu_text ul li {
+  display: inline-block;
+  width: 49%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.menu .menu_text ul li:before {
+  content: "";
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 9px;
+  background: #FCDA9A;
+  transition: 0.3s;
+}
+.menu .menu_text ul li span {
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=menu.css.map */

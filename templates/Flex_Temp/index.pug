@@ -1,0 +1,352 @@
+- var themeColor = "theme_color"
+mixin article(article_class, img , img_id, header, paragragh)
+    article(class=" " + article_class)
+        div(class="layout " + img_id)
+            img(src= img)
+            .layout_img
+                .layout_text
+                    p(class="")= header
+        .article_text
+
+            h6(class="dl-mb-10")= header
+            p(class="dl-mb-20")= paragragh
+            i(class="far fa-gem")
+            button SEND POST
+doctype
+html
+    head
+
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" href="css/theme_default.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+
+    body
+        //- to get html_header file
+        include header_.pug
+        include slider_.pug
+        //- Section features Start
+        section.features.text-center.dl-mt-100
+            .container
+                .row.text-center
+                    .col-md-4.dl-mb-20
+                        i(class="far fa-gem " ) 
+                        h2.text-md-left Beautiful Design
+                            +listStyle
+                        p Beautifully designed template to give your site a stunning and unique lookwith incredible functionality.
+                    .col-md-4.dl-mb-20
+                        i(class="far fa-gem " ) 
+                        h2.text-md-left Awesome Features
+                            +listStyle
+                        p Flex is a visually rich template design with seamlessly integrated interactive and animated elements.
+                    .col-md-4.dl-mb-20
+                        i(class="far fa-gem " ) 
+                        h2.text-md-left Powerful Admin
+                            +listStyle
+                        p Ultimate control with the intuitive template manager and a highly user friendly interface, drag & drop functionality.
+        //-Section features End
+        //- Section our blog Start
+        section.our_blog.dl-mt-100
+            .white_bg
+            .ourblog_layout.dl-pt-100
+                h2.text-center  LATEST 
+                    span(class=" ") POSTS 
+                    | FROM OUR BLOG
+                .container
+                    .row
+                        .col-md-5
+                        .col-md-2
+                            +listStyle
+                        .col-md-5
+                
+                .container
+                    .row
+                        ul.text-left
+
+                            .ul_ofArticle
+
+
+                                    +article(
+                                    'ul_1',
+                                    "images/features/features1.jpg",
+                                    'img_300',
+                                    'Does a Blog Post Look Better With a Featured Image?',
+                                    'We offer a range of training packages in a range of subject areas and can offer blended learning opportunities to best meet '
+                                    )
+                                    +article(
+                                    'ul_2',
+                                    "images/features/features2.jpg",
+                                    'img_270',
+                                    'How to Support Your Own Support Team?',
+                                    'Service for extended hours or to include weekends or bank holidays cost up to $80 and with every package you can add'
+                                    )
+                                    +article(
+                                    'ul_3',
+                                    "images/features/features3.jpg",
+                                    'img_220',
+                                    'At Marios Always Fresh Cupcake Ice Cream?',
+                                    'paragragh'
+                                    )
+                                    +article(
+                                    'ul_4',
+                                    "images/features/features4.jpg",
+                                    'img_220',
+                                    'header',
+                                    'paragragh'
+                                    )
+                            .ul_ofArticle
+                                    +article(
+                                    'ul_1',
+                                    "images/features/features1.jpg",
+                                    'img_270',
+                                    'How to Support Your Own Support Team?',
+                                    'Veggies food taste better when cooked, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.'
+                                    )
+                                    +article(
+                                    'ul_2',
+                                    "images/features/features2.jpg",
+                                    'img_220',
+                                    'header',
+                                    'paragragh'
+                                    )
+
+                                    +article(
+                                    'ul_3',
+                                    "images/features/features3.jpg",
+                                    'img_220',
+                                    'header',
+                                    'paragragh'
+                                    )
+
+                                    +article(
+                                    'ul_4',
+                                    "images/features/features4.jpg",
+                                    'img_220',
+                                    'header',
+                                    'paragragh'
+                                    )
+
+                            .ul_ofArticle
+                                    +article(
+                                    'ul_1',
+                                    "images/features/features1.jpg",
+                                    'img_220',
+                                    'At Marios Always Fresh Cupcake Ice Cream?',
+                                    'From tall, frosted layer cakes to simple and delicious Bundts, our top-rated chocolate cakes are all here. Grab a glass of milk '
+                                    )
+                                    +article(
+                                    'ul_2',
+                                    "images/features/features2.jpg",
+                                    'img_300',
+                                    'header',
+                                    'paragragh'
+                                    )
+                                    +article(
+                                    'ul_3',
+                                    "images/features/features3.jpg",
+                                    'img_220',
+                                    'header',
+                                    'paragragh'
+                                    )
+                                    +article(
+                                    'ul_4',
+                                    "images/features/features4.jpg",
+                                    'img_220',
+                                    'header',
+                                    'paragragh'
+                                    )
+
+                            .ul_ofArticle
+                                    +article(
+                                    'ul_1',
+                                    "images/features/features1.jpg",
+                                    'img_200',
+                                    '7 Important Lessons I’ve Learned About Using Spices',
+                                    '7 Important Lessons I’ve Learned About Using Spices',
+                                    'Service for extended hours or to include weekends or bank holidays cost up to $80 and with every package you can add'
+                                    )
+                                    +article(
+                                    'ul_2',
+                                    "images/features/features2.jpg",
+                                    'img_220',
+                                    'layout_text',
+                                    'header',
+                                    'paragragh'
+                                    )                                
+                                    +article(
+                                    'ul_3',
+                                    "images/features/features3.jpg",
+                                    'img_220',
+                                    'layout_text',
+                                    'header',
+                                    'paragragh'
+                                    )                                
+                                    +article(
+                                    'ul_4',
+                                    "images/features/features4.jpg",
+                                    'img_220',
+                                    'layout_text',
+                                    'header',
+                                    'paragragh'
+                                    )
+
+                        button Load More
+        //- Section our blog End
+        //- Section Experince Start
+        section.experience.text-center
+            .layout
+                .white_bg
+                h2.h1.white_text Take Control of Your Website With Ease, with No Coding Experience Required!
+                p.white_text Flex has a set of features, options and tools make it the most versatile theme on the market by allowing you to take control of virtually every aspect and section of the site. The powerful customization options & features give you flexibility to create the site you want.
+        //- Section Experince End
+        //- Section SERVICE Start
+        //- Section SERVICE End
+        section.service.dl-mt-100
+            .container
+                h2.h1.text-center.dl-mb-20
+                    | AT 
+                    span(class=" " ) YOUR
+                    |  SERVICE 
+                    span(class="service_hours counter " ) 24
+                p.text-center Flex has everything you need to get your new website up and running in no time!
+                .row.dl-mt-30.dl-mb-50
+                    .col-md-5
+                    .col-md-2
+                        +listStyle
+                    .col-md-5
+                .row
+                    .col-md-5.col-lg-6
+                        img(src="images/flex-mac-right.jpg")
+                    .col-md-7.col-lg-6
+                    
+                        .service_list
+                            ul.list-unstyled.text-center
+                            
+                                li(class="service_active" data-list=".service_1")
+                                    i(class="far fa-gem")
+                                    | CLEAN                            
+                                li(class="" data-list=".service_2")
+                                    i(class="far fa-gem")
+                                    | RESPONSIVE                            
+                                li(class="" data-list=".service_3")
+                                    i(class="far fa-gem")
+                                    | VERSITALE
+                        .service_text
+
+                            div.service_1.service_text_active
+                                p <strong>FLEX</strong> is a flexible, multi-purpose Joomla template. It is built on helix3 framework which, together with integrated page builder, incorporates predefined features and options that you can use for faster template development. You can use it for Corporate, Creative, Fashion, Photo Studio, Freelancers, Portfolio Theme, Agency, etc.                    
+                            div.service_2
+                                h1(class="tlt tlt_service dl-mb-20")
+                                    ul(class="texts")
+                                        li Front End Developer
+                                        li Designer
+                                p Dynamically innovate resource-leveling customer service for state of the art customer service. Objectively innovate empowered manufactured products whereas parallel platforms.
+                            div.service_3
+                                p Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically ntellectual capital.
+        section.testimonials.text-center.dl-pb-50.dl-pt-50.dl-mt-100
+            .testimonials_layout    
+                i(class="far fa-gem white_text dl-mt-40 dl-mb-30" style="font-size: 60px")
+                h2.type_.dl-mb-20
+                .container    
+                    div(id="carouselExampleIndicators" class="carousel slide dl-mb-40")
+                        .carousel-inner
+                            .carousel-item.active
+                                p “A great deal of effort and preparation all the volunteers for their efforts. One of the most important aspects of that trust professional service.”
+                                h4.dl-mt-30.dl-mb-40 Park JeeSong
+                            .carousel-item
+                                p “A great deal of effort and preparation all the volunteers for their efforts. One of the most important aspects of that trust professional service.”
+                                h4.dl-mt-30.dl-mb-40 Park JeeSong
+                            .carousel-item
+                                p “A great deal of effort and preparation all the volunteers for their efforts. One of the most important aspects of that trust professional service.”
+                                h4.dl-mt-30.dl-mb-40 Park JeeSong
+                            a(class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev")
+                                i.fas.fa-arrow-left
+                            a(class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next")
+                                i.fas.fa-arrow-right
+        //- Section ability Start
+        section.ability.dl-mt-70.dl-pb-50
+            .container
+                .row
+                    .col-md-5.col-lg-4.dl-mt-40
+                        .ability_list
+                            ul.list-unstyled.text-center
+                                li(class="ability_active" data-list=".ability_1")
+                                    i(class="far fa-gem")
+                                    | CLEAN                            
+                                li(class="" data-list=".ability_2")
+                                    i(class="far fa-gem")
+                                    | RESPONSIVE                            
+                                li(class="" data-list=".ability_3")
+                                    i(class="far fa-gem")
+                                    | VERSITALE
+                        .ability_text
+                            div.ability_1.ability_text_active
+                                p <strong>FLEX</strong> is a flexible, multi-purpose Joomla template. It is built on helix3 framework which, together with integrated page builder, incorporates predefined features and options that you can use for faster template development. You can use it for Corporate, Creative, Fashion, Photo Studio, Freelancers, Portfolio Theme, Agency, etc.                    
+                            div.ability_2
+                                h2(class="tlt tlt_ability dl-mb-20")
+                                    ul(class="texts")
+                                        li Front End Developer
+                                        li Designer
+                                p Dynamically innovate resource-leveling customer ability for state of the art customer ability. Objectively innovate empowered manufactured products whereas parallel platforms.
+                            div.ability_3
+                                p Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts 
+                    .col-md-4.col-lg-4.text-center
+                        .ability_info
+                            .rocket_div
+                                img(src="images/rocket-icon.png")
+                            h3.dl-mb-20 I'm Front-End Developer
+                            p A fully flexible, intuitive and highly flexible, allowing for swift and extensive changes. An excellent, advanced and versatile, next-generation design with a fresh approach for the ever-changing Web.
+                    .col-md-3.col-ld-4
+                        img(src="images/hand_img.png" class="hand_img")
+        //- Section ability End
+        //- Section OUR BEST PARTNERS Start
+        section.our_partners.dl-mt-100.text-left
+            .container
+                .row
+                    .col-md-3.col-lg-4.col-2
+                    .col-md-6.col-lg-4.col-8
+                        h3 OUR BEST PARTNERS
+                            +listStyle
+                    .col-md-3.col-lg-4.col-2
+                    div(class="owl-carousel owl-theme")
+                    
+                        .item
+                            img(src="images/icon_slider/our-partners-1.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-2.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-3.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-4.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-5.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-6.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-7.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-8.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-9.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-10.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-11.png")                    
+                        .item
+                            img(src="images/icon_slider/our-partners-12.png")
+                    
+
+        // include scripts files
+        include footer.pug
+        include includes/scripts.pug
+        script(src="js/myWeb.js")
+        script(src="js/jQuery_header.js")
+
+
+        
+//article      
+//- here we have the ul_ofArticle to set 4 list in same ul
+//- and then we have in every ul_ofArticle 4 article and every article 24%
+//- and we have id for img becareful when add id to img because in the list img is block not inline 
+//- float left to make the list in left and dont go down when load more
+//- id for article to fadein the article and in ul_ofArticle we have diffrent id

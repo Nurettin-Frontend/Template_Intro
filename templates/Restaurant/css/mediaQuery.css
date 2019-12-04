@@ -1,0 +1,326 @@
+@media (max-width: 576px) {
+  .navbar-toggler {
+    background: transparent;
+    border: 1px solid #FCDA9A;
+  }
+
+  .navbar ul {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .navbar ul li {
+    width: 100%;
+  }
+  .navbar ul .header_icon {
+    width: 100% !important;
+  }
+
+  .menu_page .list_food ul li {
+    width: 24%;
+  }
+
+  .service_page .our_service {
+    background: none;
+  }
+  .service_page .service_text {
+    background: none;
+  }
+  .service_page .card {
+    margin-bottom: 30px;
+  }
+  .service_page .row_2 {
+    background: none;
+  }
+
+  .reservasyon_header .header_text h2 {
+    font-size: 30px !important;
+    margin-top: 200px;
+  }
+  .reservasyon_header .header_text p {
+    font-size: 30px !important;
+  }
+
+  .reservasyon {
+    height: unset;
+    padding: 30px 0px;
+  }
+  .reservasyon .layout {
+    height: unset;
+    width: 92%;
+    position: relative;
+    margin: auto;
+    top: unset;
+    left: unset;
+    transform: translate(0px, 0px);
+  }
+
+  footer .footer_top .social_list span {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 5px;
+  }
+
+  .slider .one-carousel .item {
+    height: 500px;
+  }
+  .slider .one-carousel .item .item_text {
+    padding-top: 100px;
+  }
+
+  .home_page .list_food .container {
+    padding: 0px !important;
+  }
+  .home_page .list_food .container ul li {
+    width: 23%;
+  }
+  .home_page .list_food .container ul li a:before {
+    display: none;
+  }
+  .home_page .about_text {
+    padding-top: 5px !important;
+  }
+  .home_page .about_text p {
+    width: 100% !important;
+  }
+  .home_page .menu_list .menu {
+    width: 100%;
+    display: block;
+  }
+  .home_page .menu_list .menu .menu_img {
+    position: relative;
+    margin: auto;
+  }
+  .home_page .menu_list ul {
+    width: 100%;
+  }
+  .home_page .menu_list ul li {
+    width: 25%;
+  }
+  .home_page .menu_list .menu_text {
+    width: 95%;
+  }
+  .home_page .menu_list .menu_text a {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .home_page .menu_list .list_price {
+    margin-bottom: 10px !important;
+  }
+  .home_page .team_img .cover {
+    width: 90%;
+    height: 90%;
+  }
+  .home_page .team_img .cover .team_text {
+    padding: 10px !important;
+  }
+  .home_page .team_img .cover .team_text p {
+    font-size: 13px;
+  }
+  .home_page .team_img .cover .team_text .social_list i {
+    margin: 0px 4px;
+  }
+  .home_page .fixed_img .cover {
+    width: 80%;
+    height: 80%;
+  }
+  .home_page .gallery ul li {
+    width: 49%;
+  }
+
+  .goTop {
+    right: 20px;
+  }
+
+  .goTop_open {
+    bottom: 20px;
+  }
+}
+@media (min-width: 577px) and (max-width: 769px) {
+  .navbar-toggler {
+    background: transparent;
+    border: 1px solid #FCDA9A;
+  }
+
+  .navbar ul {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .navbar ul li {
+    width: 100%;
+  }
+  .navbar ul .header_icon {
+    width: 100% !important;
+  }
+
+  .menu_page .list_food ul li {
+    width: 24%;
+  }
+
+  .service_page .our_service {
+    background: none;
+  }
+  .service_page .service_text {
+    background: none;
+  }
+  .service_page .card {
+    margin-bottom: 30px;
+  }
+  .service_page .row_2 {
+    background: none;
+  }
+
+  .reservasyon {
+    height: unset;
+    padding: 30px 0px;
+  }
+  .reservasyon .layout {
+    height: unset;
+    width: 92%;
+    position: relative;
+    margin: auto;
+    top: unset;
+    left: unset;
+    transform: translate(0px, 0px);
+  }
+
+  footer .footer_top .social_list span {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .slider .one-carousel .item {
+    height: 500px;
+  }
+  .slider .one-carousel .item .item_text {
+    padding-top: 100px;
+  }
+
+  .home_page .list_food ul li {
+    width: 24.1%;
+  }
+  .home_page .menu_list ul {
+    width: 100%;
+  }
+  .home_page .menu_list ul li {
+    width: 25%;
+  }
+  .home_page .menu_list .menu_text a {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .home_page .menu_list .list_price {
+    margin-bottom: 10px !important;
+  }
+  .home_page .team_img .cover {
+    width: 90%;
+    height: 90%;
+  }
+  .home_page .team_img .cover .team_text {
+    padding: 10px !important;
+  }
+  .home_page .team_img .cover .team_text p {
+    font-size: 13px;
+  }
+  .home_page .team_img .cover .team_text .social_list i {
+    margin: 0px 10px;
+  }
+  .home_page .fixed_img .cover {
+    width: 80%;
+    height: 80%;
+  }
+  .home_page .gallery ul li {
+    width: 49%;
+  }
+}
+@media (min-width: 770px) and (max-width: 991px) {
+  .navbar-toggler {
+    background: transparent;
+    border: 1px solid #FCDA9A;
+  }
+
+  .navbar ul {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .navbar ul li {
+    width: 100%;
+  }
+  .navbar ul .header_icon {
+    width: 100% !important;
+  }
+
+  .contact_page .features .feature {
+    padding: 10px;
+  }
+  .contact_page .features .feature span {
+    margin-top: 20px;
+  }
+
+  .list_page .product img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .menu_page .list_food ul li {
+    width: 24%;
+  }
+
+  .service_page .card {
+    margin-bottom: 30px;
+  }
+
+  .reservasyon .layout .container {
+    padding: 10px !important;
+  }
+  .reservasyon .layout .container .place_text p {
+    font-size: 14px;
+  }
+
+  .home_page .list_food ul li {
+    width: 24.1%;
+  }
+  .home_page .about_text {
+    padding-top: 20px !important;
+  }
+  .home_page .about_text p {
+    font-size: 15px !important;
+  }
+  .home_page .about_plate .plate {
+    margin-bottom: 100px;
+    width: 170px;
+  }
+  .home_page .menu_list ul {
+    width: 100%;
+  }
+  .home_page .menu_list ul li {
+    width: 19%;
+  }
+  .home_page .menu_list .menu_text a {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .home_page .menu_list .list_price {
+    margin-bottom: 10px !important;
+  }
+  .home_page .menu {
+    width: 100%;
+  }
+  .home_page .gallery ul li {
+    width: 32.7%;
+    left: -3px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1198px) {
+  footer .footer_img {
+    width: 350px;
+  }
+
+  .home_page .gallery ul li {
+    width: 32.7%;
+    left: -3px;
+  }
+}
+
+/*# sourceMappingURL=mediaQuery.css.map */

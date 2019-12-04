@@ -1,0 +1,129 @@
+mixin listStyle
+    div(class="countOut" data-value="80")
+        .countIn
+- var themeColor = 'theme_color'
+.ask_cookie
+    p We use cookies to improve your experience on our website. By browsing this website
+    input(type="button" value="I accept" id="cookie_accept")
+    input(type="button" value="More Info")
+header
+    .header_top
+        .container
+            .row
+                .col-md-6.text-left
+                    ul.list-unstyled.d-none.d-md-block
+                        li
+                            i(class="fab fa-facebook-f")
+                        li
+                            i(class="fab fa-twitter")
+                        li
+                            i(class="fab fa-google-plus-g")
+                        li
+                            i(class="fab fa-pinterest")
+                        li
+                            i(class="fab fa-youtube")
+                        li
+                            i(class="fab fa-invision")
+                        li
+                            i(class="fab fa-skype")
+                .col-md-6.text-right
+                    ul.list-unstyled.list_number.text-md-right
+                        li
+                            i(class="fas fa-headset ")
+                            //- | to write inside the parent element and dont mae it tag
+                            | 312312432
+                        li
+                            i(class="far fa-user-circle ")
+                            | Login
+    .header_bottom
+        .container
+            .logo
+                .img_logo
+            ul.list-inline.header_list.text-right.cursor-default.cursor-pointer
+                li.list-inline-item.header_link
+                    a(href="index.html" class="link_header") Home Page
+                li.list-inline-item.header_link
+                    a(href="contact_us.html" class="link_header") Contact
+                li.list-inline-item.header_link
+                    a(href="about_us.html" class="link_header") About                          
+                li.list-inline-item.header_link
+                    a(href="blog.html" class="link_header") Blog
+                li.list-inline-item.header_link.style_li
+                    a(class="link_header") Style
+                    i(class="fas fa-chevron-down")
+                    i(class="fas fa-times")
+                    .dropdown_mid
+                        .dropdown_inner
+                            .row.text-left
+                                .col-md-6
+                                    ul.other_pages_list.list-unstyled
+                                        h5 Other Pages
+                                        hr
+                                        li
+                                            a(href="#") 404 Page
+                                        li
+                                            a(href="#") Coming Soon
+                                        li
+                                            a(href="#") Sign in
+                                        li
+                                            a(href="#") Gallery
+                                        li
+                                            a(href="#") Map                                                   
+                                .col-md-6
+                                    ul.list-unstyled.style_theme
+                                        h5 6 Preset Color Styles:
+                                        hr
+                                        li.list_1(data-style="css/theme_kahve.css" data-img="images/style_color/bg_img_1.png" )
+                                        li.list_2(data-style="css/theme_green.css" data-img="images/style_color/bg_img_2.png" )
+                                        li.list_3(data-style="css/theme_default.css" data-img="images/style_color/bg_img_3.png" )
+                                        li.list_4(data-style="css/theme_orange.css" data-img="images/style_color/bg_img_4.png" )
+                                        li.list_5(data-style="css/theme_yellow.css" data-img="images/style_color/bg_img_5.png" )
+                                        li.list_6(data-style="css/theme_blue.css" data-img="images/style_color/bg_img_6.png" )
+                li.list-inline-item.header_link
+                    a(class="link_header") Product
+                    i(class="fas fa-chevron-down")
+                    i(class="fas fa-times")
+                    .dropdown_small
+                        .dropdown_inner.text-left
+                            ul.list-unstyled
+                            
+                                li
+                                    a(href="#") Phone
+                                li
+                                    a(href="#") Laptop
+                                li
+                                    a(href="#") Earbud
+                                li
+                                    a(href="#") A decent camera
+                                li
+                                    a(href="#") A flash drive
+                                li
+                                    a(href="#") More
+                li.list-inline-item.header_link
+                    a(class="link_header") More
+                    i(class="fas fa-chevron-down")
+                    i(class="fas fa-times")
+                    .dropdown_small
+                        .dropdown_inner.text-left
+                            ul.list-unstyled
+                                li
+                                    a(href="#") Product Details
+                                li
+                                    a(href="#") Shopping Cart
+                                li
+                                    a(href="#") New Product
+                                hr
+                                li.product_list
+                                    span
+                                        img(src="images/experience.png")
+                                    span
+                                        img(src="images/experience.png")
+                                hr                                
+            ul.list-inline.header_icon.cursor-default.cursor-pointer 
+            
+                li.list-inline-item.d-inline.d-lg-none
+                    i(class="fas fa-bars menu_btn")            
+                li.list-inline-item.d-inline
+                    i(class="fas fa-search")
+                li.list-inline-item.d-inline
+                    i(class="fas fa-shopping-cart")

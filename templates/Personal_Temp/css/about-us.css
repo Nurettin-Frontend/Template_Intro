@@ -1,0 +1,309 @@
+body{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: none;}
+*{
+    margin: 0px;
+    padding: 0px;
+    resize: none;
+}
+.color-gray , p
+{
+    color: #888888
+}
+:focus
+{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section About-us Start*/
+.header
+{
+    background: url('../images/about-us/bg-img.png') no-repeat center fixed;
+    background-size: cover;
+    height: 350px;
+}
+.header .layOut 
+{
+    background :rgba(0,0,0,0.6);
+    height: 350px;
+    width: 100%;    
+}
+.header .layOut h1
+{
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.header .layOut-text
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.header .layOut p
+{
+    letter-spacing: 1.5px;
+    color: white
+}
+/*Section About-us End*/
+
+
+/*Section features Start*/
+.features 
+{
+    height: auto;
+}
+.features .features-text h2
+{
+    font-size: 45px;
+    font-weight: bold
+}
+.features .i-cover i
+{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    position: relative;
+    margin: 45px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s
+}
+.features .i-cover .fa-globe
+{
+    color: #2dd02d;
+    box-shadow: 0px 0px 18px  -5px #2dd02d;
+    box-shadow: 0px 1px 20px 3px rgba(45,208,45,0.3);
+}
+.features .i-cover .fa-react
+{
+    color: #1e86af;
+    box-shadow: 0px 1px 20px 3px rgba(34,143,175,0.3);
+}
+.features .i-cover .fa-clock
+{
+    color: #f71515;
+    box-shadow: 0px 0px 18px  -5px #f71515;
+    box-shadow: 0px 1px 20px 3px rgba(247,21,21,0.3);
+}
+.features .col-md-4:hover i{
+    transform: translateY(-10px);
+}
+.features .container h3
+{
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+.features .line-span
+{
+    width: 100px;
+    height: 2px;
+    background: rgba(34,143,175,0.7);
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+}
+/*Section features End*/
+
+/* Section our office Start  */
+.our-office img
+{
+    width: 100%;
+    height: 92%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+
+    border-radius: 3px;
+}
+.our-office .img-left
+{
+    margin-right: 5px;
+}
+.our-office .img-right
+{
+    margin-left: 5px
+}
+.our-office .col-md-4
+{
+    height: 250px
+}
+.our-office .col-md-6
+{
+    height: 375px;
+}
+
+/* Section our office End*/
+
+/* Section about-contact Start*/
+.about-contact .container
+{
+    padding: 10px 200px;
+    margin-top: 50px
+}
+.about-contact .form .text-icon
+{
+    display: flex;
+    margin-bottom: 10px
+}
+.about-contact .form .text-icon i
+{
+    position: absolute;
+    color:black;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.about-contact .form input
+{
+    border: 1px solid rgba(200,200,200,0.7);
+    border-radius: 20px;
+    height: 35px;
+    width: 100%;
+    padding-left: 40px;
+}
+.about-contact .form .btn-warning
+{
+    padding: 0px 0px;
+    width: 25%;
+    height: 45px;
+    border-radius: 25px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}
+.about-contact  #dropdownMenuButton
+{
+    border-radius: 20px;
+    height: 35px;
+    width: 100%;
+}
+.about-contact  .dropdown-menu
+{
+    transform: translate3d(2px, 45px, 0px) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    width: 100%;
+}
+.about-contact  .dropdown-toggle::after 
+{
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 10px;
+    transition: 0.1s
+}
+/*to change rotate by jQuery*/
+.about-contact .dropdown-toggle.change::after {
+    
+    transform: rotateX(180deg);
+}
+.dropdown-item
+{
+    padding-left: 8px;
+}
+/*Squeare of dropdown */
+.square
+{
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    z-index: 22;
+    transform: rotate(45deg);
+    border-top: 1px solid rgba(0,0,0,.15);
+    border-left: 1px solid rgba(0,0,0,.15);
+}
+
+/* Section about-contact End*/
+.footer ul li
+{
+    display: inline-block;
+    margin-right: 15px
+}
+.footer ul li a
+{
+    color: #888888;
+    font-weight: 600
+}
+
+
+/*******************  Media Query  *****************/
+@media (max-width: 576px)/*For xs*/
+{
+    .features .line-span
+    {
+        margin-top: 70px;
+    }
+    .our-office .col-md-4,.our-office .col-md-6
+    {
+        height: 300px
+    }
+    .about-contact .container
+    {
+        padding: 10px 20px;
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 568px) and (max-width: 769px)/*max width for sm*/
+{
+    .features .line-span
+    {
+        margin-top: 100px;
+    }
+    .our-office .col-md-4,.our-office .col-md-6
+    {
+        height: 300px
+    }
+    .about-contact .container
+    {
+        padding: 10px 50px;
+        margin-top: 35px
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px)/*max width for md*/
+{   
+    .our-office img
+    {
+        height: 80%
+    }
+    .our-office .col-md-4
+    {
+        height: 200px
+    }
+    .our-office .col-md-6
+    {
+    height: 300px;
+    }
+    .about-contact .container
+    {
+        padding: 10px 100px;
+        margin-top: 40px
+    }
+}

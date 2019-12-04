@@ -1,0 +1,73 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title About
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/about.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet") 
+    body
+        include header.pug
+        .about_page
+            section.about.text-center
+                .layout
+                    .layout_text
+                        h1 About Us
+                        p Everythins you Know About Plate
+            section.about_text.text-center.dl-mt-70.dl-mb-70
+                .container
+                    h2 About Restaurant
+                    +templateStyle
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            section.customer.dl-mt-100
+                .layout
+                    .container
+                        .row
+                            .col-md-5.d-none.d-md-block
+                                img(src="images/customer.png")
+                            .col-md-7.text-center
+                                h2.dl-mt-100.dl-mb-20.h1 What Our Costumer Saying About Us
+                                div(id="carouselExampleIndicators" class="carousel slide dl-mb-40")
+                                    .carousel-inner
+                                        .carousel-item.active
+                                            p “A great deal of effort and preparation all the volunteers for their efforts. One of the most important aspects of that trust professional service.”
+                                            h5.dl-mt-40 Dante
+                                            h4 Costumer
+                                        .carousel-item
+                                            p “A great deal of effort and preparation all the volunteers for their efforts. One of the most important aspects of that trust professional service.”
+                                            h5.dl-mt-40 Dante
+                                            h4 Costumer
+                                        .carousel-item
+                                            p “A great deal of effort and preparation all the volunteers for their efforts. One of the most important aspects of that trust professional service.”
+                                            h5.dl-mt-40 Dante
+                                            h4 Costumer
+                                        a(class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev")
+                                            i.fas.fa-arrow-left
+                                        a(class="carousel-control-next " href="#carouselExampleIndicators" role="button" data-slide="next")
+                                            i.fas.fa-arrow-right
+            section.features.text-center.dl-mt-100.dl-mb-100
+                h2.h1 What We Can Offer 
+                +templateStyle
+                .container
+                    .row
+                        .col-md-4
+                            img(src="images/menu_list/menuList1.png")
+                            h5.h4 Alwayas Fresh
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. consectetur adipiscing elit, sed do eiusmod.
+                        .col-md-4
+                            img(src="images/menu_list/menuList7.png")
+                            h5.h4 Delicious
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. consectetur adipiscing elit, sed do eiusmod.
+                        .col-md-4
+                            img(src="images/menu_list/menuList8.png")
+                            h5.h4 Healthy Food
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. consectetur adipiscing elit, sed do eiusmod.
+
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")

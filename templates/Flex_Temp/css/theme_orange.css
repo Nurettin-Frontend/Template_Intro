@@ -1,0 +1,147 @@
+.header_top i:hover {
+  color: #FCA224;
+}
+.header_top .list_number i {
+  color: #FCA224;
+}
+
+.header_list li i {
+  color: #B3B3B3 !important;
+}
+.header_list li:hover a {
+  color: #FCA224;
+}
+.header_list li:hover i {
+  color: #FCA224 !important;
+}
+
+.logo .img_logo {
+  background: url("../images/style_color/bg_img_4.png") no-repeat;
+}
+
+.slider ul .item_1 .item1_h {
+  color: #FCA224;
+}
+.slider ul .item_1 .button_open button i {
+  color: #FCA224;
+}
+.slider ul .item_3 .imgcover_p span {
+  color: #FCA224;
+}
+.slider ul .item_3 .imgcover_btn i {
+  color: #FCA224;
+}
+
+.countOut .countIn {
+  background: #FCA224;
+}
+
+/*Section Features Start*/
+.features i {
+  color: #FCA224;
+}
+
+/****Section Features End*/
+/****Section Our_blog Strat*/
+.our_blog h2 span {
+  color: #FCA224;
+}
+
+/**** Section our_blog End*/
+/**** Section EXPERIENCE Start*/
+/**** Section EXPERIENCE End*/
+/**** Section SERVICE START*/
+.service .service_hours {
+  color: #FCA224;
+}
+.service .service_hours:after {
+  color: #FCA224;
+}
+.service span {
+  color: #FCA224 !important;
+}
+
+.service ul li {
+  color: #FCA224;
+}
+
+/**** Section SERVICE End*/
+.testimonials {
+  background: #FCA224;
+}
+
+/****Section ability Start ****/
+.ability .ability_list ul li {
+  color: #FCA224;
+}
+.ability .ability_list .ability_active {
+  border: 1px solid #FCA224;
+}
+.ability .ability_text {
+  background: #FCA224;
+}
+.ability .ability_info .rocket_div {
+  border: 2px solid #FCA224;
+}
+
+/****Section ability End ****/
+/****Section footer Start ****/
+footer .theme_color {
+  color: #FCA224 !important;
+}
+footer .footer_top hr {
+  background: #FCA224;
+}
+footer .footer_content .first_footer_list form i {
+  background: #FCA224;
+}
+footer .footer_content .first_footer_list .img_logo {
+  background: url(../images/style_color/bg_img_4.png) no-repeat;
+}
+
+.circle_icon:after {
+  border: 2px solid #FCA224;
+}
+
+/****Section footer End ****/
+.style_color ul li {
+  border: 1px solid #FCA224;
+}
+
+.about_header h2 {
+  color: #FCA224;
+}
+
+.teamWork .card_ span:hover {
+  background: #FCA224;
+}
+
+.about_info button:hover {
+  background: #FCA224;
+}
+
+.about_word button:hover {
+  background: #FCA224;
+}
+
+.contact_img h1 {
+  color: #FCA224;
+}
+
+.contact_page .service .service_text button:hover {
+  background: #FCA224;
+}
+
+.contact_page .form_ form button:hover {
+  background: #FCA224;
+}
+
+.blog_img h1 {
+  color: #FCA224;
+}
+
+article .article_layout .layout {
+  background: #FCA224a3 !important;
+}
+
+/*# sourceMappingURL=theme_orange.css.map */

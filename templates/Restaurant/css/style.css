@@ -1,0 +1,828 @@
+ul, p {
+  margin: 0px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  outline: none !important;
+  transition: 0.3s !important;
+}
+
+.header_top_open {
+  background: #131822 !important;
+}
+.header_top_open .logo {
+  width: 150px !important;
+  height: 50px !important;
+}
+
+.slider .one-carousel .owl-dots {
+  display: none;
+}
+.slider .one-carousel .owl-nav {
+  margin: 0px;
+}
+.slider .one-carousel .owl-nav button {
+  top: 45%;
+  position: absolute;
+  color: white !important;
+  transform: translateY(-50%);
+}
+.slider .one-carousel .owl-nav .owl-next {
+  right: 30px;
+}
+.slider .one-carousel .owl-nav .owl-next span {
+  font-size: 80px;
+}
+.slider .one-carousel .owl-nav .owl-next:hover {
+  background: transparent;
+  border: none;
+}
+.slider .one-carousel .owl-nav .owl-prev {
+  left: 30px;
+}
+.slider .one-carousel .owl-nav .owl-prev span {
+  font-size: 80px;
+}
+.slider .one-carousel .owl-nav .owl-prev:hover {
+  background: transparent;
+  border: none;
+}
+.slider .one-carousel .item {
+  position: relative;
+  width: 100%;
+  height: 660px;
+}
+.slider .one-carousel .item .mousemoveIcon {
+  width: 10%;
+}
+.slider .one-carousel .item .mousemoveIcon img {
+  width: 100%;
+  height: 100%;
+}
+.slider .one-carousel .item .top_left {
+  position: absolute;
+  top: 150px;
+  left: 120px;
+}
+.slider .one-carousel .item .bottom_left {
+  position: absolute;
+  bottom: 150px;
+  left: 120px;
+}
+.slider .one-carousel .item .top_right {
+  position: absolute;
+  top: 60px;
+  right: 140px;
+  width: 12% !important;
+}
+.slider .one-carousel .item .center_right {
+  position: absolute;
+  top: 185px;
+  right: 135px;
+  width: 14% !important;
+}
+.slider .one-carousel .item .bottom_right {
+  position: absolute;
+  bottom: 60px;
+  right: 130px;
+  width: 5% !important;
+}
+.slider .one-carousel .item .layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.slider .one-carousel .item img {
+  width: 100%;
+  height: 100%;
+}
+.slider .one-carousel .item .item_text {
+  position: absolute;
+  padding-top: 180px;
+  color: white;
+  z-index: 99;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.slider .one-carousel .item .item_text h2 {
+  font-size: 40px;
+}
+.slider .one-carousel .item .item_text h3 {
+  color: #FCDA9A;
+}
+.slider .one-carousel .item .item_text span {
+  color: #c8c8c8 !important;
+}
+.slider .one-carousel .item .item_text button {
+  margin-top: 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 7px 25px;
+  border-radius: 1px;
+}
+.slider .one-carousel .item .social_list {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+}
+.slider .one-carousel .item .social_list i {
+  color: white;
+  margin: 0px 17px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.slider .one-carousel .item .social_list i:hover {
+  color: #FCDA9A;
+  cursor: pointer;
+}
+.slider .one-carousel .item_2 .item_text {
+  width: 40%;
+  right: 0px;
+  text-align: left;
+}
+.slider .one-carousel .item_2 .item_text h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  color: #FCDA9A;
+}
+.slider .one-carousel .item_2 .item_text ul li {
+  display: block;
+}
+.slider .one-carousel .item_2 .item_text ul li:before {
+  content: "";
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 9px;
+  background: #FCDA9A;
+}
+.slider .one-carousel .item_3 .item_text {
+  padding-top: 120px;
+}
+.slider .one-carousel .item_3 .item_text h2 {
+  font-family: "Great Vibes", cursive;
+  color: #FCDA9A;
+}
+.slider .one-carousel .item_3 .item_text h5 {
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+.slider .one-carousel .item_3 .item_text button {
+  font-size: 22px;
+  padding: 3px 75px !important;
+}
+.slider .one-carousel .item_3 .item_text button:hover {
+  border: 1px solid #FCDA9A !important;
+  color: #FCDA9A !important;
+}
+
+.about .list_food {
+  width: 100%;
+  min-height: 70px;
+  line-height: 40px;
+  background: #131822;
+  cursor: default;
+}
+.about .list_food ul li {
+  width: 13%;
+  display: inline-block;
+  color: white;
+}
+.about .list_food ul li a {
+  color: white;
+  display: block;
+  font-size: 19px;
+  line-height: 70px;
+}
+.about .list_food ul li a:before {
+  content: "";
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 9px;
+  background: #FCDA9A;
+  transition: 0.3s;
+}
+.about .list_food ul li img {
+  margin-right: 10px;
+  width: 75px;
+  height: 55px;
+}
+.about .about_plate {
+  background: url("../images/about_bg_.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+}
+.about .about_plate .plate img {
+  width: 100%;
+}
+.about .about_plate .about_text {
+  border: 16px solid #131822;
+  height: 560px;
+  width: 100%;
+  background-image: url(../images/about_bg.png);
+  background-size: cover;
+  background-color: white;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: 0px 0px 16px 2px #8c8c8c;
+}
+.about .about_plate .about_text p {
+  width: 70%;
+  position: relative;
+  margin: auto;
+  font-size: 17px;
+}
+
+.bestFood {
+  width: 100%;
+  position: relative;
+  min-height: 440px;
+}
+.bestFood .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 9;
+}
+.bestFood img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.bestFood .text_ {
+  z-index: 99;
+  position: relative;
+  color: white;
+}
+.bestFood .text_ h2 {
+  color: rgba(200, 200, 200, 0.7);
+}
+.bestFood .text_ h3 {
+  font-size: 70px;
+}
+.bestFood .text_ h3:before {
+  content: "$";
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+}
+.bestFood .text_ button {
+  margin-top: 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: #FCDA9A;
+  padding: 7px 25px;
+  border-radius: 1px;
+}
+.bestFood .text_ button:hover {
+  border: 1px solid #FCDA9A !important;
+  color: #FCDA9A !important;
+}
+
+.mix {
+  display: none;
+}
+
+.menu_list ul {
+  width: 50%;
+  position: relative;
+  cursor: default;
+  margin: auto;
+}
+.menu_list ul li {
+  display: inline-block;
+  width: 19%;
+}
+.menu_list ul li button {
+  border: none;
+  background: transparent;
+}
+.menu_list ul li button a {
+  color: black !important;
+}
+.menu_list ul li button a:before {
+  content: "";
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 9px;
+  background: #FCDA9A;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: 0.3s;
+}
+.menu_list ul li button:hover a {
+  color: #FCDA9A !important;
+}
+.menu_list ul li button:hover a:before {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.menu_list ul .active a {
+  color: #FCDA9A !important;
+}
+.menu_list ul .active a:before {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.menu_list .menu {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  display: inline-flex;
+  padding-bottom: 30px;
+}
+.menu_list .menu .menu_img {
+  width: 150px;
+  height: 150px;
+}
+.menu_list .menu .menu_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.menu_list .menu .menu_text {
+  width: 65%;
+  margin-left: 20px;
+}
+.menu_list .menu .menu_text .list_price {
+  height: 35px;
+  border-bottom: 1px dashed #FCDA9A;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.menu_list .menu .menu_text .list_price h5 {
+  transition: 0.4s;
+}
+.menu_list .menu .menu_text .list_price:hover h5 {
+  color: #FCDA9A;
+}
+.menu_list .menu .menu_text a {
+  width: 80%;
+  float: left;
+}
+.menu_list .menu .menu_text h5 {
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+
+.openHour {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  color: white;
+}
+.openHour .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 22;
+}
+.openHour img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.openHour .container {
+  position: relative;
+  z-index: 99;
+}
+.openHour .container h2 {
+  color: #FCDA9A;
+  font-family: "Dancing Script", cursive;
+}
+.openHour .container p {
+  color: rgba(200, 200, 200, 0.8);
+}
+
+.team .team_person {
+  cursor: pointer;
+}
+.team .team_person .person_img {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
+}
+.team .team_person .person_img .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  z-index: 99;
+  transition: 0.4s ease-in-out;
+}
+.team .team_person .person_img .layout a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.team .team_person .person_img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.team .team_person:hover .layout {
+  opacity: 1;
+}
+.team .team_person:hover .person_img {
+  transform: scale(0.93);
+}
+
+.gallery ul {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.gallery ul li {
+  display: inline-block;
+  width: 24.7%;
+  position: relative;
+  left: -2px;
+}
+.gallery .gallery_img {
+  width: 102%;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+}
+.gallery .gallery_img .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0.4);
+}
+.gallery .gallery_img .layout img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  width: 80px;
+  height: 80px;
+  transition: 0.3s;
+}
+.gallery .gallery_img .layout:hover img {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.gallery .gallery_img img {
+  width: 100%;
+  height: 100%;
+}
+.gallery .gallery_img:hover .layout {
+  opacity: 1;
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 440px;
+}
+.map .google_map {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100% !important;
+  height: 100%;
+  z-index: 999;
+}
+
+.fixed_img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0px;
+  left: 0px;
+  visibility: hidden;
+  transition: 0.3s;
+  opacity: 0;
+  z-index: 9999999;
+}
+.fixed_img .cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 70%;
+  background: white;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+}
+.fixed_img .cover img {
+  padding: 3px;
+  width: 100%;
+  height: 100%;
+}
+
+.fixed_img_open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.team_img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0px;
+  left: 0px;
+  transition: 0.3s;
+  z-index: 9999999;
+  visibility: hidden;
+  opacity: 0;
+}
+.team_img .cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 55%;
+  height: 75%;
+  background: white;
+  border-radius: 2px;
+  transform: translate(-50%, -50%);
+}
+.team_img .cover .outBorder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 97%;
+  height: 97%;
+  border: 2px solid #FCDA9A;
+}
+.team_img .cover .outBorder .inBorder {
+  overflow-x: scroll;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 95%;
+  border: 2px solid #FCDA9A;
+  padding: 5px;
+}
+.team_img .cover .outBorder .inBorder img {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.team_img .cover .outBorder .inBorder .team_text {
+  padding: 20px;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.team_img .cover .outBorder .inBorder .team_text h5 {
+  border-bottom: 1px dashed black;
+  padding-bottom: 10px;
+  width: 80%;
+}
+.team_img .cover span {
+  width: 60px;
+  height: 60px;
+  background: white;
+  font-size: 23px;
+  line-height: 60px;
+  color: #FCDA9A;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  z-index: 999;
+  border-top-right-radius: 2px;
+}
+.team_img .cover span i {
+  cursor: pointer;
+}
+.team_img .social_list {
+  position: relative;
+  width: 100%;
+  z-index: 99;
+}
+.team_img .social_list i {
+  color: black;
+  margin: 0px 17px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.team_img .social_list i:hover {
+  color: #FCDA9A;
+  cursor: pointer;
+}
+
+.team_img_open {
+  visibility: visible;
+  opacity: 1;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #0B0E13;
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+}
+footer #img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+footer .social_list {
+  position: relative;
+  z-index: 999;
+}
+footer .social_list span {
+  width: 65px;
+  height: 65px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  margin: 0px 10px;
+  line-height: 65px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer .social_list span:hover {
+  border: 1px solid #FCDA9A;
+  color: #FCDA9A;
+}
+footer .logo {
+  position: relative;
+  margin: auto;
+  width: 250px;
+  height: 150px;
+}
+footer .logo img {
+  width: 100%;
+  height: 100%;
+}
+footer .footer_link li {
+  margin-bottom: 5px;
+}
+footer .footer_link li span {
+  color: #FCDA9A;
+}
+footer .footer_link li p {
+  color: rgba(200, 200, 200, 0.8);
+  font-size: 15px;
+}
+footer .footer_link li p span {
+  color: white;
+}
+footer .copyright {
+  background: #090a0d;
+  width: 100%;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+footer .copyright span {
+  color: #FCDA9A;
+}
+
+.layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+form {
+  position: relative;
+  overflow: hidden;
+  background: url("../images/street.png") no-repeat fixed;
+  background-size: cover;
+}
+form input {
+  width: 100%;
+  height: 33px;
+  margin: 10px 0px;
+  padding-left: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  color: white;
+}
+form button {
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  margin: 30px 60px;
+  position: relative;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+form button:hover {
+  background: white;
+  color: black !important;
+}
+
+.template_style {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+.template_style .template_ {
+  width: 100px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+.template_style .template_ img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.template_style .template_:after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #FCDA9A;
+  display: inline-block;
+  position: absolute;
+  top: 51%;
+  right: -15px;
+}
+.template_style .template_:before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #FCDA9A;
+  display: inline-block;
+  position: absolute;
+  top: 51%;
+  left: -15px;
+}
+
+/*# sourceMappingURL=style.css.map */

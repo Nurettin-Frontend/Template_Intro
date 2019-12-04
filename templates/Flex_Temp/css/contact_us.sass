@@ -1,0 +1,92 @@
+@import 'header.sass'
+ul
+    margin: 0px 
+    padding: 0px
+    
+@import 'footer.sass'
+            
+%backgroundContainer
+    -webkit-background-size: contain
+    -moz-background-size: contain
+    -o-background-size: contain
+    background-size: contain            
+%backgroundSize
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+.contact_img
+    position: relative
+    width: 100%
+    min-height: 400px
+    background: url('../images/contact/contact_img.jfif') no-repeat fixed
+    background-size: cover
+    .layout
+        position: absolute
+        top: 0px
+        left: 0px
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,0.8)
+        z-index: 1
+    h1
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        font-size: 60px
+        color: $mainColor
+        z-index: 2
+.features
+    .feature_cover
+        i
+            font-size: 38px
+.service
+    background: #F8F8F8
+    position: relative
+    width: 100%
+    min-height: 400px
+    .service_text
+        padding: 0px 14px 20px 14px
+        button
+            width: 30%
+            height: 35px
+            background: transparent
+            border: 1px solid black
+            margin-top: 30px
+            transition: 0.4s
+            &:hover
+                background: $mainColor
+                color: white
+    img
+        width: 100%
+        height: 100%
+.form_
+    position: relative
+    width: 100%
+    form
+        input
+            display: block
+            width: 100%
+            height: 40px
+            padding-left: 10px
+            border-radius: 3px
+            border: 1px solid rgba(100,100,100,0.3)
+            margin-bottom: 15px
+        button
+            width: 30%
+            height: 35px
+            background: transparent
+            border: 1px solid black
+            margin-top: 30px
+            transition: 0.4s
+            &:hover
+                background: $mainColor
+                color: white
+        textarea
+            display: block
+            width: 100%
+.map_google
+    width: 100% !important
+    iframe
+        width: 100% !important

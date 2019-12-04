@@ -1,0 +1,94 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.main h2 {
+  color: #FCDA9A;
+  line-height: 400px;
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+}
+.main .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.main .layout img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menus h2 {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.menu {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  display: inline-flex;
+  padding-bottom: 30px;
+}
+.menu .menu_img {
+  width: 100px;
+  height: 100px;
+}
+.menu .menu_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.menu .menu_text {
+  width: 80%;
+  margin-left: 20px;
+}
+.menu .menu_text .list_price {
+  height: 35px;
+  border-bottom: 1px dashed #FCDA9A;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.menu .menu_text .list_price h5 {
+  transition: 0.4s;
+}
+.menu .menu_text .list_price:hover h5 {
+  color: #FCDA9A;
+}
+.menu .menu_text a {
+  width: 80%;
+  float: left;
+}
+.menu .menu_text h5 {
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+
+.start {
+  background: url("../images/menus/start/main.png") no-repeat !important;
+  background-size: cover;
+}
+
+.main {
+  background: url("../images/menus/main/main.png") no-repeat;
+  background-size: cover;
+}
+
+.desert {
+  background: url("../images/menus/desert/main.png") no-repeat;
+  background-size: cover;
+}
+
+.drinks {
+  background: url("../images/menus/drinks/main.png") no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=menus_page.css.map */

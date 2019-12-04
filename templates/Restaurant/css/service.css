@@ -1,0 +1,149 @@
+.service {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("../images/aboutUs.png") no-repeat fixed;
+  background-size: cover;
+}
+.service .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.service .layout .layout_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .layout .layout_text h1 {
+  color: #FCDA9A;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+.service .layout .layout_text p {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+
+.service_text {
+  position: relative;
+  background: url("../images/service_bg.png") no-repeat;
+}
+.service_text h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+}
+.service_text p {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.our_service {
+  position: relative;
+  width: 100%;
+  position: relative;
+  background: url("../images/service_bg_right_.png") no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+}
+.our_service .bg_2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 400px;
+}
+.our_service .card {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+.our_service .card .layout_img {
+  opacity: 0;
+  transition: 0.4s;
+}
+.our_service .card .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+}
+.our_service .card .card_text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+  width: 100%;
+}
+.our_service .card .card_text img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.our_service .card .card_text img:nth-child(2) {
+  display: none;
+}
+.our_service .card .card_text h3 {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+.our_service .card .card_text p {
+  opacity: 0;
+  transition: 0.4s;
+  color: white !important;
+}
+.our_service .card:hover .layout_img {
+  opacity: 1;
+}
+.our_service .card:hover .layout {
+  opacity: 1;
+}
+.our_service .card:hover .card_text {
+  transform: translate(-50%, -70%);
+  color: white;
+}
+.our_service .card:hover .card_text img:nth-child(2) {
+  display: block;
+}
+.our_service .card:hover .card_text p {
+  opacity: 1;
+}
+.our_service .active .layout_img {
+  opacity: 1;
+}
+.our_service .active .layout {
+  opacity: 1;
+}
+.our_service .active .card_text {
+  transform: translate(-50%, -70%);
+  color: white;
+}
+.our_service .active .card_text img:nth-child(2) {
+  display: block;
+}
+.our_service .active .card_text p {
+  opacity: 1;
+}
+
+.row_2 {
+  background: url("../images/service_bg.png") no-repeat;
+}
+
+/*# sourceMappingURL=service.css.map */

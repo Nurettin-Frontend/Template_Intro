@@ -1,0 +1,394 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title Home
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes&display=swap" rel="stylesheet")
+    body
+        include header.pug
+        .home_page
+            section.slider
+                .owl-carousel.owl-theme.one-carousel
+                    .item
+                        img(src="images/slider/slider4.png")
+                        .item1_images
+                            div(class="mousemoveIcon layer top_left d-none d-lg-block" data-speed="1")
+                                img(src="images/slider/slide_1/slide01-01.png")                    
+                            div(class="mousemoveIcon layer bottom_left d-none d-lg-block" data-speed="2")
+                                img(src="images/slider/slide_1/slide01-02.png")                    
+                            div(class="mousemoveIcon layer top_right d-none d-lg-block" data-speed="4")
+                                img(src="images/slider/slide_1/slide01-03.png")  
+                            div(class="mousemoveIcon layer center_right d-none d-lg-block" data-speed="2")
+                                img(src="images/slider/slide_1/slide01-06.png")                            
+                            div(class="mousemoveIcon layer bottom_right d-none d-lg-block" data-speed="3")
+                                img(src="images/slider/slide_1/slide01-05.png")
+                        .item_text
+                            h2 
+                                span We Do 
+                                | The Best
+                                br
+                                | Burger 
+                                Span in Turkey
+                            +templateStyle
+                            h3.h1 Restaurant
+                            h6 OPENING HOURS
+                            p Monday-FRIDAY: 
+                                span 08:00 AM - 23:00 PM
+                            p WEEKENDS: 
+                                span 08:00 AM - 02:00 PM
+                        .social_list.d-none.d-md-block
+                            i(class="fab fa-facebook-f")
+                            i(class="fab fa-instagram")
+                            i(class="fab fa-twitter")
+                            i(class="fab fa-linkedin-in")
+                    .item.item_2
+                        img(src="images/slider/slider2.png")
+                        .item_text
+                            h2.h1 Delicious Turkish foods
+                            h4 The Perfet Place For Food Lover
+                            ul.list-unstyled.d-none.d-md-block
+                                h4.h5 Our Restaurant Have: 
+                                li Lorem ipsum dolor sit amet
+                                li Lorem ipsum dolor sit amet
+                                li Lorem ipsum dolor sit amet
+                                li Lorem ipsum dolor sit amet
+                    .item.item_3
+                        img(src="images/slider/slider3.png")
+                        .item_text
+                            h2.h1 Reservation 
+                            h5 Its time to light the lights. Its time to meet the Muppet Show tonight.And you know where you were then.
+                            button See Menu
+            section.about
+                .list_food
+                    .container
+                        ul.list-unstyled.text-center
+                            li
+                                a(href="menu.html" data-scroll=".Pizza")
+                                    | Pizza                    
+                            li
+                                a(href="menu.html")
+                                    | Burgers                    
+                            li
+                                a(href="menu.html")
+                                    | Salads                    
+                            li
+                                a(href="menu.html")
+                                    | Breakfast                    
+                            li
+                                a(href="menu.html")
+                                    | Pasta                    
+                            li
+                                a(href="menu.html")
+                                    | Drinks                    
+                            li
+                                a(href="menu.html")
+                                    | Sweets
+                .about_plate.dl-pb-80
+                    .container.text-center.dl-pt-70
+                        .row
+                            .col-md-3.dl-pt-60.d-none.d-md-block
+                                .plate
+                                    img(src="images/about/plate1.png")
+                                .plate
+                                    img(src="images/about/plate2.png")
+                            .col-md-6
+                                .about_text.dl-pt-50
+                                    h5 Our History
+                                    h4 LOVE FOR FOOD
+                                    +templateStyle
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            .col-md-3.dl-pt-60.d-none.d-md-block
+                                .plate
+                                    img(src="images/about/plate2.png")
+                                .plate
+                                    img(src="images/about/plate1.png")
+            section.bestFood.text-center
+                .layout
+                img(src="images/new_food.png")
+                .container.dl-pt-60
+                    .text_
+                        +templateStyle
+                        h2.h1 PIZZA OF THE DAY
+                        h3 9,99
+                        button Order Now
+            section.menu_list.dl-pt-100
+                h2.h1.text-center Our Menu
+                +templateStyle
+                .container
+                    ul.list-unstyled.text-center.dl-mt-20
+                        li
+                            button(class="filter active" data-filter="all")
+                                a Mains
+                        li
+                            button(class="filter" data-filter=".Dinner")
+                                a Dinner
+                        li
+                            button(class="filter" data-filter=".Lunch")
+                                a Lunch
+                        li
+                            button(class="filter" data-filter=".Drinks")
+                                a Drink                            
+                        li
+                            button(class="filter" data-filter=".Sweet")
+                                a Sweet
+                    .row.hold.text-center.dl-pt-50
+                        .all.mix 
+                        .col-md-6.Dinner.mix.dl-mb-40  
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList1.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") DINNER
+                                        h5 $19
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+
+                        .col-md-6.Dinner.mix.dl-mb-40
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList2.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") DINNER
+                                        h5 $17
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        .col-md-6.Lunch.mix.dl-mb-40
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList7.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") LUNCH 
+                                        h5 $14
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut                                     
+                        .col-md-6.Lunch.mix.dl-mb-40
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList8.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") LUNCH 
+                                        h5 $12
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        .col-md-6.Sweet.mix.dl-mb-40
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList3.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") SWEET 
+                                        h5 $6
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut                       
+                        .col-md-6.Sweet.mix.dl-mb-40  
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList4.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") SWEET 
+                                        h5 $7
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        .col-md-6.Drinks.mix.dl-mb-40
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList5.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") DRINK 
+                                        h5 $5
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+
+                        .col-md-6.Drinks.mix.dl-mb-40
+                            .menu.text-left
+                                .menu_img
+                                    img(src="images/menu_list/menuList6.png")
+                                .menu_text
+                                    .list_price
+                                        a(class="h5" href="list_page.html") DRINK 
+                                        h5 $4
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut                                     
+            section.openHour
+                .layout
+                img(src="images/street.png")
+                .container.dl-pt-60.text-center
+                    h2.h1.dl-mb-20 OPENING HOURS
+                    h5.dl-mb-60 Call For Reservations
+                    .row
+                        .col-md-4.offset-md-1.col-5
+                            h5 Sunday to Tuesday
+                            p.h1 09:00
+                            p.h1 22:00
+                        .col-md-2.col-2
+                            img(src="images/openHourLine.png")
+                        .col-md-4.col-5
+                            h5 Friday to Saturday
+                            p.h1 11:00
+                            p.h1 19:00
+                    h2.dl-mt-60 +7(111)123456789
+            section.team.text-center.dl-pt-70.dl-pb-70
+                .container
+                    .row
+                        .col-md-1
+                        .col-md-10
+                            h2.h1 Our Team
+                            h3 High-class professional service
+                            +templateStyle
+                            p Numerous commentators have also referred to the supposed restaurant owner's eccentric habit of touting for custom outside his establishment, dressed in aristocratic fashion and brandishing a sword
+                            .row.dl-mt-50
+                                .col-lg-3.col-md-6.dl-mb-20
+                                    .team_person
+                                        .person_img
+                                            .layout
+                                                a More Info
+                                            img(src="images/team/chief1.png")
+                                        h4 Andy Moore
+                                        a(href="#") Master Cheif In Pizza
+                                .col-lg-3.col-md-6.dl-mb-20
+                                    .team_person
+                                        .person_img
+                                            .layout
+                                                a More Info
+                                            img(src="images/team/chief2.png")
+                                        h4 Andy Moore
+                                        a(href="#") Master Cheif In Pizza
+                                .col-lg-3.col-md-6.dl-mb-20
+                                    .team_person
+                                        .person_img
+                                            .layout
+                                                a More Info
+                                            img(src="images/team/chief3.png")
+                                        h4 Andy Moore
+                                        a(href="#") Master Cheif In Pizza
+                                .col-lg-3.col-md-6.dl-mb-20
+                                    .team_person
+                                        .person_img
+                                            .layout
+                                                a More Info
+                                            img(src="images/team/chief4.png")
+                                        h4 Andy Moore
+                                        a(href="#") Master Cheif In Pizza
+                        .col-md-1
+            section.gallery.text-center.dl-pt-20
+                h2.h1 GALLERY
+                +templateStyle
+                ul.list-unstyled
+
+                    li
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList1.png")                
+                    li 
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList2.png")                
+                    li  
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList3.png")                
+                    li
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList4.png")                
+                    li 
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList5.png")                
+                    li  
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList6.png") 
+                    li
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList7.png")                
+                    li 
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList8.png")                
+                    li  
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList1.png")                            
+                    li
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList7.png")                
+                    li 
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList8.png")                
+                    li  
+                        .gallery_img
+                            .layout
+                                span.img_click
+                                    img(src="images/plus_icon.png")
+                            img(src="images/menu_list/menuList1.png")
+            //section.map
+                .layout
+                div(style='width: 700px;position: relative;' class="google_map")
+                  iframe(width='100%', height='440', src='https://maps.google.com/maps?width=100%&height=440&hl=en&q=Turkey%2C%20Konya%2C%20Kule+(Restaurant%20Restaurant)&ie=UTF8&t=k&z=11&iwloc=B&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
+                  div(style='position: absolute;width: 100%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;')
+                    small(style='line-height: 1.8;font-size: 2px;background: #fff;')
+                      | Powered by 
+                      a(href='http://www.googlemapsgenerator.com/es/') gmapgen es
+                      |  & 
+                      a(href='http://merrymobiles.co.uk/') loadonline.ph
+                  style.
+                    #gmap_canvas img{max-width:none!important;background:none!important}
+                br
+            section.fixed_img
+                .cover
+                    img(src="images/new_food.png")
+            section.team_img
+                .cover
+                    span
+                        i(class="fas fa-times")
+                    .outBorder
+                        .inBorder
+                            img(src="images/new_food.png")
+                            .team_text.text-left
+                                h5 Hello I'm ParkSoon
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                ul.list-unstyled.dl-mt-20
+                                    li
+                                        | Phone: +90238412742
+                                    li
+                                        | Email: restaurant@gmail.com
+                                .social_list.dl-mt-30
+                                    i(class="fab fa-facebook-f")
+                                    i(class="fab fa-instagram")
+                                    i(class="fab fa-twitter")
+                                    i(class="fab fa-linkedin-in")
+
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")

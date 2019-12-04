@@ -1,0 +1,122 @@
+.about {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("../images/aboutUs.png") no-repeat fixed;
+  background-size: cover;
+}
+.about .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.about .layout .layout_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about .layout .layout_text h1 {
+  color: #FCDA9A;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+.about .layout .layout_text p {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+
+.about_text h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+}
+.about_text p {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.customer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url("../images/about_bg_black.png") no-repeat fixed;
+  background-size: cover;
+}
+.customer .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.customer .layout .container, .customer .layout .row, .customer .layout .col-md-5 {
+  height: 100%;
+}
+.customer .layout .container img, .customer .layout .row img, .customer .layout .col-md-5 img {
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.customer h2 {
+  color: #FCDA9A;
+  font-family: "Great Vibes", cursive;
+}
+.customer .carousel {
+  position: relative;
+  z-index: 99;
+  color: white;
+  font-size: 19px;
+}
+.customer .carousel .carousel-control-prev, .customer .carousel .carousel-control-next {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+.customer .carousel .carousel-control-prev {
+  left: -35px;
+}
+.customer .carousel .carousel-control-next {
+  right: -35px !important;
+}
+.customer .carousel:hover .carousel-control-next {
+  right: 0px !important;
+}
+.customer .carousel:hover .carousel-control-prev {
+  left: 0px;
+}
+.customer .carousel h5 {
+  color: #FCDA9A;
+  font-family: "Great Vibes", cursive;
+  font-size: 70px;
+}
+
+.features h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  color: #131822;
+}
+.features .container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  margin: 40px auto;
+  display: flex;
+}
+.features .container h5 {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=about.css.map */

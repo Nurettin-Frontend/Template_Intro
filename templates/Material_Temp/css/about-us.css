@@ -1,0 +1,397 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+    cursor: pointer !important
+}
+.color-p ,P,label{color:#9e9e9e}
+Button:focus,
+input:focus,
+textarea:focus{outline: none !important;}
+.title{color:#112f6b !important;font-weight: 500;}
+.font-bold{font-weight: bold !important}
+.text-orange{color:  #fb5364!important;}
+.btn-white{background: white !important}
+.text-white{color: white !important}
+.text-black{color: black !important}
+.btn
+{
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    border-radius:40px;
+    transition: 0.3s;
+    padding: 0px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    font-size: 11px
+}
+.btn:hover{
+    box-shadow: 0px 3px 13px rgba(0,0,0,0.35);
+    color: white
+}
+.btn-outline-white
+{
+    border: 2px solid white;
+    background: transparent !important;
+    color:#FFF !important
+}
+/* Section Header Start */
+.header 
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(125deg,#e67e22,#f39c12,#FDA7DF,#D980FA,#9980FA,#5758BB);
+    animation: bgAnimation 30s infinite;
+    background-size: 400%;
+    overflow: hidden
+}
+@keyframes bgAnimation{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+ .btn
+{
+    background: linear-gradient(40deg,#FF5858,#ee4392);
+    color:white;
+    font-weight: bold
+}
+.navbar 
+{
+    padding: 1.1% 7.5%;
+    transition: 0.5s;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+    background: #FFF;
+    z-index: 99999999
+}
+.navbar-open{
+    padding: 0.5% 7.5% !important
+}
+.navbar .nav-item > a
+{
+    font-size: 18px
+}
+.navbar .form-inline a
+{
+    margin-right: 22px;
+    
+}
+.navbar .form-inline a:last-of-type{
+    margin-right: 35px
+}
+.navbar .dropdown-menu{position: absolute !important}
+.navbar .dropdown-menu.show{display: none}
+.navbar .dropdown-item
+{
+    padding: 10px 36px 8px 15px;
+    transition: all 0.4s;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.navbar .dropdown-item:hover{
+    background-color:#112f6b;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.3);
+    color:white
+}
+ .navbar .navbar-nav .nav-item{    padding: 0px 17px;}
+.navbar .navbar-brand{font-weight: bold}
+.header .container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.navbar .btn{margin-right: 25px}
+
+/*Section About-us Start*/
+.header
+{
+    background: url('../images/about-us/about-cover.png');
+    background-size: cover;
+    height: 350px;
+}
+.header .layOut 
+{
+    background :rgba(253, 97, 182, 0.47);
+    height: 350px;
+    width: 100%;    
+}
+.header .layOut h1
+{
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+}
+.header .layOut-text
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.header .layOut p
+{
+    letter-spacing: 1.5px;
+    color: white
+}
+/*Section About-us End*/
+
+
+/*Section features Start*/
+.features 
+{
+    height: auto;
+}
+.features .features-text h2
+{
+    font-size: 45px;
+    font-weight: bold
+}
+.features .i-cover i
+{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    position: relative;
+    margin: 45px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s
+}
+.features .i-cover .fa-globe
+{
+    color: #2dd02d;
+    box-shadow: 0px 0px 18px  -5px #2dd02d;
+    box-shadow: 0px 1px 20px 3px rgba(45,208,45,0.3);
+}
+.features .i-cover .fa-react
+{
+    color: #1e86af;
+    box-shadow: 0px 1px 20px 3px rgba(34,143,175,0.3);
+}
+.features .i-cover .fa-clock
+{
+    color: #f71515;
+    box-shadow: 0px 0px 18px  -5px #f71515;
+    box-shadow: 0px 1px 20px 3px rgba(247,21,21,0.3);
+}
+.features .col-md-4:hover i{
+    transform: translateY(-10px);
+}
+.features .container h3
+{
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+.features .line-span
+{
+    width: 100px;
+    height: 2px;
+    background: rgba(34,143,175,0.7);
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+}
+/*Section features End*/
+
+/* Section our office Start  */
+.our-office img
+{
+    width: 100%;
+    height: 92%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+
+    border-radius: 3px;
+}
+.our-office .img-left
+{
+    margin-right: 5px;
+}
+.our-office .img-right
+{
+    margin-left: 5px
+}
+.our-office .col-md-4
+{
+    height: 250px
+}
+.our-office .col-md-6
+{
+    height: 375px;
+}
+
+/* Section our office End*/
+
+/* Section about-contact Start*/
+.about-contact .container
+{
+    padding: 10px 200px;
+    margin-top: 50px
+}
+.about-contact .form .text-icon
+{
+    display: flex;
+    margin-bottom: 10px
+}
+.about-contact .form .text-icon i
+{
+    position: absolute;
+    color:black;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.about-contact .form input
+{
+    border: 1px solid rgba(200,200,200,0.7);
+    border-radius: 20px;
+    height: 35px;
+    width: 100%;
+    padding-left: 40px;
+}
+.about-contact .form .btn-warning
+{
+    padding: 0px 0px;
+    width: 25%;
+    height: 45px;
+    border-radius: 25px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+    background: linear-gradient(40deg,#FF5858,#ee4392);
+    color:white;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 15px
+}
+.about-contact .form .btn-warning:hover{box-shadow: 0px 0px 5px rgba(0,0,0,0.4)}
+.about-contact  #dropdownMenuButton
+{
+    border-radius: 20px;
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 12px
+}
+.about-contact  .dropdown-menu
+{
+    transform: translate3d(2px, 45px, 0px) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    width: 100%;
+}
+.about-contact  .dropdown-toggle::after 
+{
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 10px;
+    transition: 0.1s
+}
+/*to change rotate by jQuery*/
+.about-contact .dropdown-toggle.change::after {
+    
+    transform: rotateX(180deg);
+}
+.dropdown-item
+{
+    padding-left: 8px;
+}
+/*Squeare of dropdown */
+.square
+{
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    z-index: 22;
+    transform: rotate(45deg);
+    border-top: 1px solid rgba(0,0,0,.15);
+    border-left: 1px solid rgba(0,0,0,.15);
+}
+
+/* Section about-contact End*/
+.footer ul li
+{
+    display: inline-block;
+    margin-right: 15px
+}
+.footer ul li a
+{
+    color: #888888;
+    font-weight: 600
+}
+
+
+/*******************  Media Query  *****************/
+@media (max-width: 576px)/*For xs*/
+{
+    .features .line-span
+    {
+        margin-top: 70px;
+    }
+    .our-office .col-md-4,.our-office .col-md-6
+    {
+        height: 300px
+    }
+    .about-contact .container
+    {
+        padding: 10px 20px;
+        margin-top: 30px
+    }
+}
+
+@media (min-width: 568px) and (max-width: 769px)/*max width for sm*/
+{
+    .features .line-span
+    {
+        margin-top: 100px;
+    }
+    .our-office .col-md-4,.our-office .col-md-6
+    {
+        height: 300px
+    }
+    .about-contact .container
+    {
+        padding: 10px 50px;
+        margin-top: 35px
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px)/*max width for md*/
+{   
+    .our-office img
+    {
+        height: 80%
+    }
+    .our-office .col-md-4
+    {
+        height: 200px
+    }
+    .our-office .col-md-6
+    {
+    height: 300px;
+    }
+    .about-contact .container
+    {
+        padding: 10px 100px;
+        margin-top: 40px
+    }
+}

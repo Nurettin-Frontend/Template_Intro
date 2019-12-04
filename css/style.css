@@ -1,0 +1,168 @@
+ul,p{
+    margin: 0px
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+button:focus{
+    outline: none;
+}
+.Intro  {
+    position: relative;
+    width: 100%;
+    min-height: 658px;
+    background: url('../images/bg.png') fixed;
+    background-size: cover;
+}
+.Intro .intro_header .layout{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.Intro .intro_header .layout h1,h2,h3,p {
+    color: white;
+    font-size: 2rem;
+}
+.Intro .intro_header .layout h2{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Intro .intro_header .layout .paragragh{
+    color: #646464;
+    font-size: 1rem;
+}
+.Intro .intro_header .layout .paragragh::before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 1px;
+    background: #646464;
+    margin-right: 9px;
+    top: -5px;
+}
+.Intro .intro_header .layout  button{
+    position: relative;
+    width: 42%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #FF214F;
+    background: transparent;
+    color: #FF214F;
+    transition: 0.5s;
+    margin: 20px 0px;
+}
+.Intro .intro_header .layout  button:hover{
+    background: #FF214F;
+    color: white;
+}
+h6{
+    font-weight: 400;
+}
+.templates_list{
+    background: black;
+}
+.templates_list li{
+    display: inline-block;
+    margin: 0px 5px
+}
+.templates_list button{
+    position: relative;
+    width: 100%;
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    color: #FF214F;
+    transition: 0.5s;
+    margin: 20px 15px;
+}
+.templates_list .active{
+    background: #FF214F;
+    color: white;
+}
+.templates_list button:hover{
+    background: #FF214F;
+    color: white;
+}
+.item_bg{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: #0E0F10;
+}
+footer{
+    background: black
+}
+footer p{
+    font-size: 1rem;
+}
+.mix{
+    display: none;
+}
+.intro_{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: #0E0F10;
+}
+
+.intro_ .intro_page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_ .intro_page .intro_img{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.intro_page .intro_img img{
+    width: 100%;
+    height: 2200px;
+}
+.intro_ .dashboard img{
+    height: 100%;
+}
+.intro_page .intro_img .layout{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 1px 6px 1px #000000;
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: 0.25s;
+}
+.intro_page .intro_img .layout_coming{
+    opacity: 1 !important;
+
+}
+.intro_page a{
+
+    transition: 0.3s;
+}
+.intro_page a:hover{
+
+    color: #FF214F !important;
+}
+.intro_page:hover .layout{
+    opacity: 1;
+}
+.intro_page:hover .intro_img{
+    transform: translateY(-10px);
+}
+                

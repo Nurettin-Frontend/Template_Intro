@@ -1,0 +1,115 @@
+@media (max-width: 576px)
+{
+    
+    .header{height: 900px !important}
+     .navbar{
+        padding: 10px 20px;
+        overflow: hidden;
+        overflow-y: visible
+    }
+    .navbar .dropdown-menu{width: 100%}
+    .navbar-open{padding: 8px 20px !important}
+    .navbar-light .navbar-toggler{border: none}
+    .header .container .btn{width: 25%}
+    .features p{width: 100%}
+    .contact-icon i, .contact-icon h6{left: 0px;top:0px}
+    .contact-us .btn
+    {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-icon{margin-top: 40px}
+    .testimonials p{width: 75%}
+    .social-list{line-height: 50px}
+    .social-list h6{line-height: 50px}
+    .footer h5:after{margin: auto; margin-top: 20px}
+}
+@media (min-width: 568px) and (max-width: 769px)/*max width for sm*/
+{
+    .header{height: 900px !important}
+     .navbar{
+        padding: 8px 5%;
+        overflow: hidden;
+        overflow-y: visible
+    }
+    .navbar .dropdown-menu{width: 100%}
+    .navbar-open{padding: 8px 5% !important}
+    .navbar-light .navbar-toggler{border:none}
+    .header .container .btn{width: 25%}
+    .features p{width: 80%}
+    .contact-icon i, .contact-icon h6{left: 0px;top:0px}
+    .contact-us .btn
+    {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-icon{margin-top: 40px}
+    .testimonials p{width: 75%}
+    .social-list{line-height: 50px}
+    .social-list h6{line-height: 50px}
+    .footer h5:after{margin: auto; margin-top: 20px}
+}
+@media (min-width: 770px) and (max-width: 991px)/*max width for md*/
+{
+    .header{height: 900px !important}
+    .header h1{margin-top: 100px !important}
+    .header p
+    {
+        width: 90%;
+        position: relative;
+        margin: auto;
+        margin-bottom: 40px
+    }
+    .header .container .btn{width: 22%}
+    
+     .navbar{
+        padding: 6px 20px;
+        overflow: hidden;
+        overflow-y: visible
+    }
+    .navbar-open{padding: 10px 20px !important}
+    .navbar .dropdown-menu{width: 100%}
+    .navbar-light .navbar-toggler{border:none}
+    .plan .plan-box{width: 100%}
+    .contact-icon i,
+    .contact-icon h6
+    {
+        left: 0px;
+        top: 0px
+    }
+}
+@media (min-width: 992px) and (max-width: 1198px)/*max width for lg*/
+{
+    .header p
+    {
+        width: 90%;
+        position: relative;
+        margin: auto;
+        margin-bottom: 40px
+    }
+    .header .container .btn{width: 44%}
+    
+     .navbar{
+        padding: 6px 20px;
+        overflow: hidden;
+        overflow-y: visible
+    }
+    .navbar-open{padding: 10px 20px !important}
+    .navbar .dropdown-menu{width: 100%}
+    .navbar-light .navbar-toggler{border:none}
+    .plan .plan-box{width: 100%}
+    .contact-icon i,
+    .contact-icon h6
+    {
+        left: 0px;
+        top: 0px
+    }
+}
+@media (min-width:1199px)/*max width for xl*/
+{
+    /* navbar */
+
+
+}

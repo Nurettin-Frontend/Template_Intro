@@ -1,0 +1,102 @@
+doctype
+html
+    head
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/contact_us.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(rel="stylesheet" href="css/theme_default.css")
+    body
+   
+        include header_.pug
+        .contact_page
+            .contact_img
+                .layout
+                h1.text-center CONTACT US
+            section.features.text-center.dl-mt-100
+                .container
+                    .row
+                        .col-lg-4.dl-mb-30
+                            .feature_cover
+                                i(class="fas fa-map-marker-alt")
+                                h5.dl-mt-10 Pon On By
+                                p.dl-mt-10 MON-FRI 9:00 AM -10:00 PM
+                                p.dl-mt-20 Just feel like visiting our uber cool offices & have a chat. <span>Find Us On Google</span>
+
+                        .col-lg-4.dl-mb-30
+                            .feature_cover
+                                i(class="fas fa-phone")
+                                h5.dl-mt-10 Give Us A Call
+                                p.dl-mt-10 +905558419361 / EXT. 2
+                                p.dl-mt-20 Get in touch with us and let's chat about your next project and how to reach its full potential.
+
+                        .col-lg-4.dl-mb-30
+                            .feature_cover
+                                i( class="fab fa-twitter")
+                                h5.dl-mt-10 Chat With Us
+                                p.dl-mt-10 NourEibo
+                                p.dl-mt-20 Just want to have a chant, hit us up on Twitter with any questions or comments.
+            section.service.dl-mt-100
+                .container
+                    .row
+                        .col-lg-6
+                            img(src="images/contact/service.png")
+                        .col-lg-5.offset-lg-1
+                            .service_text
+                                h4.dl-mt-80 We'd love to hear about your project and help you achieve its full potential.  
+                                p.dl-mt-40 Warhol is focused around 8 unique concepts with 3 variations each. Warhol has got you covered whether you are a startup or established business.
+                                button Click Me
+            section.form_.dl-mt-100
+                .container
+                    .row
+                        .col-lg-6
+                            .left_
+                            h3 GET IN TOUCH
+                            p.dl-mt-20 The most happiest time of the day!. Suspendisse condimentum porttitor cursus. Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada fermentum bibendum.
+                            form.dl-mt-30
+                                .row
+
+                                    .col-lg-6.col-6
+                                        label Your Name
+                                        input(type="text" placeholder="Enter Your Name") 
+
+                                    .col-lg-6.col-6
+                                        label Your Name
+                                        input(type="text" placeholder="Enter Your Name") 
+                                    .col-lg-12
+                                        label Your Email
+                                        input(type="text" placeholder="Enter Your Email")
+                                    .col-lg-12
+                                        label Your Subject
+                                        input(type="text" placeholder="Subject...")
+                                    .col-lg-12
+                                        label Message
+                                        textarea(rows="4" cols="50" name="comment" form="usrform")
+                                button Click Me
+                        .col-lg-6
+                            h4.dl-mt-20 ADDRESS & MAP
+                            .row.dl-mb-20
+                                .col-lg-6.col-6
+                                    h6 Polo, Inc.
+                                    p 795 Folsom Ave, Suite 600
+                                    p San Francisco, CA 94107
+                                    p P: (123) 456-7890                        
+                                .col-lg-6.col-6
+                                    h6 Polo Office
+                                    p 795 Folsom Ave, Suite 600
+                                    p San Francisco, CA 94107
+                                    p P: (123) 456-7890
+                            div(style='width: 700px;position: relative;' class="map_google")
+                              iframe(width='700', height='440', src='https://maps.google.com/maps?width=700&height=440&hl=en&q=Konya+(Title)&ie=UTF8&t=k&z=14&iwloc=B&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
+                              div(style='position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;')
+                                small(style='line-height: 1.8;font-size: 2px;background: #fff;')
+                                  | Powered by 
+                                  a(href='http://www.googlemapsgenerator.com/ja/') Googlemapsgenerator.com/ja/
+                                  |  & 
+                                  a(href='https://willoughby-pr.co.uk/') gmailbulkemailcom
+                              style.
+                                #gmap_canvas img{max-width:none!important;background:none!important}
+                            br
+        include footer.pug
+        include includes/scripts.pug
+        script(src="js/jQuery_header.js")
+        script(src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js")

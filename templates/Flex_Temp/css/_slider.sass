@@ -1,0 +1,320 @@
+.selected
+    display: block !important
+.start_animation
+    display: none
+.slider
+    position: relative
+    height: 547px
+    width: 100%
+    overflow: hidden
+    ul
+        position: relative
+        width: 100%
+        height: 100%
+        li
+            position: absolute
+            width: 100%
+            height: 100%
+            top: 0px    
+            left: 0px
+            display: none
+        .item_1
+            background: url('../images/slide-img.jpg') center
+            background-size: cover
+            .item1_h
+                margin-top: 100px
+                font-size: 60px
+                width: 64%
+                font-weight: 100
+                line-height: 65px
+                text-shadow: 2px 4px 10px #222
+                transform: translateX(30px)
+                transition: 2s
+                transition-delay: 0.5s
+                color: $mainColor
+                opacity: 0
+            .item1_h_open
+                transform: translateX(0px) !important
+                opacity: 1 !important
+            .item1_p
+                width: 55%
+                font-size: 20px
+                color: #DEDEDE
+                transition: 2s
+                transition-delay: 0.5s
+                transform: translateX(-30px)
+                opacity: 0
+            .item1_p_open
+                transform: translateX(0px) !important
+                opacity: 1 !important
+            .item1_btn 
+                transform: translateY(20px)
+                transition: 2s
+                transition-delay: 0.5s
+                opacity: 0
+            .button_open
+                opacity: 1 !important
+                transform: translateY(0px) !important
+                button
+                    padding: 8px 35px
+                    margin-right: 15px
+                    border: 1px solid rgba(255,255,255,0.77)
+                    background: rgba(255,255,255,0.05)
+                    font-size: 20px
+                    color: white
+                    border-radius: 7px
+                    i
+                        margin:0px 8px
+                        color: $mainColor
+
+
+        .item_2
+            background: url('../images/slide-img3.jfif') no-repeat
+            background-size: cover
+            position: relative
+            .item2_h
+                font-size: 65px
+                text-align: center
+                color: white
+                text-shadow: 2px 3px 14px #222
+                font-weight: 100
+                opacity: 0
+                transition: 2s
+                transition-delay: 0.5s
+                transform: translateY(15px)
+            .item2_h_open
+                opacity: 1 !important
+                transform: translateY(0px) !important
+            .item2_p
+                font-size: 20px
+                color: white
+                font-weight: 100
+                text-align: right
+                width: 45%
+                padding-right: 20px
+                margin-left: 150px
+                float: left
+                position: relative
+                opacity: 0
+                transition: 2s
+                transition-delay: 0.5s
+                transform: translateY(-40px)
+                &:after
+                    content: ""
+                    display: inline-block
+                    height: 50px
+                    position: absolute
+                    width: 1px
+                    background: rgba(255,255,255,0.5)
+                    right: 0px
+                    top: 57%
+                    transform: translateY(-50%)
+            .item2_p_open
+                opacity: 1 !important
+                transform: translateY(0px) !important
+            .item2_btn
+                padding: 8px 35px
+                margin-left: 15px
+                border: 1px solid rgba(255,255,255,0.77)
+                background: rgba(255,255,255,0.05)
+                font-size: 20px
+                color: white
+                border-radius: 5px
+                opacity: 0
+                transition: 2s
+                transition-delay: 0.5s
+                transform: translateY(40px)
+            .item2_btn_open
+                opacity: 1 !important
+                transform: translateY(0px) !important
+        .item_3
+            background: url('../images/slide-img2.jpg') no-repeat
+            background-size: cover
+            .img_cover
+                width: 37%
+                float: left
+                position: relative
+                transform: translateY(100px)
+                opacity: 0
+                transition: 2s
+                transition-delay: .5s
+                img
+                    width: 78.3%
+            .img_cover_open
+                opacity: 1 !important
+                transform: translateY(0px) !important
+            .imgcover_p
+                position: absolute
+                top: 48%
+                text-align: center
+                width: 80%
+                font-size: 11px
+                color: rgba(200,200,200,1)
+                transform: translateY(-30px)
+                opacity: 0
+                transition: 2s
+                transition-delay: .5s
+                span 
+                    color: $mainColor
+            .imgcover_p_open
+                opacity: 1 !important
+                transform: translateY(0px) !important
+            .imgcover_p2
+                position: absolute
+                top: 70%
+                width: 60%
+                font-size: 13px
+                text-align: center
+                left: 40%
+                transform: translate(-50%,-30px)
+                color: rgba(200,200,200,1)
+                opacity: 0
+                transition: 2s
+                transition-delay: 1.5s
+            .imgcover_p2_open
+                opacity: 1 !important
+                transform: translate(-50%,0px) !Important
+            .imgcover_btn
+                position: absolute
+                left: 40%
+                bottom: 10px
+                transform: translate(-50%,200px)
+                padding: 10px 60px
+                border-radius: 4px
+                background: rgba(255,255,255,0.05)
+                border: 1px solid rgba(255,255,255,0.77)
+                color: rgba(200,200,200,1)
+                transition: 2s
+                opacity: 0
+                transition: 1.5s
+                i
+                    margin: 0px 5px
+                    color: $mainColor
+            .imgcover_btn_open
+                opacity: 1 !important
+                transform: translate(-50%,0px) !important
+            .item3_h
+                width: 57%
+                float: right
+                margin-right: 66px
+                font-size: 52px
+                font-weight: 200
+                text-shadow: 0 0 40px rgba(255,255,255,.5)
+                opacity: 0
+                transform: translateX(200px)
+                transition: 2s
+                transition-delay: 0.4s
+            .item3_h_open
+                opacity: 1 !important
+                transform: translateX(0px) !Important
+            .item3_p
+                width: 49%
+                float: right
+                margin-right: 150px
+                font-size: 18px
+                opacity: 0
+                transform: translateX(200px)
+                transition: 2s
+                transition-delay: .7s
+            .item3_p_open
+                opacity: 1 !Important
+                transform: translateX(0px)!important
+            .item3_btn
+                width: 63%
+                float: right
+                opacity: 0
+                transform: translateX(200px)
+                transition: 2s
+                transition-delay: 1.1s
+
+                button
+                    padding: 8px 45px
+                    margin: 0px 5px
+                    border-radius: 5px
+                    border: none
+                    transition: 0.3s
+                    color: white
+                    i
+                        margin: 0px 10px
+                    &:nth-child(1) 
+                        background: #F05746
+                    &:nth-child(2) 
+                        background: #666569
+                    &:nth-child(3) 
+                        background: #FCFBFD 
+                        color: #666569
+
+                    &:hover:nth-child(1)
+                        background: #f14330
+                    &:hover:nth-child(2)
+                        background: #4B4B4C
+                    &:hover:nth-child(3)
+                        color: #EF5645
+            .item3_btn_open
+                opacity: 1 !important
+                transform: translateX(0px) !important
+        .item_4
+            background: url('../images/slide-img4.png') no-repeat
+            background-size: cover
+            .item4_h3
+                color: white
+                font-size: 50px
+                font-weight: 100
+                opacity: 0
+                transform: translateX(50px)
+                transition: 2s
+                transition-delay: 0.1s
+            .item4_h3_open
+                opacity: 1 !important
+                transform: translateX(0px) !important
+            .item4_h2
+                color: white
+                font-weight: 200
+                font-size: 70px
+                position: relative
+                opacity: 0
+                transform: translateX(-50px)
+                transition: 2s
+                transition-delay: 0.5s
+                :after
+                    content: ""
+                    position: absolute
+                    bottom: -20px
+                    left: 0px
+                    width: 50%
+                    background: rgba(255,255,255,0.5)
+                    height: 1px
+            .item4_h2_open
+                opacity: 1 !important
+                transform: translateX(0px) !important
+            .item4_p
+                color: white
+                font-size: 23px
+                font-weight: 400
+                width: 50%
+                text-shadow: 1px 2px 5px #222
+                opacity: 0
+                transform: translateX(50px)
+                transition: 2s
+                transition-delay: 0.9s
+            .item4_p_open
+                opacity: 1 !Important   
+                transform: translateX(0px) !important
+
+%_click
+    position: absolute
+    font-size: 30px
+    top: 50%
+    transform: translateY(-50%)
+    right: 5%
+    color: white
+    cursor: pointer
+    width: 50px
+    height: 50px
+    
+.left_click
+    @extend %_click
+    left: 5%    
+.right_click
+    @extend %_click
+    right: 5%

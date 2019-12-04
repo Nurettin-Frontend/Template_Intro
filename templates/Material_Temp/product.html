@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product</title>
+        <!-- To get bootstrap 4 fromwork -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/product.css">
+
+        <!-- this file from Developer Emadelddin Eibo which help you of padding and margin -->
+        <link rel="stylesheet" href="css/dl.helper.css">
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--  -->
+        <meta charset="utf-8">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--  -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <!-- this file to make you use animate of css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+                  <a class="navbar-brand title" href="#">Brand</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link title" href="index.html">Homepage <span class="sr-only">(current)</span></a>
+                      </li>
+                        
+                      <li class="nav-item">
+                        <a class="nav-link title" href="#">Features</a>
+                      </li>                        
+                      <li class="nav-item">
+                        <a class="nav-link title" href="#">Pricing</a>
+                      </li>
+                        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle title" id="navbarDropdown" role="button" >
+                          Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="about-us-1.html">About us</a>
+                          <a class="dropdown-item" href="login.html">Login</a>                         
+                          <a class="dropdown-item" href="contact.html">Contact</a>
+                          <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                          <a class="dropdown-item" href="product.html">Product</a>
+                        </div>
+                      </li>                                               
+                      <li class="nav-item">
+                        <a class="nav-link disabled title" href="#">Blog</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="#"><span><i class="fab fa-facebook-f title"></i></span></a>
+                        <a href="#"><span><i class="fab fa-twitter title"></i></span></a>
+                        <a href="#"><span><i class="fab fa-instagram title"></i></span></a>
+                      <button class="btn my-2 my-sm-0" type="submit">FREE TRIAL</button>
+                    </form>
+                  </div>
+                </nav>
+        <section class="header text-center">   
+            <div class="layout">
+                <div class="header-text wow fadeIn" data-wow-duration="1.8s"data-wow-offset="0">
+                    <h1 class="dl-mb-30 dl-mt-50 text-white ">Clean Layout For Your Web</h1>
+                    <p class="text-white ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae iste.</p>
+                    <input type="button" class="btn  font-bold  " value="Download">
+                    <input type="button" class="btn btn-white text-orange font-bold " value="Get Start">
+                </div>
+            </div>
+        </section>
+        
+        <section class="work text-center dl-pt-30 dl-pb-100 scroll" id=".work">
+            <div class="container">
+                <div class="head dl-mt-70">
+                    <h2 class="title font-bold"id="hover-h">Our projects</h2>
+                </div>
+            </div>
+            <div class="images-panel text-center dl-mt-100">
+                <div class="container dl-mt-50">
+                    <ul class="list-unstyled dl-mb-60">
+                        <li><Button class="active filter color-theme" data-filter="all">ALL</Button></li>
+                        <li><Button class="filter color-theme" data-filter=".MOBILE-DESIGN">MOBILE DESIGN</Button></li>
+                        <li><Button class="filter color-theme" data-filter=".DESKTOP">DESKTOP</Button></li>
+                    </ul>
+
+                <!-- Here we have a div contain img and div-2 
+                     div-2 we show it by jQyery and we made scale for img when hover in parent div-->
+                        <!-- Here ul is inline and li is block and every long and short in one ul-->
+                        <div class="img-cover">
+                            <div class="row hold">
+                                
+                                <ul class="list-unstyled">
+                                    <div class="DESKTOP mix ">
+                                        <li class="short-img">
+                                            <div class="page">
+                                            <div class="page-img">
+                                                <img src="images/product/laptop-1.png">
+                                                     <div class="page-back">
+                                                    <a href="#" >DESKTOP</a>
+                                                    <span><i class="fas fa-edit"></i></span>
+                                                    <span><i class="fas fa-search"  data-img="images/product/laptop-1.png"></i></span>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                <div class="MOBILE-DESIGN mix ">
+                                    <li class="long-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/design-1.png">
+                                                 <div class="page-back">
+                                                <a href="#" >MOBILE-DESIGN</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/design-1.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                </ul>                                
+                                <ul class="list-unstyled">
+                                <div class="MOBILE-DESIGN mix ">
+                                    <li class="long-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/design-2.png">
+                                                 <div class="page-back">
+                                                <a href="#" >MOBILE-DESIGN</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/design-2.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="DESKTOP mix ">
+                                    <li class="short-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/laptop-2.png">
+                                                 <div class="page-back">
+                                                <a href="#" >DESKTOP</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/laptop-2.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                </ul>                                
+                                <ul class="list-unstyled">
+                                    <div class="DESKTOP mix ">
+                                    <li class="short-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/laptop-3.png">
+                                                 <div class="page-back">
+                                                <a href="#" >DESKTOP</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/laptop-3.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    </div>
+                                    <div class=" MOBILE-DESIGN mix ">  
+                                        
+                                    <li class="long-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/design-3.png">
+                                                 <div class="page-back">
+                                                <a href="#" >MOBILE-DESIGN</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/design-3.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>                                        
+                                    <li class="long-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/design-3.png">
+                                                 <div class="page-back">
+                                                <a href="#" >MOBILE-DESIGN</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/design-3.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>                                        
+                                    <li class="short-img">
+                                        <div class="page">
+                                        <div class="page-img">
+                                            <img src="images/product/design-3.png">
+                                                 <div class="page-back">
+                                                <a href="#" >MOBILE-DESIGN</a>
+                                                <span><i class="fas fa-edit"></i></span>
+                                                <span><i class="fas fa-search"  data-img="images/product/design-3.png"></i></span>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    </div>
+                                    
+                                </ul>
+                            <div class=" sign-in mix ">
+                                <div class="page-edit-long">
+                                    <div class="page">
+
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+                <!-- show img in work section-->
+        <div class="show-img">
+            <div class="show-box">
+                <img src="" id="img">
+            </div>
+        </div>
+        <!-- Section mobile-app Start -->
+        <section class="mobile-app text-center text-white">
+            <div class="layout">
+                <h2 class="font-bold dl-pt-50 dl-mb-30">Download our mobile app</h2>
+                <p class="dl-mb-30 text-white">Get 30 days trial</p>
+                <button class="btn btn-orange dl-mb-50"><i class="fab fa-android"></i>PLAY STORY</button>
+                <button class="btn btn-orange dl-mb-50"><i class="fab fa-apple"></i>APP STORE</button>
+            </div>
+        </section>
+        <!-- Section mobile-app End -->
+        <!-- Section Plan Start -->
+        <section class="plan dl-pb-70">
+            <h2 class="text-center dl-pt-100 dl-mb-100 font-bold title  wow fadeIn" data-wow-duration="1.5s"data-wow-offset="100" id="hover-h">Easy to get started</h2>
+            <div class="container  wow fadeIn" data-wow-duration="1.5s"data-wow-offset="100">
+                <div class="row">
+                    
+                    <div class="col-md-4 dl-mb-50">
+                        <div class="plan-box">
+                            <h5 class="dl-mb-20 title"><strong>01 <span> CREATE ACCOUNT</span></strong></h5>
+                            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu proident.</p>
+                        </div>
+                    </div>                    
+                    
+                    <div class="col-md-4 dl-mb-50">
+                        <div class="plan-box">
+                            <h5 class="dl-mb-20 title"><strong>02 <span> SELECT PLAN</span></strong></h5>
+                            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu proident.</p>
+                        </div>
+                    </div>                   
+                    
+                    <div class="col-md-4 dl-mb-50">
+                        <div class="plan-box">
+                            <h5 class="dl-mb-20 title"><strong>03 <span> ASSIGN TASKS</span></strong></h5>
+                            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu proident.</p>
+                        </div>
+                    </div>                    
+                    <div class="col-md-4 dl-mb-50">
+                        <div class="plan-box">
+                            <h5 class="dl-mb-20 title"><strong>01 <span> CREATE ACCOUNT</span></strong></h5>
+                            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu proident.</p>
+                        </div>
+                    </div>                    
+                    
+                    <div class="col-md-4 dl-mb-50">
+                        <div class="plan-box">
+                            <h5 class="dl-mb-20 title"><strong>02 <span> SELECT PLAN</span></strong></h5>
+                            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu proident.</p>
+                        </div>
+                    </div>                   
+                    
+                    <div class="col-md-4 dl-mb-50">
+                        <div class="plan-box">
+                            <h5 class="dl-mb-20 title"><strong>03 <span> ASSIGN TASKS</span></strong></h5>
+                            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente earu proident.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Plan End -->
+        <!-- Section Contact Start -->
+        <section class="contact-us text-center">
+            <div class="social-list text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-md-left text-center">
+                            <h6>Get connected with us on social networks!</h6>
+                        </div>
+                        <div class="col-md-6  text-md-right text-center">
+                            <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+                            <a href="#"><span><i class="fab fa-twitter"></i></span></a>                           
+                            <a href="#"><span><i class="fab fa-google"></i></span></a>
+                            <a href="#"><span><i class="fab fa-twitter"></i></span></a>
+                            <a href="#"><span><i class="fab fa-instagram"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Contact End -->
+
+        <!-- Section footer Start -->
+        <section class="footer text-white dl-pt-50">
+            <div class="container">
+                <div class="row text-md-left text-center">
+                    
+                    <div class="col-md-3">
+                        <h5 class="dl-mb-30 font-bold dl-mt-20">Company name</h5>
+                        <p class="text-white">Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>                    
+                    <div class="col-md-2 ">
+                        <h5 class="dl-mb-30 font-bold dl-mt-20">Products</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">MDBootstrap</a></li>
+                            <li><a href="#">MDWordPress</a></li>
+                            <li><a href="#">BrandFlow</a></li>
+                            <li><a href="#">Bootstrap Angular</a></li>
+
+                        </ul>
+                    </div>                    
+                    <div class="col-lg-2 col-md-3"> 
+                        <h5 class="dl-mb-30 font-bold dl-mt-20">Useful links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Your Account</a></li>
+                            <li><a href="#">Become an Affiliate</a></li>
+                            <li><a href="#">Shipping Rates</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>                    
+                    <div class="col-md-4">
+                        <h5 class="dl-mb-30 font-bold dl-mt-20">Contact</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-home"></i><a href="#">New York, NY 10012, US</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="#">info@example.com</a></li>
+                            <li><i class="fas fa-phone"></i><a href="#">+ 01 234 567 88</a></li>
+                            <li><i class="fas fa-print"></i><a href="#">+ 01 234 567 89</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center dl-pt-20 dl-pb-10 dl-mt-70">
+                <h6 class="text-white"><span>© 2019 Copyright: </span>MDBootstrap.com</h6>
+            </div>
+        </section>
+        <!-- Section Footer End -->
+        <script src="js/jquery-3.3.1.min.js" ></script>
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/wow.min.js"></script>
+        <!-- Shuffle plugin-->
+        <script src="js/jquery.mixitup.js" ></script>
+        <script>
+            $('.hold').mixItUp();
+                $('.fa-search').parent().click(function () {
+                $('.show-img').addClass('show-img-open');
+                $('#img').attr('src',$(this).children().attr('data-img'));
+                $('.show-img').click(function () {
+                   $(this).removeClass('show-img-open'); 
+                });
+                $('#img').click(function (e) {
+                    e.stopPropagation();
+                });
+            });
+        </script>
+    </body>
+</html>

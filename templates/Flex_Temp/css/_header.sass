@@ -1,0 +1,224 @@
+$mainColor: #f47363
+$backgroundMainColor: #f47363a3
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+p
+    margin: 0px
+.cursor-default
+    cursor: default
+a
+    text-decoration: none !important
+    color: black
+    &:hover
+        text-decoration: none !important
+        color: black
+.cursor-pointer
+    li
+        cursor: pointer
+.ask_cookie
+    position: fixed
+    bottom: 0px
+    left: 0px 
+    width: 100%
+    height: 70px
+    line-height: 30px
+    background: #F55D5D
+    color: white
+    z-index: 999
+    text-align: center
+    p
+        color: white
+    input
+        width: 6%
+        height: 30px
+        line-height: 28px
+        border-radius: 2px
+        border: none
+        background: #303030
+        color: white
+        margin-right: 15px
+.header_top
+    height: 40px
+    background: #3D3D3D
+    width: 100%
+    position: relative
+    line-height: 40px 
+    i
+        font-size:16px
+        margin-right:10px
+        color:#B3B3B3
+        cursor: pointer
+        transition: 0.3s    
+        &:hover
+            color:$mainColor
+    ul 
+        cursor: default
+        li
+            display: inline  
+            color: #B3B3B3
+    .list_number
+        i
+            color: $mainColor
+.header_bottom
+    background: #303030
+    height: 70px
+    line-height: 70px
+    width: 100%
+    position: relative
+    transition: .5s
+    
+.header_bottom_open
+    position: fixed
+    top: 0px
+    left: 0px
+    opacity: 0.9
+    z-index: 99
+    animation: drop .7s
+@keyframes drop
+    0%
+        top: -100px
+        opacity: 0
+    100%
+        top: 0px
+        opacity: 0.9
+.logo
+    float: left
+    width: 12%
+    height: 65px
+    position: relative
+    .img_logo
+        background: url("../images/style_color/bg_img_3.png") no-repeat
+        width: 130%
+        height: 100%
+        background-size: contain !important
+        position: absolute
+        top: 60%
+        transform: translateY(-50%)
+.header_list
+    float: left
+    width: 75%
+    li
+        margin: 0px 5px 0px 5px !important
+        position: relative
+        
+        padding: 0px 22px 0px 8px 
+        a 
+            color: #B3B3B3 !important
+            transition: 0.2s ease-in-out
+            display: inline-block
+        i
+            position: absolute
+            right: 5px
+            top: 50%
+            transform: translateY(-50%)
+            font-size: 9px  
+            color: #B3B3B3  !important
+            transition: 0.2s ease-in-out
+            
+            &:nth-child(3)
+                display: none
+        &:hover 
+            i:nth-child(2)
+                display: none
+        &:hover 
+            i:nth-child(3)
+                display: block
+
+        &:last-child
+            margin-right: 60px !important
+    .product_list
+        height: 100px
+        padding: 0px
+        span
+            float: left
+            width: 45%
+            margin: 0px 4px
+            height: 100%
+            img
+                width: 100%
+                height: 100%
+.header_icon
+    float: right
+    width: 13%
+    li 
+        i
+            font-size: 16px 
+            color:#B3B3B3
+            
+        &:nth-child(1)
+            margin-right: 80px
+            margin-left: 10px            
+        &:nth-child(2)
+            margin-right: 80px
+            margin-left: 10px
+.dropdown_mid
+    width: 450px
+    position: absolute
+    left: 0px
+    top: 80px
+.dropdown_large
+    position: absolute
+    left: 0px
+    top: 80px
+    left: -200px
+    width: 700px
+.dropdown_full
+    position: absolute
+    left: 0px
+    top: 80px
+    left: -580px
+    width: 1200px
+.dropdown_small
+    position: absolute
+    left: 0px
+    top: 80px
+    width: 200px
+.dropdown_inner
+    position: relative
+    width: 100%
+    background: rgba(40,40,40,0.8)
+    border-radius: 4px
+    display: none
+    z-index: 33
+    ul 
+        padding:7px 3px
+        li
+            margin: 5px 10px !important
+            position: relative
+            height: 35px
+            line-height: 35px
+            transition: 0.4s        
+            &:last-child
+                margin-right: 0px !important
+        
+            a
+                color: white !important
+    h5
+        color: white
+.list-inline-item
+    .dropdown_inner
+        hr
+            position: relative
+            width: 90%
+            margin: 0px auto 10px auto
+            background: rgba(200,200,200,0.8)
+        h5
+            padding-left: 10px
+            margin-bottom: 5px
+        .style_theme
+            li
+                width: 20%
+                height: 41px
+                display: inline-block
+                margin: 0px 5px 0px 7px !important
+.dropdown_inner_open
+    z-index: 2
+    display: block
+$themeColor: 1 2 3 4 5 6
+
+@each $color in $themeColor
+    .style_theme 
+        .list_#{$color}
+            background: url('../images/style_color/style_color_#{$color}.png')

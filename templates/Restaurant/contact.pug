@@ -1,0 +1,87 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title Contact
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/contact.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet") 
+    body
+        include header.pug
+        .contact_page
+            section.contact.text-center
+                .layout
+                    .contact_text
+                        h1 Contact Us
+                        +templateStyle
+                        p Let us know if you have any concern about our menu, service or other information you want to have
+            section.features.text-center.dl-mt-100.dl-mb-100
+                .container
+                    .row
+                        .col-md-4
+                            .feature
+                                span
+                                    i(class="fas fa-home")
+                                h4 Address
+                                p Kule , Konya, Turkey                
+                        .col-md-4
+                            .feature
+                                span
+                                    i(class="fas fa-phone")
+                                h4 Phones
+                                p +90521580131295
+                                p +90691432438061
+                        .col-md-4
+                            .feature
+                                span
+                                    i(class="far fa-envelope")
+                                h4 Email
+                                p noureibo7@gmail.com
+            form
+                h2.text-center.h1 Get In Touch
+                +templateStyle
+                .container
+                    .row
+                        .col-md-4.dl-mb-10
+                            input(type="text" placeholder="Name")
+                        .col-md-4.dl-mb-10
+                            input(type="text" placeholder="Phone")
+                        .col-md-4.dl-mb-10
+                            input(type="text" placeholder="Email")
+                        .col-md-12.dl-mt-20
+                            textarea(rows="4" cols="50" name="comment" form="usrform" placeholder="Comment")
+                        .col-md-2.offset-md-10
+                            button Send
+            .map_
+                div(style='width: 100%;position: relative;' class="map_google")
+                  iframe(width='100%', height='440', src='https://maps.google.com/maps?width=700&height=440&hl=en&q=Konya+(Title)&ie=UTF8&t=k&z=14&iwloc=B&output=embed', frameborder='0', scrolling='no', marginheight='0', marginwidth='0')
+                  div(style='position: absolute;width: 80%;bottom: 0px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;')
+                    small(style='line-height: 1.8;font-size: 2px;background: #fff;')
+                      | Powered by 
+                      a(href='http://www.googlemapsgenerator.com/ja/') Googlemapsgenerator.com/ja/
+                      |  & 
+                      a(href='https://willoughby-pr.co.uk/') gmailbulkemailcom
+                  style.
+                    #gmap_canvas img{max-width:none!important;background:none!important}
+            .subscribe.dl-mt-50
+                .container
+                    .row
+                        .col-md-2
+                            img(src="images/fork.png" width="100%" height="100%" class="d-none d-md-block")
+                        .col-md-6.dl-mt-30
+                            h4 Subcribe Us Now
+                            p Get more news and delicious dishes everyday from us
+                        .col-md-3.dl-mt-30.dl-mb-20
+                            .subscribe_input
+                                input(type="email" placeholder="Email")
+                                button
+                                    i(class="fas fa-location-arrow")
+
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")

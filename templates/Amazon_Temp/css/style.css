@@ -1,0 +1,1497 @@
+header {
+  transition: 0.4s;
+}
+
+header nav .logo {
+  width: 60px;
+}
+
+header nav .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav ul li a {
+  cursor: pointer;
+  color: white !important;
+}
+
+header nav .collapse {
+  position: relative;
+  width: 100%;
+  min-height: 50px;
+}
+
+header nav .collapse .navbar-nav {
+  position: absolute !important;
+  right: 0px !important;
+}
+
+header nav .collapse .navbar-nav .active a {
+  color: #00840b !important;
+  font-weight: bold;
+}
+
+.header_open {
+  position: fixed;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 5px 10px rgba(200, 200, 200, 0.2);
+  z-index: 99999999999999;
+}
+
+.header_open ul li a {
+  color: black !important;
+}
+
+a, h1, h2, h3, h4, h5, h6, span {
+  color: white;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  outline: none !important;
+}
+
+a:hover {
+  color: inherit;
+}
+
+p {
+  color: #999;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header_bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/bg_amazon2.png") no-repeat fixed;
+  background-size: cover;
+}
+
+.header_bg .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header_bg .layout .header_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.header_bg .layout .header_text h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header_bg .layout .header_text button {
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  color: black;
+  background: white;
+  border: none;
+}
+
+.header_bg .layout .header_text p {
+  color: white;
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.header_bg .order {
+  background: white;
+  border: 1px solid white;
+  height: 45px;
+  line-height: 45px;
+  background: white;
+  margin-top: 30px;
+}
+
+.header_bg .order a {
+  color: #00840b !important;
+}
+
+.header_bg .order .order_hover {
+  background: white;
+}
+
+.header_bg .order:hover .order_hover {
+  background: #00840b;
+}
+
+.header_bg .order:hover a {
+  color: white !important;
+}
+
+.feature_section h4, .feature_section h2, .feature_section span {
+  color: black;
+}
+
+.feature_section p {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+.feature_section h2 span {
+  color: #00840b;
+}
+
+.feature_section .container .col-md-4 {
+  padding: 0px !important;
+}
+
+.feature_section .container .feature {
+  width: 100%;
+  padding: 40px;
+  height: 290px;
+  box-shadow: 0px 50px 60px rgba(200, 200, 200, 0.2);
+}
+
+.feature_section .container .feature .i_scale {
+  position: relative;
+}
+
+.feature_section .container .feature .i_scale i {
+  font-size: 35px;
+  z-index: 99;
+  position: relative;
+  transition: 0.3s;
+}
+
+.feature_section .container .feature .i_scale span {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(150.75deg, #3c8f08 5.35%, #33ff00 88.47%);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.feature_section .container .feature p {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.feature_section .container .feature:hover .i_scale span {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.feature_section .container .feature:hover .i_scale i {
+  color: white;
+}
+
+.feature_section .container .feature_2 {
+  box-shadow: 0px 50px 60px rgba(200, 200, 200, 0.3);
+  height: 320px;
+  position: relative;
+  top: -30px;
+}
+
+.about {
+  background: #f1f1f1;
+  clip-path: polygon(29% 0, 100% 5%, 100% 100%, 66% 100%, 0 100%, 0 6%);
+}
+
+.about .owl-nav {
+  display: none;
+}
+
+.about .owl-three .item {
+  height: 500px;
+  position: relative;
+  width: 100%;
+}
+
+.about .owl-three .item img {
+  border-radius: 10px;
+}
+
+.about .about_img {
+  width: 100%;
+  position: relative;
+  height: 500px;
+}
+
+.about .about_img .img_opacity, .about .about_img .owl-three {
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.about .about_text .list_links {
+  position: relative;
+  z-index: 99999999999;
+}
+
+.about .about_text .list_links li {
+  display: inline-block;
+  width: 32%;
+  padding: 10px 0px;
+  text-align: center;
+  position: relative;
+  top: 1px;
+  background: #F2F2F2;
+  border: 1px solid rgba(100, 100, 100, 0.07);
+  transition: 0.3s;
+}
+
+.about .about_text .list_links .active {
+  border: 1px solid rgba(100, 100, 100, 0.07);
+  border-bottom: none;
+  border-top: 2px solid #00840b;
+  background: white;
+}
+
+.about .about_text .list_info {
+  position: absolute;
+  top: 47px;
+  width: 530px;
+  z-index: 1000000000000000000;
+  height: 400px;
+  background: white;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  padding-top: 20px;
+  box-shadow: 0px 32px 20px rgba(100, 100, 100, 0.4);
+}
+
+.about .about_text .list_info li {
+  position: absolute;
+  padding: 0px 20px;
+  transition: 0.3s;
+  display: none;
+  opacity: 0;
+  transition-delay: 0.3s;
+}
+
+.about .about_text .list_info .list_one h6, .about .about_text .list_info .list_one h3, .about .about_text .list_info .list_one p, .about .about_text .list_info .list_one span {
+  color: black;
+  transition: 0.2s;
+}
+
+.about .about_text .list_info .list_one h3, .about .about_text .list_info .list_one span {
+  font-weight: bold;
+}
+
+.about .about_text .list_info .list_one .progress_text {
+  clear: both;
+  width: 100%;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+}
+
+.about .about_text .list_info .list_one .progress_text h6 {
+  float: left;
+}
+
+.about .about_text .list_info .list_one .progress_text span {
+  float: right;
+  font-size: 13px;
+}
+
+.about .about_text .list_info .list_one .progress_value {
+  width: 100%;
+  height: 8px;
+  border-radius: 40px;
+  background: #f1f1f1;
+  margin-top: 5px;
+}
+
+.about .about_text .list_info .list_one .progress_value .progress_ {
+  width: 0%;
+  height: 8px;
+  border-radius: 40px;
+  background: linear-gradient(150.75deg, #028800 5.35%, rgba(3, 204, 0, 0.54) 88.47%);
+}
+
+.about .about_text .list_info .list_two h6, .about .about_text .list_info .list_two h3, .about .about_text .list_info .list_two p {
+  color: black;
+  transition: 0.2s;
+}
+
+.about .about_text .list_info .list_two h3 {
+  font-weight: bold;
+}
+
+.about .about_text .list_info .list_two p span {
+  font-weight: bold;
+  color: black;
+}
+
+.about .about_text .list_info .list_three h6, .about .about_text .list_info .list_three h3, .about .about_text .list_info .list_three p {
+  color: black;
+  transition: 0.2s;
+}
+
+.about .about_text .list_info .list_three h3 {
+  font-weight: bold;
+}
+
+.about .about_text .list_info .list_three .ability {
+  display: flex;
+}
+
+.about .about_text .list_info .list_three .ability div {
+  display: inline-block;
+  width: 33.3%;
+  height: 135px;
+  background: #F3F3F3;
+  transition: 0.2s ease-in-out;
+}
+
+.about .about_text .list_info .list_three .ability div i {
+  color: #00840b;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.about .about_text .list_info .list_three .ability div:nth-child(2) {
+  background: #F7F7F7;
+}
+
+.about .about_text .list_info .list_three .ability div:hover {
+  background: #00840b;
+}
+
+.about .about_text .list_info .list_three .ability div:hover i {
+  color: white;
+}
+
+.about .about_text .list_info .list_three .ability div:hover p {
+  color: white;
+}
+
+.about .opacity_visible {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+.process {
+  clip-path: polygon(29% 0, 100% 5%, 100% 94%, 66% 100%, 0 94%, 0 6%);
+  background: url("../images/process.jpg") no-repeat fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 850px;
+  position: relative;
+  top: -70px;
+}
+
+.process p {
+  width: 50%;
+  margin: 10px auto;
+  color: white;
+}
+
+.process .layout {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 120px 0px;
+}
+
+.process .layout .process_cover i {
+  color: #00840b;
+}
+
+.process .layout .process_cover p, .process .layout .process_cover h5, .process .layout .process_cover h6 {
+  color: black;
+}
+
+.process .layout .process_cover p {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.process .layout .process_cover span {
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+  line-height: 85px;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  font-size: 26px;
+}
+
+.process .layout .process_cover img {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  right: -35%;
+}
+
+.process .layout .process_cover .process_text {
+  padding: 20px 10px;
+  background: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.process .layout .process_cover .process_text .header_text {
+  position: relative;
+  width: 30%;
+  height: 60px;
+  margin: auto;
+}
+
+.process .layout .process_cover .process_text .header_text h2, .process .layout .process_cover .process_text .header_text h6 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.process .layout .process_cover .process_text .header_text h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: rgba(150, 150, 150, 0.2);
+  z-index: 9;
+}
+
+.process .layout .process_cover .process_text .header_text h6 {
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 999999;
+  position: relative;
+  transition: 0.3s;
+}
+
+.process .layout .process_cover .process_text:hover {
+  background: #00840b;
+}
+
+.process .layout .process_cover .process_text:hover h6 {
+  color: white;
+  z-index: 999999;
+}
+
+.process .layout .process_cover .process_text:hover p {
+  color: white;
+}
+
+.process .layout .process_cover .process_text:hover h2 {
+  color: rgba(150, 150, 150, 0.5);
+}
+
+.protfolio {
+  width: 100%;
+  min-height: 700px;
+  background: white;
+  position: relative;
+}
+
+.protfolio h3, .protfolio span {
+  color: black;
+}
+
+.protfolio h3 span {
+  font-weight: bold;
+}
+
+.protfolio p {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.protfolio ul {
+  width: 32%;
+  position: relative;
+  margin: auto;
+  min-height: 35px;
+  line-height: 35px;
+  border-radius: 30px;
+  box-shadow: 0px 2px 10px rgba(150, 150, 150, 0.2);
+  cursor: default;
+}
+
+.protfolio ul li {
+  display: inline-block;
+}
+
+.protfolio ul li a {
+  border: none;
+  background: transparent;
+  padding: 8px 20px;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+.protfolio ul li .active {
+  background: linear-gradient(to right, #00840b, #28d825);
+  color: white;
+}
+
+.protfolio ul li .active:hover {
+  color: white;
+}
+
+.protfolio .mix {
+  display: none;
+}
+
+.protfolio .hold {
+  margin: 60px auto;
+  width: 94%;
+  position: relative;
+}
+
+.protfolio .hold h6 {
+  color: black;
+}
+
+.protfolio .hold p {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.protfolio .hold .mix .img_cover {
+  position: relative;
+  height: 250px;
+}
+
+.protfolio .hold .mix .img_cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.protfolio .hold .mix .img_cover ._cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 96%;
+  height: 96%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.93);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.protfolio .hold .mix .img_cover ._cover button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  border: 1px solid #00840b;
+  text-align: center;
+  background: transparent;
+}
+
+.protfolio .hold .mix .img_cover ._cover button i {
+  color: #00840b;
+}
+
+.protfolio .hold .mix .img_cover:hover ._cover {
+  opacity: 1;
+}
+
+.why_us {
+  clip-path: polygon(29% 0, 100% 5%, 100% 94%, 66% 100%, 0 94%, 0 6%);
+  background: #F9F9F9;
+  width: 100%;
+  min-height: 640px;
+}
+
+.why_us img {
+  box-shadow: 0px 30px 50px #c8c8c8;
+  border-radius: 9px;
+}
+
+.why_us ul li h5 {
+  color: black;
+  font-weight: 500;
+}
+
+.why_us ul li span {
+  float: left;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 30px;
+  font-size: 40px;
+  border: 1px solid #eee;
+  margin-left: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.why_us ul li span .span_cover {
+  transform: scale(0);
+  transition: 0.2s ease-in-out;
+  background: linear-gradient(to right, #00840b, #43f722);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 110%;
+  height: 110%;
+  border-radius: 50%;
+}
+
+.why_us ul li span:hover .span_cover {
+  transform: scale(1);
+}
+
+.why_us ul li span img {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.team h3 {
+  color: black;
+}
+
+.team p {
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.team .owl-nav {
+  display: none;
+}
+
+.team .owl-carousel {
+  position: relative;
+  width: 94%;
+  margin: auto;
+}
+
+.team .owl-carousel .owl-dots {
+  margin-top: 25px;
+}
+
+.team .owl-carousel .owl-dots button {
+  outline: none;
+}
+
+.team .owl-carousel .item {
+  margin: 0px 15px;
+  min-height: 350px;
+}
+
+.team .owl-carousel .item .img_cover {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.team .owl-carousel .item .img_cover ._cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.35s ease-in-out;
+  background: linear-gradient(179.51deg, #004303ed -10.57%, #00cc1491 101.05%);
+}
+
+.team .owl-carousel .item .img_cover ._cover ul {
+  cursor: default;
+}
+
+.team .owl-carousel .item .img_cover ._cover ul li {
+  display: inline-block;
+  margin: 0px 15px;
+  font-size: 20px;
+  position: relative;
+  line-height: 400px;
+  transition: 0.3s;
+}
+
+.team .owl-carousel .item .img_cover ._cover ul li i {
+  color: white;
+  cursor: pointer;
+}
+
+.team .owl-carousel .item .img_cover ._cover:hover {
+  opacity: 1;
+}
+
+.team .owl-carousel .item .img_cover ._cover:hover ul li {
+  line-height: 300px;
+}
+
+.team .owl-carousel .item .img_cover img {
+  height: 100%;
+}
+
+.team .owl-carousel .item h6 {
+  color: black;
+}
+
+.testimonials {
+  clip-path: polygon(30% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 7%);
+  min-height: 700px;
+  width: 100%;
+  position: relative;
+  background: url("../images/bg.jpg") no-repeat fixed;
+}
+
+.testimonials .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.testimonials .layout p {
+  color: white;
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+.testimonials .layout .owl-two .owl-nav {
+  display: none;
+}
+
+.testimonials .layout .owl-two .owl-dots {
+  margin-top: 35px;
+}
+
+.testimonials .layout .owl-two .owl-dots button {
+  outline: none;
+}
+
+.testimonials .layout .owl-two p {
+  width: 100%;
+  color: black;
+}
+
+.testimonials .layout .owl-two .item {
+  width: 310px;
+  height: 325px;
+  position: relative;
+  margin: auto;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.testimonials .layout .owl-two .item img {
+  position: relative;
+  width: 120px;
+  height: 90px;
+  margin: 20px auto;
+}
+
+.testimonials .layout .owl-two .item .testimonials_profile {
+  display: inline-flex;
+  width: 100%;
+}
+
+.testimonials .layout .owl-two .item .testimonials_profile .testimonials_text {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.testimonials .layout .owl-two .item .testimonials_profile .testimonials_text h6 {
+  color: black;
+}
+
+.testimonials .layout .owl-two .item .testimonials_profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.cards {
+  position: relative;
+  background: #F9F9F9;
+  min-height: 800px;
+  width: 100%;
+  clip-path: polygon(50% 0%, 100% 0, 100% 94%, 66% 100%, 0 94%, 0 0);
+}
+
+.cards h3 {
+  color: black;
+}
+
+.cards p {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.cards .container {
+  max-width: 1230px;
+}
+
+.cards .container ._card {
+  position: relative;
+  padding: 50px;
+  background: white;
+  border-radius: 4px;
+  min-height: 400px;
+  box-shadow: 0px 19px 20px rgba(150, 150, 150, 0.1);
+}
+
+.cards .container ._card h1, .cards .container ._card span {
+  color: black;
+  position: relative;
+}
+
+.cards .container ._card span {
+  font-size: 17px;
+  margin-left: 4px;
+  top: -4px;
+}
+
+.cards .container ._card p {
+  width: 100%;
+}
+
+.cards .container ._card h1:before {
+  content: "$";
+  position: relative;
+  top: -25px;
+  right: -6px;
+  font-size: 22px;
+}
+
+.cards .container .active {
+  background: linear-gradient(179.51deg, #004303 -10.57%, #00CC14 109.05%);
+}
+
+.cards .container .active p, .cards .container .active span, .cards .container .active h1, .cards .container .active h6 {
+  color: white;
+}
+
+.cards .container .active .order {
+  background: white;
+  border: 1px solid white;
+}
+
+.cards .container .active .order a {
+  color: #00840b !important;
+}
+
+.cards .container .active .order .order_hover {
+  background: white;
+}
+
+.cards .container .active .order:hover .order_hover {
+  background: #00840b;
+}
+
+.cards .container .active .order:hover a {
+  color: white !important;
+}
+
+.order {
+  margin: auto;
+  width: 140px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  background: #00840b;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+  line-height: 40px;
+  border: 1px solid #00840b;
+  cursor: pointer;
+}
+
+.order a {
+  color: white !important;
+  transition: 0.1s;
+  position: relative;
+  z-index: 999999999999;
+  cursor: pointer;
+}
+
+.order .order_hover {
+  background: white;
+  position: absolute;
+  left: -102%;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  z-index: 99999;
+}
+
+.order:hover .order_hover {
+  left: 0%;
+}
+
+.order:hover a {
+  color: #00840b !important;
+}
+
+.latest_news h3, .latest_news span, .latest_news h6 {
+  color: black;
+}
+
+.latest_news p {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.latest_news .item {
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(180, 180, 180, 0.3);
+}
+
+.latest_news .item .item_cover {
+  overflow: hidden;
+}
+
+.latest_news .item .item_cover img {
+  width: 100%;
+  position: relative;
+  height: 240px;
+  transition: 0.3s ease-in-out;
+}
+
+.latest_news .item .item_cover:hover img {
+  transform: scale(1.1);
+}
+
+.latest_news .item .paragraph_name {
+  width: 100%;
+}
+
+.latest_news .item p {
+  margin-top: 10px;
+  font-size: 15px;
+  float: left;
+  width: 70%;
+}
+
+.latest_news .item p span {
+  margin-left: 7px;
+}
+
+.latest_news .item .span_wordpress {
+  position: relative;
+  margin-top: 10px;
+  width: auto;
+  text-align: right;
+  float: right;
+  font-size: 13px;
+  background: #00840b;
+  color: white;
+  padding: 2px;
+}
+
+.latest_news .item h6 {
+  clear: both;
+  padding-top: 10px;
+}
+
+.work_with_us {
+  background: url("../images/bg.jpg") no-repeat fixed;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.work_with_us .layout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 97%;
+  height: 92%;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.work_with_us .layout .work_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work_with_us .layout .work_text a {
+  color: white !important;
+}
+
+.work_with_us .layout .order {
+  margin-top: 40px;
+}
+
+.work_with_us .layout .order:hover a {
+  color: #00840b !important;
+}
+
+.contact h3, .contact h5, .contact h6 {
+  color: black;
+}
+
+.contact p {
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.contact .container p {
+  width: 100%;
+  margin: 0px;
+}
+
+.contact ul li {
+  margin: 45px 0px;
+}
+
+.contact ul li img {
+  position: relative;
+  width: 9%;
+}
+
+.contact ul li .contact_info {
+  float: right;
+  position: relative;
+  width: 85%;
+  margin-left: 20px;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background: #F9F9F9;
+  height: 40px;
+  padding: 10px;
+}
+
+.contact textarea {
+  height: 170px;
+}
+
+.contact .order {
+  margin: 0px;
+  box-shadow: 0px 3px 18px rgba(26, 35, 126, 0.19);
+}
+
+footer {
+  clip-path: polygon(50% 0, 100% 15%, 100% 100%, 66% 100%, 0 100%, 0 15%);
+  background: #111111;
+  height: 330px;
+  width: 100%;
+  position: relative;
+}
+
+footer p {
+  color: white;
+}
+
+footer ul {
+  cursor: default;
+}
+
+footer ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  line-height: 50px;
+  background: #151515;
+  margin: 0px 2px;
+}
+
+footer ul li i {
+  color: #999990;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,617 @@
+doctype
+html
+    head
+        title Design
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Holtwood+One+SC&display=swap" rel="stylesheet")
+    body
+        section(class="header_bg text-center Home_Link scroll" id=".Home_scroll")
+            .layout
+                include header.pug
+                .header_text
+                    h2 Need Our Help 
+                    img(src="images/Amazon Forest.png" class="dl-mt-20 dl-mb-20")
+                    p 
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor labore et dolore magna aliqua. sed do eiusmod tempor
+                    .order
+                        a Get Started
+                        .order_hover
+        section(class="feature_section text-center dl-mt-100")
+            h2 
+                | About Our  
+                span  Creative 
+                | Agency
+            p Lorem Ipsum is simply dummy text of the printing  industry when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries.
+            .container.dl-mt-40
+                .row
+                
+                    .col-md-4.feature_col.dl-mb-50
+                        .feature
+                            .i_scale
+                                i(class="fas fa-anchor")
+                                span
+                            h4.dl-mt-40 Web design
+                            a.dl-mt-10 Modern & Clean design
+                            p Lorem Ipsum is simply dummy text of the printing and type
+                        
+                    .col-md-4.dl-mb-50
+                        .feature.feature_2
+                            .i_scale
+                                i(class="fas fa-anchor")
+                                span
+                            h4.dl-mt-40 Web design
+                            a.dl-mt-10 Modern & Clean design
+                            p Lorem Ipsum is simply dummy text of the printing and type
+                        
+                    .col-md-4.feature_col.dl-mb-50
+                        .feature
+                            .i_scale
+                                i(class="fas fa-anchor")
+                                span
+                            h4.dl-mt-40 Web design
+                            a.dl-mt-10 Modern & Clean design
+                            p Lorem Ipsum is simply dummy text of the printing and type
+        section(class="about dl-pt-100 dl-pb-100 About_Link dl-mt-70 scroll" id=".About_scroll")
+            .container
+                .row
+                    .col-lg-4
+                        .about_text
+                            ul.list-unstyled.list_links
+                                li(class="active" data-list=".list_one") About us
+                                li(class="" data-list=".list_two") Our mission
+                                li(class="" data-list=".list_three") Why us?
+                            .list_info
+                                ul.list-unstyled
+                                    li.list_one.opacity_visible 
+                                        h3 About us
+                                        h6 We Must Support The Forest
+                                        p We’re full service which means we’ve got you covered on design and content right through to digital.
+                                        .progress_list.dl-mt-60
+                                            div
+                                                .progress_text
+                                                    h6 Web Design
+                                                    span 90%
+                                                div(class="progress_value" data-value="90")
+                                                    .progress_                                        
+                                            div.dl-mt-20
+                                                .progress_text
+                                                    h6 Branding
+                                                    span 75%
+                                                div(class="progress_value" data-value="75")
+                                                    .progress_                                        
+                                            div.dl-mt-20
+                                                .progress_text
+                                                    h6 Development
+                                                    span 80%
+                                                div(class="progress_value" data-value="50")
+                                                    .progress_
+                                    li.list_two 
+                                        h3 Why Choose Us?
+                                        h6 We Must Support The Forest
+                                        p.dl-mt-20
+                                            span The Rainforest Action 
+                                            | Network has been working since 1993 to protect the Amazon one acre at a time. Its Protect An Acre grants have helped to support more than 200 front-line
+
+                                            span  We can support the forest 
+                                            | While many of the fires have been set to clear land for agribusiness, setting fires is also part of the process of extracting timber.
+                                        p.dl-mt-20 Similarly, the Rainforest Trust works with communities to buy land to protect it from logging, mining, and slash and burn agribusiness. You can support its work by buying some 
+                                    li.list_three 
+                                        h3 Why Us?
+                                        h6 We Must Support The Forest
+                                        p.dl-mt-20 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        .ability.text-center
+                                            div
+                                                i(class="fas fa-desktop dl-pt-40")
+                                                p.dl-mt-10 Perfect design                                        
+                                            div
+                                                i(class="fas fa-images dl-pt-40")
+                                                p.dl-mt-10 Perfect design                                        
+                                            div
+                                                i(class="fas fa-headphones-alt dl-pt-40")
+                                                p.dl-mt-10 Perfect design
+                    .col-lg-7.offset-lg-1
+                        .about_img
+                            img(src="images/bg.jpg" width="100%" height="100%" class="list_one img_opacity opacity_visible")
+                            .owl-carousel.owl-theme.owl-three.list_two 
+                                .item
+                                    img(src="images/typeOfDanger/danger1.png" width="100%" height="100%")
+                                .item
+                                    img(src="images/typeOfDanger/danger2.png" width="100%" height="100%")
+                                .item
+                                    img(src="images/typeOfDanger/danger3.png" width="100%" height="100%")
+                                
+                            img(src="images/bg.jpg" width="100%" height="100%" class="list_three img_opacity ")
+        section(class="process text-center Process_Link dl-mt-10 scroll" id=".Process_scroll")
+            .layout
+                h3.dl-pt-50.dl-mt-50 Our Process
+                p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the printing and type setting industry
+                .container.dl-mt-100
+                    .row
+                    
+                        .col-md-6.col-lg-3
+                            .process_cover
+                                span
+                                    i(class="fas fa-anchor")
+                                    img(src="images/arrow_180.png" class="d-lg-inline d-none")
+                                .process_text.dl-mt-30
+                                    .header_text
+                                        h6 ideas
+                                        h2 01
+                                    p Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
+                           
+                        .col-md-6.col-lg-3.dl-mt-40
+                            .process_cover
+                                span
+                                    i(class="fas fa-anchor")
+                                    img(src="images/arrow.png" class="d-lg-inline d-none")
+                                .process_text.dl-mt-30
+                                    .header_text
+                                        h6 ideas
+                                        h2 02
+                                    p Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
+                           
+                        .col-md-6.col-lg-3
+                            .process_cover
+                                span
+                                    i(class="fas fa-anchor")
+                                    img(src="images/arrow_180.png" class="d-lg-inline d-none")
+                                .process_text.dl-mt-30
+                                    .header_text
+                                        h6 ideas
+                                        h2 03
+                                    p Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
+                           
+                        .col-md-6.col-lg-3.dl-mt-40
+                            .process_cover
+                                span
+                                    i(class="fas fa-anchor")
+                                .process_text.dl-mt-30
+                                    .header_text
+                                        h6 ideas
+                                        h2 04
+                                    p Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
+        
+        section(class="protfolio dl-mt-60 text-center Protfolio_Link scroll" id=".Protfolio_scroll")
+            h3
+                | Creative 
+                span Portfolio
+            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the printing and type setting industry
+            .container
+                ul.list-unstyled.dl-mt-80
+                    li 
+                        a(class="filter active" data-filter="all") All
+                    li
+                        a(class="filter" data-filter=".Safe")   Safe
+                    li
+                        a(class="filter" data-filter=".Dangerous")   Dangerous
+                    li
+                        a(class="filter" data-filter=".Animals")  Animals
+
+            .row.hold.dl-mt-60
+                .all.mix
+                .col-lg-3.col-md-6.Safe.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/safe1.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Dangerous.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/Danger1.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Dangerous.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/Danger2.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Safe.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/safe2.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Dangerous.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/Danger3.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Animals.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/Animal1.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Dangerous.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/danger4.png" width="100%" height="100%")
+                .col-lg-3.col-md-6.Animals.mix.dl-mb-30
+                    .img_cover
+                        ._cover.text-left
+                            h6.dl-mt-10 Logo | Branding
+                            p Creative Web Design
+                            button
+                                i(class="fas fa-chevron-right")
+                        img(src="images/typeOfDanger/Animal2.png" width="100%" height="100%")
+                    //Do The number of year to all the cols with layout and do 2 sectons
+                    
+        .why_us.dl-mt-100.dl-pt-100.dl-pb-30
+            .container
+                .row
+                    .col-lg-6
+                        img(src="images/bg.jpg" width="100%" height="100%")
+                    .col-lg-6
+                        ul.list-unstyled
+                        
+                            li.dl-mb-50.dl-mt-10
+                                span
+                                    .span_cover
+                                    img(src="images/icons/why_us_1.png" width="100%")
+                                h5 Full Responsive
+                                p Nulla metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat velit class aptent taciti sociosqu.
+                                                            
+                            li.dl-mb-50.dl-mt-10
+                                span
+                                    .span_cover
+                                    img(src="images/icons/why_us_2.png" width="100%")
+                                h5 Clean & Modern Design
+                                p Nulla metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat velit class aptent taciti sociosqu.
+                                                            
+                            li.dl-mb-50.dl-mt-10
+                                span
+                                    .span_cover
+                                    img(src="images/icons/why_us_3.png" width="100%")
+                                h5 Friendly Support
+                                p Nulla metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat velit class aptent taciti sociosqu.
+                                    
+        .team.dl-mt-100.text-center
+            h3
+                | Talent 
+                b Team
+            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the printing and type setting industry
+            .owl-carousel.owl-theme.dl-pt-50.owl-one
+                .item
+                    .img_cover
+                        img(src="images/team_1.jpg" width="100%")
+                        ._cover
+                            ul.list-unstyled
+                                li
+                                    i(class="fab fa-facebook-f")
+                                li
+                                    i(class="fab fa-instagram")
+                                li
+                                    i(class="fab fa-twitter")
+                    h6.dl-mt-10 Alex Jhon
+                    p Web Developer
+                .item
+                    .img_cover
+                        img(src="images/team_2.jpg" width="100%")
+                        ._cover
+                            ul.list-unstyled
+                                li
+                                    i(class="fab fa-facebook-f")
+                                li
+                                    i(class="fab fa-instagram")
+                                li
+                                    i(class="fab fa-twitter")
+                    h6.dl-mt-10 Alex Jhon
+                    p UI/UX Designer
+                .item
+                    .img_cover
+                        img(src="images/team_3.jpg" width="100%")
+                        ._cover
+                            ul.list-unstyled
+                                li
+                                    i(class="fab fa-facebook-f")
+                                li
+                                    i(class="fab fa-instagram")
+                                li
+                                    i(class="fab fa-twitter")
+                    h6.dl-mt-10 Alex Jhon
+                    p Mobile Developer
+                .item
+                    .img_cover
+                        img(src="images/team_4.jpg" width="100%")
+                        ._cover
+                            ul.list-unstyled
+                                li
+                                    i(class="fab fa-facebook-f")
+                                li
+                                    i(class="fab fa-instagram")
+                                li
+                                    i(class="fab fa-twitter")
+                    h6.dl-mt-10 Alex Jhon
+                    p Web Designer
+                .item
+                    .img_cover
+                        img(src="images/team_3.jpg" width="100%")
+                        ._cover
+                            ul.list-unstyled
+                                li
+                                    i(class="fab fa-facebook-f")
+                                li
+                                    i(class="fab fa-instagram")
+                                li
+                                    i(class="fab fa-twitter")
+                    h6.dl-mt-10 Alex Jhon
+                    p Web Developer
+        section(class="testimonials text-center Testimonials_Link dl-mt-50 scroll" id=".Testimonials_scroll")
+            .layout
+                .container
+                    h3.dl-pt-100
+                        b What's Client Says?
+                    p  Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the printing and type setting industry
+                    .owl-carousel.owl-theme.dl-pt-50.owl-two
+                        .item
+                            img(src="images/icons/simicolon.png")
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            .testimonials_profile
+                                img(src="images/team_1.jpg")
+                                .testimonials_text.text-left    
+                                    h6 Alex John
+                                    p Envato Customer
+                                
+                        .item
+                            img(src="images/icons/simicolon.png")
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            .testimonials_profile
+                                img(src="images/team_1.jpg")
+                                .testimonials_text.text-left    
+                                    h6 Alex John
+                                    p Envato Customer
+                                
+                        .item
+                            img(src="images/icons/simicolon.png")
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            .testimonials_profile
+                                img(src="images/team_1.jpg")
+                                .testimonials_text.text-left    
+                                    h6 Alex John
+                                    p Envato Customer
+                                
+                        .item
+                            img(src="images/icons/simicolon.png")
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            .testimonials_profile
+                                img(src="images/team_1.jpg")
+                                .testimonials_text.text-left    
+                                    h6 Alex John
+                                    p Envato Customer
+                                
+                        .item
+                            img(src="images/icons/simicolon.png")
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            .testimonials_profile
+                                img(src="images/team_1.jpg")
+                                .testimonials_text.text-left    
+                                    h6 Alex John
+                                    p Envato Customer
+                                
+        section(class="cards dl-pt-100 text-center Cards_Link scroll" id=".Cards_scroll")
+            h3 
+                b Pricing 
+                | Table
+            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy printing and type setting industry
+            .container.dl-mt-50
+                .row
+                
+                    .col-lg-3.dl-mb-30
+                        ._card
+                            .h6 Free
+                            h1 
+                                b 00
+                                span / Month 
+                            ul.list-unstyled.dl-mt-30
+                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 10 GB Disk Space                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 15 Domain Names                           
+                                li.dl-mt-10.dl-mb-10
+                                    p 4 Email Address                        
+                                li.dl-mt-10.dl-mb-10
+                                    p Enhanced Security                   
+                                li.dl-mt-10.dl-mb-10
+                                    p Unlimited Support
+                            .order
+                                a Click Me
+                                .order_hover
+                    .col-lg-3.dl-mb-30
+                        ._card
+                            .h6 Basic
+                            h1 
+                                b 30
+                                span / Month 
+                            ul.list-unstyled.dl-mt-30
+                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 10 GB Disk Space                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 15 Domain Names                           
+                                li.dl-mt-10.dl-mb-10
+                                    p 4 Email Address                        
+                                li.dl-mt-10.dl-mb-10
+                                    p Enhanced Security                   
+                                li.dl-mt-10.dl-mb-10
+                                    p Unlimited Support
+                            .order
+                                a Click Me
+                                .order_hover            
+                    .col-lg-3.dl-mb-30
+                        ._card.active
+                            h6 Standard
+                            h1 
+                                b 60
+                                span / Month 
+                            ul.list-unstyled.dl-mt-30
+                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 10 GB Disk Space                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 15 Domain Names                           
+                                li.dl-mt-10.dl-mb-10
+                                    p 4 Email Address                        
+                                li.dl-mt-10.dl-mb-10
+                                    p Enhanced Security                   
+                                li.dl-mt-10.dl-mb-10
+                                    p Unlimited Support
+                            .order
+                                a Click Me
+                                .order_hover            
+                    .col-lg-3.dl-mb-30
+                        ._card
+                            .h6 Premium
+                            h1 
+                                b 100
+                                span / Month 
+                            ul.list-unstyled.dl-mt-30
+                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 10 GB Disk Space                            
+                                li.dl-mt-10.dl-mb-10
+                                    p 15 Domain Names                           
+                                li.dl-mt-10.dl-mb-10
+                                    p 4 Email Address                        
+                                li.dl-mt-10.dl-mb-10
+                                    p Enhanced Security                   
+                                li.dl-mt-10.dl-mb-10
+                                    p Unlimited Support
+                            .order
+                                a Click Me
+                                .order_hover 
+        .latest_news.dl-pt-100.text-center
+            h3 
+                | Latest 
+                b News
+            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy
+            .container.dl-mt-50
+                .row
+                
+                    .col-lg-4.dl-mb-30
+                        .item.text-left
+                            .item_cover
+                                img(src="images/typeOfDanger/safe1.png")
+                            p
+                                i 
+                                    | By:Admin 
+                                    span 06 Aug 2017
+                            span.span_wordpress Wordpress
+                            h6 48 Best WordPress Themes
+                            p.paragraph_name Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever
+                            h6 Read More                
+                    .col-lg-4.dl-mb-30
+                        .item.text-left
+                            .item_cover
+                                img(src="images/typeOfDanger/danger2.png")
+                            p
+                                i 
+                                    | By:Admin 
+                                    span 06 Aug 2017
+                            span.span_wordpress Wordpress
+                            h6 48 Best WordPress Themes
+                            p.paragraph_name Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever
+                            h6 Read More                
+                    .col-lg-4.dl-mb-30
+                        .item.text-left
+                            .item_cover
+                                img(src="images/typeOfDanger/danger4.png")
+                            p
+                                i 
+                                    | By:Admin 
+                                    span 06 Aug 2017
+                            span.span_wordpress Wordpress
+                            h6 48 Best WordPress Themes
+                            p.paragraph_name Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever
+                            h6 Read More
+        .work_with_us.text-center.dl-mt-100
+            .layout
+                .work_text
+                    h1 
+                        b Want to work with us?
+                    h4 Tell us about your idea
+                    .order
+                        a Get Started
+                        .order_hover
+        section(class=" contact dl-pt-100 text-center Contact_Link scroll" id=".Contact_scroll")
+            h3 
+                b Get 
+                | In 
+                b Touch
+            p Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever
+            .container.text-left.dl-mt-60
+                .row
+                    .col-lg-5
+                        h6 Contact Us :
+                        p Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat
+                        ul.list-unstyled
+                        
+                            li
+                                img(src="images/icons/phone.png")
+                                .contact_info
+                                    h6 PHONE: 
+                                    p +20 010 251 789 18 , 251 789 18                        
+                            li
+                                img(src="images/icons/email.png")
+                                .contact_info
+                                    h6 EMAIL: 
+                                    p Coco_support@website.com                     
+                            li
+                                img(src="images/icons/address.png")
+                                .contact_info
+                                    h6 ADDRESS: 
+                                    p 4655 Carter Street ,Olney, Illinois
+
+
+                    .col-lg-7
+                        .row
+                            .col-md-6.dl-mb-30
+                                input(type="text" placeholder="Username")
+                            .col-md-6.dl-mb-30
+                                input(type="text" placeholder="Password")
+                            .col-lg-12.dl-mb-30
+                                input(type="email" placeholder="Email")
+                            .col-lg-12.dl-mb-30
+                                textarea(rows="4" cols="50" name="comment" form="usrform" placeholder="Message")
+                            .col-lg-4
+                                .order.text-center
+                                    a Get Started
+                                    .order_hover
+        footer.dl-mt-100.dl-pt-100.text-center
+            h2 AMAZON
+            ul.list-unstyled.dl-mt-20
+                li
+                    i(class="fab fa-facebook-f")
+                li
+                    i(class="fab fa-instagram")
+                li
+                    i(class="fab fa-twitter")                    
+                li
+                    i(class="fab fa-instagram")
+                li
+                    i(class="fab fa-twitter")
+            p © 2018 UI-THEMEZ. ALL RIGHTS RESERVED.
+        include includes/scripts
+        

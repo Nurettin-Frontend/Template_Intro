@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <!-- To get bootstrap 4 fromwork -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/mediaQuery.css">
+
+        <!-- this file from Developer Emadelddin Eibo which help you of padding and margin -->
+        <link rel="stylesheet" href="css/dl.helper.css">
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--  -->
+        <meta charset="utf-8">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--  -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <!-- this file to make you use animate of css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand title" href="#">Brand</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link title" href="index.html">Homepage <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link title" href="#">Features</a>
+              </li>                        
+              <li class="nav-item">
+                <a class="nav-link title" href="#">Pricing</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle title"  id="navbarDropdown" role="button" >
+                  Pages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about-us-1.html">About us</a>
+                  <a class="dropdown-item" href="login.html">Login</a>                         
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                  <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                  <a class="dropdown-item" href="product.html">Product</a>
+                </div>
+              </li>                                               
+              <li class="nav-item">
+                <a class="nav-link disabled title" href="#">Blog</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="#"><span><i class="fab fa-facebook-f title"></i></span></a>
+                <a href="#"><span><i class="fab fa-twitter title"></i></span></a>
+                <a href="#"><span><i class="fab fa-instagram title"></i></span></a>
+              <button class="btn my-2 my-sm-0" type="submit">FREE TRIAL</button>
+            </form>
+          </div>
+        </nav>
+        <section class="login text-center text-white">
+            <div class="layout-login">
+                <form>
+                    <div class="login-text">
+                        <div class="text-header">
+                            <h2><i class="fas fa-user-alt"></i>Log in: </h2>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-user-alt"></i>
+                            <input type="text" request='request'>
+                            <label class="label text-white">Your name</label>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" request='request'>
+                            <label class="label text-white">Your email</label>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" request='request' id="password">
+                            <i class="fas fa-eye-slash"></i>
+                            <i class="far fa-eye"></i>
+                            <label class="label text-white">Your password</label>
+                        </div>
+                        <input type="button" class="btn dl-mb-20" value="SEND">
+                        <br>
+                        <hr>
+                        <div class="social-cursor">
+                            <a href="#"><span><i class="fab fa-facebook-f "></i></span></a>
+                            <a href="#"><span><i class="fab fa-twitter "></i></span></a>
+                            <a href="#"><span><i class="fab fa-instagram "></i></span></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script src="js/jquery-3.3.1.min.js" ></script>
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/index.js" ></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.fa-eye-slash').click(function () {
+                    $(this).fadeOut();
+                    $(this).parent().find('.fa-eye').fadeIn(50,function () {
+                        $(this).parent().find('#password').attr('type','text')
+                    })
+                }) 
+                $('.fa-eye').click(function () {
+                    $(this).fadeOut();
+                    $(this).parent().find('.fa-eye-slash').fadeIn(50,function () {
+                        $(this).parent().find('#password').attr('type','password')
+                    })
+                });
+
+            });
+        </script>
+    </body>
+</html>

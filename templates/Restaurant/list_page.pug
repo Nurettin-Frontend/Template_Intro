@@ -1,0 +1,59 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title List Page
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/list_page.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet") 
+    body
+        include header.pug
+        .list_page
+            section.list_detail.text-center
+                .layout
+                    .layout_text
+                        h1 List's Details
+                        p See What Our Food Contain
+            section.product.dl-mt-100.dl-mb-100.dl-pb-70
+                .layout
+                .container
+                    .row
+                        .col-lg-6
+                            img(src="images/list_page/pizza.png")
+                        .col-lg-6
+                            .product_text.text-left
+                                h2 Capricciosa
+                                h3 $ 2.90
+                                p Classic marinara sauce, authentic old-world pepperoni, all-natural Italian sausage, slow-roasted ham, hardwood smoked bacon, seasoned pork and beef. Best an our Hand Tossed crust. With more than 50 years of experience under our belts, we understand how to best serve our customers through tried and true service principles. Instead of following trends, we set them. We create food we’re proud to serve and deliver it fast, with a smile. 
+            section.product_menus.dl-pb-70
+                .container
+                    .row
+                        .col-md-4.dl-mb-100
+                            .card.text-center.dl-pb-40
+                                img(src="images/list_page/pizza_1.png")
+                                h3 Magarita
+                                p authentic old-world pepperoni, all-natural Italian
+                                h2 $ 2.90
+                                button Read More
+                        .col-md-4.dl-mb-100
+                            .card.text-center.dl-pb-40
+                                img(src="images/list_page/pizza_2.png")
+                                h3 Magarita
+                                p authentic old-world pepperoni, all-natural Italian
+                                h2 $ 2.90
+                                button Read More
+                        .col-md-4.dl-mb-100
+                            .card.text-center.dl-pb-40
+                                img(src="images/list_page/pizza_3.png")
+                                h3 Magarita
+                                p authentic old-world pepperoni, all-natural Italian
+                                h2 $ 2.90
+                                button Read More
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")

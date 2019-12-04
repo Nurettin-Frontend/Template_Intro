@@ -1,0 +1,781 @@
+@import '_header.sass'
+a,h1,h2,h3,h4,h5,h6,span
+    color: white
+body
+    box-sizing: border-box
+    overflow-x: hidden
+*
+    margin: 0px
+    padding: 0px
+button
+    outline: none !important
+a
+    &:hover
+        color: inherit
+p
+    color: #999
+    font-family: 'Raleway', sans-serif
+    font-size: 15px
+    font-weight: 400
+.header_bg
+    position: relative
+    width: 100%
+    height: 100vh
+    background: url('../images/bg_amazon2.png') no-repeat fixed
+    background-size: cover
+    .layout
+        position: absolute
+        top: 0px
+        left: 0px
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,.5)
+        .header_text
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+            width: 80%
+            h2
+                font-size: 40px
+                font-weight: bold
+            button
+                width: 160px
+                height: 50px
+                border-radius: 30px
+                color: black
+                background: white
+                border: none
+            p
+                color: white
+                width: 50%
+                position: relative
+                margin: auto
+    .order
+        background: white
+        border: 1px solid white
+        height: 45px
+        line-height: 45px
+        background: white
+        margin-top: 30px
+        a
+            color: #00840b !Important
+        .order_hover
+            background: white
+        &:hover
+            .order_hover
+                background: #00840b
+            a
+                color: white !important
+.feature_section
+    h4,h2,span
+        color: black
+    p
+        width: 60%
+        margin: auto
+        position: relative
+
+    h2
+        span
+            color: #00840b
+    .container
+        .col-md-4
+            padding: 0px !important
+        .feature
+            width: 100%
+            padding: 40px
+            height: 290px
+            box-shadow: 0px 50px 60px rgba(200,200,200,.2)
+            .i_scale
+                position: relative
+                i
+                    font-size: 35px
+                    z-index: 99
+                    position: relative
+                    transition: 0.3s
+                span
+                    width: 90px
+                    height: 90px
+                    background: linear-gradient(150.75deg, #3c8f08 5.35%, rgb(51, 255, 0) 88.47%)
+                    border-radius: 50%
+                    display: inline-block
+                    position: absolute
+                    left: 50%
+                    top: 50%
+                    transform: translate(-50%,-50%) scale(0)
+                    transition: 0.3s ease-in-out
+            p
+                width: 80%
+                margin: 10px auto
+            &:hover
+                .i_scale
+                    span
+                        transform: translate(-50%,-50%) scale(1)
+                    i
+                        color: white 
+        .feature_2
+            box-shadow: 0px 50px 60px rgba(200,200,200,.3)
+            height: 320px
+            position: relative
+            top: -30px
+.about
+    background: #f1f1f1
+    clip-path: polygon(29% 0, 100% 5%, 100% 100%, 66% 100%, 0 100%, 0 6%)
+    .owl-nav
+        display: none
+    .owl-three
+        .item
+            height: 500px
+            position: relative
+            width: 100%
+            img
+                border-radius: 10px
+    .about_img
+        width: 100%
+        position: relative
+        height: 500px
+        .img_opacity, .owl-three
+            border-radius: 10px
+            position: absolute
+            top: 0px
+            left: 0px
+            width: 100%
+            height: 100%
+            opacity: 0
+            transition: 0.3s
+    .about_text
+        .list_links
+            position: relative
+            z-index: 99999999999
+            li
+                display: inline-block
+                width: 32%
+                padding: 10px 0px
+                text-align: center
+                position: relative
+                top: 1px
+                background: #F2F2F2
+                border: 1px solid rgba(100,100,100,0.07)
+                transition: .3s
+            .active
+                border: 1px solid rgba(100,100,100,0.07)
+                border-bottom: none
+                border-top: 2px solid #00840b
+                background: white
+        .list_info
+            position: absolute
+            top: 47px
+            width: 530px
+            z-index: 999999999999999999
+            height: 400px
+            background: white
+            border-radius: 5px
+            border-top-left-radius: 0px
+            padding-top: 20px
+            box-shadow: 0px 32px 20px rgba(100,100,100,0.4)
+            li
+                position: absolute
+                padding: 0px 20px
+                transition: .3s
+                display: none
+                opacity: 0
+                transition-delay: .3s
+            .list_one
+                h6,h3,p,span
+                    color: black
+                    transition: 0.2s
+                h3,span
+                    font-weight: bold
+                .progress_text
+                    clear: both
+                    width: 100%
+                    position: relative
+                    height: 30px
+                    line-height: 30px
+                    h6
+                        float: left
+                    span
+                        float: right
+                        font-size: 13px
+                .progress_value
+                    width: 100%
+                    height: 8px
+                    border-radius: 40px
+                    background: #f1f1f1
+                    margin-top: 5px
+                    .progress_
+                        width: 0%
+                        height: 8px
+                        border-radius: 40px
+                        background: linear-gradient(150.75deg, #028800 5.35%, rgba(3, 204, 0, 0.54) 88.47%)
+            .list_two
+                h6,h3,p
+                    color: black
+                    transition: 0.2s
+                h3
+                    font-weight: bold
+                p
+                    span
+                        font-weight: bold
+                        color: black
+            .list_three
+                h6,h3,p
+                    color: black
+                    transition: 0.2s
+                h3
+                    font-weight: bold
+                .ability
+                    display: flex
+                    div
+                        display: inline-block
+                        width: 33.3%
+                        height: 135px
+                        background: #F3F3F3
+                        transition: 0.2s ease-in-out
+                        i
+                            color: #00840b
+                            font-size: 25px
+                            transition: 0.2s
+                        &:nth-child(2)
+                            background: #F7F7F7
+                        &:hover
+                            background: #00840b
+                            i
+                                color: white
+                            p
+                                color: white
+    .opacity_visible
+        display: block !important
+        opacity: 1 !important
+.process
+    clip-path: polygon(29% 0, 100% 5%, 100% 94%, 66% 100%, 0 94%, 0 6%)
+    background: url('../images/process.jpg') no-repeat fixed
+    background-size: cover
+    width: 100%
+    min-height: 850px
+    position: relative
+    top: -70px
+    p
+        width: 50%
+        margin: 10px auto
+        color: white
+
+    .layout
+        position: relative
+        top: 0px
+        left: 0px
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,0.6)
+        padding: 120px 0px
+        .process_cover
+            i
+                color: #00840b
+            p,h5,h6
+                color: black
+            p
+                width: 100%
+                transition: 0.3s
+            span
+                width: 85px
+                height: 85px
+                display: inline-block
+                line-height: 85px
+                border: 1px dashed rgba(255,255,255,.7)
+                border-radius: 50%
+                font-size: 26px
+            img
+                width: 200px
+                height: 100px
+                position: absolute
+                right: -35%
+            .process_text
+                padding: 20px 10px
+                background: white
+                border-radius: 5px
+                transition: 0.3s 
+                .header_text
+                    position: relative
+                    width: 30%
+                    height: 60px
+                    margin: auto
+                    h2,h6
+                        position: absolute
+                        left: 50%
+                        transform: translate(-50%,-50%)
+                        top: 50%
+                    h2
+                        font-weight: bold
+                        font-size: 45px
+                        color: rgba(150,150,150,0.2)
+                        z-index: 9
+                        
+                    h6
+                        font-size: 22px
+                        font-weight: bold
+                        z-index: 999999
+                        position: relative
+                        transition: 0.3s
+                &:hover
+                    background: #00840b
+                    h6
+                        color: white
+                        z-index: 999999
+                    p
+                        color: white
+                    h2
+                        color: rgba(150,150,150,0.5)
+
+.protfolio
+    width: 100%
+    min-height: 700px
+    background: white
+    position: relative
+    h3,span
+        color: black
+    h3
+        span
+            font-weight: bold
+    p
+        width: 50%
+        margin: 20px auto
+    ul
+        width: 32%
+        position: relative
+        margin: auto
+        min-height: 35px
+        line-height: 35px
+        border-radius: 30px
+        box-shadow: 0px 2px 10px rgba(150,150,150,0.2)
+        cursor: default
+        li
+            display: inline-block
+            a
+                border: none
+                background: transparent
+                padding: 8px 20px
+                border-radius: 28px
+                cursor: pointer
+            .active
+                background: linear-gradient(to right, #00840b, #28d825)
+                color: white
+                &:hover
+                    color: white
+    .mix
+        display: none
+    .hold
+        margin: 60px auto
+        width: 94%
+        position: relative
+        h6
+            color: black
+        p
+            width: 100%
+            margin: 10px auto
+        .mix
+            .img_cover
+                position: relative
+                height: 250px
+                img
+                    width: 100%
+                    height: 100%
+                ._cover
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    width: 96%
+                    height: 96%
+                    transform: translate(-50%,-50%)
+                    background: rgba(255,255,255,.93)
+                    opacity: 0
+                    transition: 0.3s ease-in-out
+                    padding: 20px
+                    button
+                        position: absolute
+                        bottom: 20px
+                        right: 20px
+                        width: 40px
+                        height: 40px
+                        border-radius: 50%
+                        line-height: 40px
+                        border: 1px solid #00840b
+                        text-align: center
+                        background: transparent
+                        i
+                            color: #00840b
+                &:hover
+                    ._cover
+                        opacity: 1
+.why_us
+    clip-path: polygon(29% 0, 100% 5%, 100% 94%, 66% 100%, 0 94%, 0 6%)
+    background: #F9F9F9
+    width:100%
+    min-height: 640px
+    img
+        box-shadow: 0px 30px 50px rgba(200,200,200)
+        border-radius: 9px
+    ul
+        li
+            h5
+                color: black
+                font-weight: 500
+            span
+                float: left
+                width: 80px
+                height: 80px
+                line-height: 80px
+                text-align: center
+                border-radius: 50%
+                margin-right: 30px
+                font-size: 40px
+                border: 1px solid #eee
+                margin-left: 10px
+                overflow: hidden
+                position: relative
+                .span_cover
+                    transform: scale(0)
+                    transition: 0.2s ease-in-out
+                    background: linear-gradient(to right, #00840b, #43f722)
+                    position: absolute
+                    top: 0px
+                    left: 0px
+                    width: 110%
+                    height: 110%
+                    border-radius: 50%
+                &:hover
+                    .span_cover
+                        transform: scale(1)
+                img
+                    width: 40%
+                    height: 40%
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%,-50%)
+                    box-shadow: none
+                    border-radius: 0px
+                    
+.team
+    h3
+        color: black
+    p
+        width: 50%
+        position: relative
+        margin: auto
+    .owl-nav
+        display: none
+    .owl-carousel
+        position: relative
+        width: 94%
+        margin: auto
+        .owl-dots
+            margin-top: 25px
+            button
+                outline: none
+        .item
+            margin: 0px 15px
+            min-height: 350px
+            .img_cover
+                width: 100%
+                height: 300px
+                position: relative
+                overflow: hidden
+                ._cover
+                    position: absolute
+                    width: 100%
+                    height: 100%
+                    top: 0px
+                    left: 0px
+                    opacity: 0
+                    transition: 0.35s ease-in-out
+                    background: linear-gradient(179.51deg, #004303ed -10.57%, #00cc1491 101.05%)
+                    ul
+                        cursor: default
+                        li
+                            display: inline-block
+                            margin: 0px 15px
+                            font-size: 20px
+                            position: relative
+                            line-height: 400px
+                            transition: 0.3s
+                            i
+                                color: white
+                                cursor: pointer
+                    &:hover
+                        opacity: 1
+                        ul
+                            li
+                                line-height: 300px
+                img
+                    height: 100%
+            h6
+                color: black
+.testimonials
+    clip-path: polygon(30% 0, 100% 7%, 100% 100%, 50% 100%, 0 100%, 0 7%)
+    min-height: 700px
+    width: 100%
+    position: relative
+    background: url('../images/bg.jpg') no-repeat fixed
+    .layout
+        position: absolute
+        top: 0px
+        left: 0px
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,.7)
+        p
+            color: white
+            position: relative
+            margin: auto
+            width: 50%
+        .owl-two
+            .owl-nav
+                display: none
+            .owl-dots
+                margin-top: 35px
+                button
+                    outline: none
+            p
+                width: 100%
+                color: black
+            .item
+                width: 310px
+                height: 325px
+                position: relative
+                margin: auto
+                background: white
+                border-radius: 15px
+                padding: 20px
+                img
+                    position: relative
+                    
+                    width: 120px
+                    height: 90px
+                    margin:  20px auto
+                .testimonials_profile
+                    display: inline-flex
+                    width: 100%
+                    .testimonials_text
+                        margin-left: 20px
+                        margin-top: 30px
+                        
+                        h6
+                            color: black
+                    img
+                        width: 50px
+                        height: 50px
+                        border-radius: 50%
+                        margin: 0px
+                        margin-left: 20px
+                        margin-top: 30px
+                        position: relative
+.cards
+    position: relative
+    background: #F9F9F9
+    min-height: 800px
+    width: 100%
+    clip-path: polygon(50% 0%, 100% 0, 100% 94%, 66% 100%, 0 94%, 0 0)
+    h3
+        color: black
+    p
+        position: relative
+        width: 50%
+        margin: auto
+    .container
+        max-width: 1230px
+        ._card
+            position: relative
+            padding: 50px
+            background: white
+            border-radius: 4px
+            min-height: 400px
+            box-shadow: 0px 19px 20px rgba(150,150,150,0.1)
+            h1,span
+                color: black
+                position: relative
+            span
+                font-size: 17px
+                margin-left: 4px
+                top: -4px
+            p
+                width: 100%
+            h1
+                &:before
+                    content: "$"
+                    position: relative
+                    top: -25px
+                    right: -6px
+                    font-size: 22px
+
+        .active
+            background: linear-gradient(179.51deg, #004303 -10.57%, #00CC14 109.05%)
+            p,span,h1,h6
+                color: white
+            .order
+                background: white
+                border: 1px solid white
+                a
+                    color: #00840b !Important
+                .order_hover
+                    background: white
+                &:hover
+                    .order_hover
+                        background: #00840b
+                    a
+                        color: white !important
+.order
+    margin: auto
+    width: 140px
+    height: 40px
+    border-radius: 40px
+    border: none
+    background: #00840b
+    position: relative
+    overflow: hidden
+    z-index: 999
+    line-height: 40px
+    border: 1px solid #00840b
+    cursor: pointer
+    a
+        color: white !important
+        transition: 0.1s
+        position: relative
+        z-index: 999999999999
+        cursor: pointer
+    .order_hover
+        background: white
+        position: absolute
+        left: -102%
+        top: 0px
+        width: 100%
+        height: 100%
+        transition: 0.3s ease-in-out
+        z-index: 99999
+    &:hover
+        .order_hover
+            left: 0% 
+        a
+            color: #00840b !important
+.latest_news
+    h3,span,h6
+        color: black
+    p
+        position: relative
+        width: 50%
+        margin: auto
+    .item
+        padding: 10px
+        box-shadow: 0px 10px 30px rgba(180,180,180,0.3)
+        .item_cover
+            overflow: hidden
+            img
+                width: 100%
+                position: relative
+                height: 240px
+                transition: 0.3s ease-in-out
+            &:hover
+                img
+                    transform: scale(1.1)
+        .paragraph_name
+            width: 100%
+        p
+            margin-top: 10px
+            font-size: 15px
+            float: left
+            width: 70%
+            span
+                margin-left: 7px
+        .span_wordpress
+            position: relative
+            margin-top: 10px
+            width: auto
+            text-align: right
+            float: right
+            font-size: 13px
+            background: #00840b
+            color: white
+            padding: 2px
+        h6
+            clear: both
+            padding-top: 10px
+.work_with_us
+    background: url('../images/bg.jpg') no-repeat fixed
+    position: relative
+    width: 100%
+    height: 400px
+    .layout
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        width: 97%
+        height: 92%
+        background: rgba(0,0,0,0.75)
+        .work_text
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+            a
+                color: white !Important
+        .order
+            margin-top: 40px
+            &:hover
+                a
+                    color: #00840b !important
+.contact
+    h3,h5,h6
+        color: black
+    p
+        width: 50%
+        position: relative
+        margin: auto
+    .container
+        p
+            width: 100%
+            margin: 0px
+    ul
+        li
+            margin: 45px 0px
+            img
+                position: relative
+                width: 9%
+                
+            .contact_info
+                float: right
+                position: relative
+                width: 85%
+                margin-left: 20px
+    input,textarea
+        width: 100%
+        border: none
+        border-radius: 3px
+        background: #F9F9F9
+        height: 40px
+        padding: 10px
+    textarea
+        height: 170px
+    .order
+        margin: 0px
+        box-shadow: 0px 3px 18px rgba(26, 35, 126, 0.19)
+footer
+    clip-path: polygon(50% 0, 100% 15%, 100% 100%, 66% 100%, 0 100%, 0 15%)
+    background: #111111
+    height: 330px
+    width: 100%
+    position: relative
+    p
+        color: white
+    ul
+        cursor: default
+        li
+            display: inline-block
+            width: 50px
+            height: 50px
+            border-radius: 2px
+            line-height: 50px
+            background: #151515
+            margin: 0px 2px
+            i
+                color: #999990
+                

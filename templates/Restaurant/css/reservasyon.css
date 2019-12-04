@@ -1,0 +1,118 @@
+.reservasyon_header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url("../images/aboutUs.png") no-repeat fixed;
+  background-size: cover;
+}
+.reservasyon_header .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.reservasyon_header .layout .container, .reservasyon_header .layout .row {
+  height: 100%;
+}
+.reservasyon_header .layout .container .header_text, .reservasyon_header .layout .row .header_text {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.reservasyon_header .layout .container .header_text h2, .reservasyon_header .layout .row .header_text h2 {
+  font-size: 65px;
+  color: white;
+}
+.reservasyon_header .layout .container .header_text p, .reservasyon_header .layout .row .header_text p {
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  color: #FCDA9A;
+}
+.reservasyon_header .layout .container button, .reservasyon_header .layout .row button {
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  background: transparent;
+  margin: 30px auto;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.reservasyon_header .layout .container button:hover, .reservasyon_header .layout .row button:hover {
+  color: #FCDA9A;
+  background: #131822;
+  border: 1px solid #FCDA9A;
+}
+
+.about_place h2 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Great Vibes", cursive;
+}
+.about_place p {
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+
+.reservasyon {
+  background: url("../images/reservasyon/bg_.png") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.reservasyon .layout {
+  position: absolute;
+  width: 85%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 4px;
+}
+.reservasyon .layout .container {
+  padding: 30px;
+}
+.reservasyon .layout .container h2 {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+.reservasyon .layout .container form input, .reservasyon .layout .container form select {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  background: transparent;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  margin-bottom: 15px;
+}
+.reservasyon .layout .container form input option, .reservasyon .layout .container form select option {
+  text-align: center;
+}
+.reservasyon .layout .container form button {
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  color: #FCDA9A;
+  border: 1px solid #FCDA9A;
+  background: #131822;
+  margin: 30px auto;
+  position: relative;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.reservasyon .layout .container form button:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=reservasyon.css.map */

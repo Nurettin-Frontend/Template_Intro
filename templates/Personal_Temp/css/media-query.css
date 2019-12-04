@@ -1,0 +1,181 @@
+@media (max-width: 576px)
+{
+    /*Navbar*/
+    .header .layout .navbar
+    {
+
+        position: fixed;
+        padding: 0px;
+        width: 100%;
+        transition: 0.5s
+    }
+    .navbar-icon.active
+    {
+        background: black;
+    }
+    .header .navbar ul li:nth-child(4){position: relative !important ; right:0px}
+    .header .navbar ul li:nth-child(5){position: relative  !important ; right:0px}
+    .header .navbar ul li:nth-child(6){position: relative  !important ; right:0px}
+    .header .navbar ul li:nth-child(6){margin: 0px }
+    .navbar-icon
+    {
+         width: 30px;
+        height: 2px;
+        background: white;
+        position: relative;
+        margin-bottom: 5px;
+        top: 2px;
+        transition: 0.3s
+    }
+    .header .layout .navbar-brand
+    {
+        position: relative;
+        left: 0px;
+        padding: 15px;
+        transform: translateX(0px)
+    }
+    .navbar-light .navbar-toggler{margin: 0px 15px; padding: 10px}
+    .header .layout .list-before
+    {
+        margin: 0px !important;
+        text-align: center;
+        background: white;
+    }
+    .header .layout .navbar-nav li a
+    {
+        color: black
+    }
+    .header .layout .navbar-nav li a:after{display: none}
+    /*header-text*/
+    .header .layout .header-text h1{font-size: 50px}
+    /*Section about*/
+    .about-img{height: 500px}
+    .about .about-text > span
+    {
+        margin-top: 40px
+    }
+    .work ul Button{margin-left: 5%}
+    /*latest-news*/
+    .latest-news .card .card-img-top{height: 300px}
+    .contact h6{margin: 0px;position: relative; padding-top: 5px}
+    .contact{height: 1400px}
+    .show-img .show-box{height: 60%;width: 80%}
+}
+@media (min-width: 568px) and (max-width: 769px)/*max width for sm*/
+{
+    /*Navbar*/
+    .header .layout .navbar
+    {
+
+        position: fixed;
+        padding: 0px;
+        width: 100%;
+        transition: 0.5s;
+        background: white
+    }
+    .navbar-icon.active
+    {
+        background: black;
+    }
+    .header .navbar ul li:nth-child(4){position: relative !important ; right:0px}
+    .header .navbar ul li:nth-child(5){position: relative  !important ; right:0px}
+    .header .navbar ul li:nth-child(6){position: relative  !important ; right:0px}
+    .header .navbar ul li:nth-child(6){margin: 0px }
+    .navbar-icon
+    {
+         width: 30px;
+        height: 2px;
+        background: black;
+        position: relative;
+        margin-bottom: 5px;
+        top: 2px;
+        transition: 0.3s
+    }
+    .header .layout .navbar-brand
+    {
+        position: relative;
+        left: 0px;
+        padding: 15px;
+        transform: translateX(0px)
+    }
+    .navbar-light .navbar-toggler{margin: 0px 15px; padding: 10px}
+    .header .layout .list-before
+    {
+        margin: 0px !important;
+        text-align: center;
+        background: white;
+    }
+    .header .layout .navbar-nav li a
+    {
+        color: black
+    }
+    .header .layout .navbar-nav li a:after{display: none}
+    /*header-text*/
+    .header .layout .header-text h1{font-size: 50px}
+    /*Section about*/
+    .about-img{height: 500px}
+    .about .about-text > span
+    {
+        margin-top: 40px
+    }
+    /*latest-news*/
+    .latest-news .card .card-img-top{height: 300px}
+    .contact h6{margin: 0px;position: relative; padding-top: 5px}
+    .contact{height: 1370px}
+    .show-img .show-box{height: 60%;width: 80%}
+}
+@media (min-width: 770px) and (max-width: 991px)/*max width for md*/
+{
+    /*Section about*/
+    .about .about-text > span
+    {
+        margin-top: 40px
+    }
+    .header .layout .navbar
+    {
+        padding: 20px 15px;
+    }
+    .header .layout .navbar-brand
+    {
+        position: relative;
+        left: 0px;
+        transform: translate(0,0)
+    }
+    .header .navbar  ul li:nth-child(4){position: relative ;right:0px}
+    .header .navbar  ul li:nth-child(5){position: relative ;right:0px}
+    .header .navbar  ul li:nth-child(6){position: relative ;right:0px;margin: 0px}
+
+        .latest-news .card .card-img-top{height: 300px}
+    .contact h6{margin: 0px;position: relative; padding-top: 5px}
+    .contact{height: 1400px}
+    .show-img .show-box{height: 60%;width: 80%}
+}
+@media (min-width: 992px) and (max-width: 1198px)/*max width for lg*/
+{
+    .box-hr:after
+    {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background: rgba(200,200,200,0.4);
+        right: 0px;
+        top: 0px;
+    }
+    .show-img .show-box{height: 60%;width: 80%}
+}
+@media (min-width:1199px)/*max width for xl*/
+{
+    /* navbar */
+    .box-hr:after
+    {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgba(200,200,200,0.4);
+    right: 0px;
+    top: 0px;
+    }
+
+}

@@ -1,0 +1,128 @@
+.contact {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url("../images/contact.png") no-repeat fixed;
+  background-size: cover;
+}
+.contact .layout {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.contact .layout .contact_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.contact .layout .contact_text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: #FCDA9A;
+}
+.contact .layout .contact_text p {
+  font-size: 15px;
+}
+
+.features {
+  position: relative;
+}
+.features .feature {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  min-height: 250px;
+  padding: 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.features .feature span {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(30, 30, 30, 0.1);
+  box-shadow: 0px 0px 1px rgba(100, 100, 100, 0.7);
+  display: inline-block;
+  margin-bottom: 20px;
+  transition: 0.4s;
+}
+.features .feature span i {
+  font-size: 20px;
+  transition: 0.4s;
+}
+.features .feature span:hover {
+  border: 1px solid #FCDA9A;
+}
+.features .feature span:hover i {
+  color: #FCDA9A;
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+  padding-left: 10px;
+}
+form textarea {
+  width: 100%;
+  height: 160px;
+  padding-left: 10px;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+}
+form button {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  color: #FCDA9A;
+  border: 1px solid #131822;
+  background: transparent;
+  margin: 30px 0px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  color: black;
+}
+form button:hover {
+  color: #FCDA9A;
+  background: #131822;
+  border: 1px solid #FCDA9A;
+}
+
+.subscribe h4 {
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+.subscribe .subscribe_input {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.subscribe .subscribe_input input {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  border: 1px solid rgba(100, 100, 100, 0.4);
+}
+.subscribe .subscribe_input button {
+  position: absolute;
+  z-index: 9999;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 100%;
+  border: 1px solid rgba(100, 100, 100, 0.4);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: #131822;
+}
+
+/*# sourceMappingURL=contact.css.map */

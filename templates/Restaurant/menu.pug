@@ -1,0 +1,361 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title List Page
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/menu.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet") 
+    body
+        include header.pug
+        .menu_page
+            section.menu_header.text-center
+                .layout
+                    .header_text
+                        h1 Restaurant
+                        p See Our Foods And Details Now
+                        button.go_now Go Now
+            section.list_food
+                .container
+                    ul.list-unstyled.text-center
+                        li
+                            a(data-scroll=".Pizza")
+                                | Pizza                    
+                        li
+                            a(data-scroll=".Burgers")
+                                | Burgers                    
+                        li
+                            a(data-scroll=".Salads")
+                                | Salads                    
+                        li
+                            a(data-scroll=".Breakfast")
+                                | Breakfast                    
+                        li
+                            a(data-scroll=".Pasta")
+                                | Pasta                    
+                        li
+                            a(data-scroll=".Drinks")
+                                | Drinks                    
+                        li
+                            a(data-scroll=".Sweets")
+                                | Sweets
+            section.menu.text-center.dl-pb-100
+                .container
+                        h2(class="h1 dl-mt-100 Pizza") Pizza               
+                        +templateStyle
+                        .row 
+                            .col-md-6
+                                img(src="images/list_page/pizza.png" width="100%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.   
+                        h2(class="h1 dl-mt-100 Burgers") Burgers 
+                        +templateStyle
+                        .row
+                            .col-md-6
+                                img(src="images/list_page/burger.png" width="90%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.          
+                        h2(class="h1 dl-mt-100 Salads") Salads 
+                        +templateStyle
+                        .row                
+                            .col-md-6
+                                img(src="images/list_page/salads.png" width="100%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.         
+                        h2(class="h1 dl-mt-100 Breakfast") Breakfast 
+                        +templateStyle
+                        .row
+                            .col-md-6
+                                img(src="images/list_page/breakfast.png" width="100%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+                        h2(class="h1 dl-mt-100 Pasta") Pasta 
+                        +templateStyle
+                        .row
+                            .col-md-6
+                                img(src="images/list_page/pasta.png" width="100%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.         
+                        h2(class="h1 dl-mt-100 Drinks") Drinks 
+                        +templateStyle
+                        .row
+                            .col-md-6
+                                img(src="images/list_page/drinks.png" width="50%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.         
+                        h2(class="h1 dl-mt-100 Sweets") Sweets 
+                        +templateStyle
+                        .row
+                            .col-md-6
+                                img(src="images/list_page/cake.png" width="70%" height="100%")
+                            .col-md-6       
+                                table(style='width:100%')
+                                    tr
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                        th Karbohidrat
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                    tr
+                                        td 20g
+                                        td 20g
+                                        td 20g
+                                .menu_text.text-left.dl-mt-50
+                                    ul.list-unstyled
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                       
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.      
+
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                           
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.                                   
+                                        li.h6
+                                            | Food: 
+                                            span authentic old-world pepperoni.
+
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")
+        script(src="js/menu.js")

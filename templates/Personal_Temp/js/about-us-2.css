@@ -1,0 +1,236 @@
+body{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: none;}
+*{
+    margin: 0px;
+    padding: 0px;
+    resize: none;
+}
+.color-gray , p
+{
+    color: #888888
+}
+:focus
+{
+    outline: none;
+}
+.color-black{color:black !important}
+/************ HEADER SECTION START********** */
+.header
+{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    
+}
+.header img
+{
+    position:absolute;
+    top: 0px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    height: 100%;
+
+}
+
+.header .layout-header
+{
+    min-height: 100%;
+    background: rgba(0,0,0, 0.6);
+    position: relative
+}
+.header .layout-header .fix
+{
+    position: fixed;
+    width: 100%;
+    z-index: 999
+}
+.header .layout-header .fix .navbar
+{
+    padding:10px 70px 10px;
+    background: transparent;
+    transition: 0.7s;
+    cursor: default;
+    color:white
+}
+.header .layout-header .fix .navbar .navbar-brand
+{
+    font-size: 25px;
+    cursor: pointer;
+    color:white
+}
+.header .layout-header .fix .navbar-list ul
+{
+    right: 130px;
+    position: absolute;
+    top: 24px;
+}
+.header .layout-header .fix .navbar-list ul li a
+{
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    margin-left: 25px;
+    cursor: pointer
+        
+}
+.header .layout-header .fix .navbar-list ul li a.active
+{
+    text-shadow: 0px 0px 1.5px;
+
+}
+
+
+.header .layout-header .fix .navbar-list ul  > li > a:after {
+    width: 65px !important;
+    height: 65px !important;
+    border: 3px solid #ababab94 !important
+    background: transparent;
+    transform: translateX(-50%) translateY(-50%) scale(0.5);
+    z-index: 123;
+    position: absolute;
+    transition: all .3s
+}
+.header .layout-header .fix .navbar-list ul li a:before,
+.header .layout-header .fix .navbar-list ul li a:after
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    content: '';
+    opacity: 1;
+    transition: all 0.3s;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    
+}
+.header .layout-header .fix .navbar-list ul  > li > a.active-after:after
+{
+     border: 3px solid #e2e2e2 !important
+}
+.header .layout-header .fix .navbar-list ul  > li > a.active-after-scroll:after
+{
+    border: 3px solid #2525259c !important
+}
+.header .layout-header .fix .navbar-list ul  li a.active-after:before, 
+.header .layout-header .fix .navbar-list ul  li a.active-after:after
+{
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.header .layout-header .fix .navbar-list ul li a.active-after-scroll:before, 
+.header .layout-header .fix .navbar-list ul  li a.active-after-scroll:after
+{
+    border: 6px solid rgba(0,0,0, 0.2);
+}
+.header .layout-header .fix .navbar-list ul  li a:focus::after,
+.header .layout-header .fix .navbar-list ul  li a:hover::after,
+.header .layout-header .fix .navbar-list ul  li a:focus::before,
+.header .layout-header .fix .navbar-list ul  li a:hover::before
+{
+     transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+/************ HEADER SECTION End********** */
+
+/* when scroll in jQuery */ 
+.navbar-header-open{
+    opacity: 1;
+    z-index: 10;
+    box-shadow:0px 1px 11px 0px rgba(0,0,0,0.3);
+    position: relative;
+    background: rgba(255,255,255,0.3) !important
+}
+.links-open
+{
+    color:rgba(151,151,151,1);
+}
+.span-icon-open
+{
+    color:rgba(0,0,0,0.9)
+}
+.header h1
+{
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+/*********** Menu Side Start******** */
+.header .menu-icon
+{
+    position: fixed;
+    right: 0px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    top: 0px;
+    width: 65px;
+    height: 65px;
+    background: white;
+    border-bottom-left-radius: 100%;
+    color: black !important;
+    font-size: 25px;
+    z-index: 999;
+}
+.header .menu {
+
+
+}
+
+.menu-open
+{
+
+}
+
+
+/* Section info-Num Start*/
+.pagesNum
+{
+    width: 100%;
+    background: url('../../images/our-pages/sign-in/sign-in-1.png') center center fixed;
+    background-size: cover;
+    position: relative
+}
+.pagesNum .layOut
+{
+    background: rgba(0,0,0,0.7);
+    min-height: 320px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}
+.pagesNum .layOut .counter-cover
+{
+    position: relative;
+    border: 1px dashed rgba(200,200,200,1);
+    border-radius: 3px;
+
+    padding: 20px;
+}
+
+.pagesNum .layOut .counter-cover i
+{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+/* Section info-Num End*/

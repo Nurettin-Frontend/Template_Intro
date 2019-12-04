@@ -1,0 +1,723 @@
+@media (max-width: 576px)/*max width for xs*/
+{
+    .ask_cookie{height: 90px}
+    .ask_cookie p{font-size: 12px}
+    .ask_cookie input{width: 20%}
+    /*Top Header*/
+    .header_top ul{text-align: left}
+   /*Bottom Header*/
+    .header_icon{width: 64% !important}
+    .header_icon li:nth-child(1){position: absolute; right: 30%}
+    .header_icon li:nth-child(2){position: absolute; right: 10%}
+    .header_icon li:nth-child(3){position: absolute; right: 3%}
+    .dropdown_inner{display: none}
+    .header_list
+    {
+        text-align: center !important;
+        width: 100% !important;
+        background: #303030;
+        position: absolute;
+        top: 66px;
+        left: 0px;
+        z-index: 9;
+        overflow: hidden;
+        height: 0px;
+        transition:0.6s ease-in-out
+    }
+    .header_list_open
+    {
+        height: 350px
+    }
+    .header_list li
+    {
+        z-index: 99;
+        display: block;
+        width: 100% !important;
+        position: relative;
+        margin: auto !important;
+        height: 45px;
+        line-height: 45px
+    }
+    .style_li .col-md-4{
+        display: none
+    }
+    
+
+    .style_li .col-md-4:nth-child(3){
+        display: block}
+    .header_list li i{display: none !important}
+    .header_list li:hover i{display: none !important}
+    .header_list{overflow-y: scroll; overflow-x: hidden}
+    .style_li{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 10% !important;
+        transition: 0.5s
+    }    
+    .style_li_open
+    {
+        height: 100% !important;
+        overflow-y: hidden
+    }
+    .style_li h5
+    {
+        text-align: center;
+        color: white;
+        margin: 4px auto;
+    }
+    .style_li .dropdown_inner{
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        min-height: 520px;
+        transform: translateY(0px) !important
+    }
+    .dropdown_mid{width: 100%; overflow-y: scroll; height: 100%}
+    .dropdown_inner{transform: translateY(0px) !important}
+    .dropdown_inner hr{display: none !important}
+    .list-inline-item:hover .dropdown_inner{transform: translateY(0px) !important}
+    .header_list li:last-child{margin-right: 0px !important}
+    .style_theme li{display: inline-block; width: 43% !important}
+    /*Bottom Header*/
+
+    /*Item 1*/
+    .logo{width: 30% !important}
+    .slider{height: 420px! important}
+    .slider ul li{height: 100% !important}
+    .slider ul .item_1 .item1_h{
+        width: 80% !important;
+        margin-top:40px !important;
+        font-size:25px !important;
+        line-height:35px !important
+    }
+    .slider ul .item_1{background-size: 160% 100% !important}
+    .slider ul .item_1{background-repeat: no-repeat !important}
+    .slider ul .item_1 .item1_img{
+        width: 41.6% !important;
+        right: -40px !important;
+        top: 90px !important;
+        transform: rotate(-4deg);
+    }
+    .slider ul .item_1 .item1_p{
+        width: 85% !important;
+        font-size: 15px !important;
+    }
+    .item1_btn button{
+        padding: 3px 10px !important;
+        margin-right: 15px !important;
+        margin-top: 10px
+    }
+    .item1_btn button i {font-size: 15px !Important}
+    /*Item 2*/
+    .slider ul .item_2 .item2_h{padding-top: 30px !important; font-size: 30px !important}
+    .slider ul .item_2 .item2_p{
+        font-size: 20px !important;
+        width: 97% !important;
+        margin-left: 0px !important
+    }
+    .slider ul .item_2 .item2_btn{
+        padding: 4px 10px !Important;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%) !important ;
+        margin: 0px !important
+    }
+    .item2_btn_open{
+        bottom: 50px !important;
+    }
+    /*Item 3*/
+    .slider ul .item_3 .item3_h{
+        font-size:25px !important;
+        width: 60% !important;
+        margin-top: 20px !important;
+        margin-right:0px !important
+    }
+    .slider ul .item_3 .imgcover_p2{display: none}
+    .slider ul .item_3 .item3_p{display: none}
+    .slider ul .item_3 .item3_btn{margin-top: 0px !important}
+    .slider ul .item_3 .img_cover{top: 45px}
+    /*Item 4*/
+    .slider ul .item_4{padding-left: 20px;}
+    .slider ul .item_4 .item4_h3{margin-top: 20px !Important; font-size:35px !Important}
+    .slider ul .item_4 .item4_h2{font-size: 48px !important}
+    .slider ul .item_4 .item4_p{width: 80% !important}
+    .slider ul .item_3 .item3_btn button{padding: 8px 25px !important; margin: 5px 10px !Important}
+    .slider ul .img_cover img{width: 100% !important}
+    .slider ul .item_3{overflow: hidden}
+    .slider ul .item_3 .imgcover_btn
+    {
+        left: 50% !important;
+        bottom: 30px !important;
+        padding: 5px 0px !important; 
+        font-size: 13px !important;
+        width: 100px; 
+    }
+    .slider ul .imgcover_p{width: 100% !important; font-size: 7px !Important}
+    
+    /*Articles*/
+    .our_blog ul .ul_ofArticle{
+        position: relative;
+        margin: auto;
+        width: 100% !important;
+        display: block;
+        float:none
+    }
+    .our_blog ul .ul_ofArticle article{
+        position: relative;
+        width: 85% !important;
+        margin: 20px auto !important
+    }
+    /* Experience */
+    .experience h2 {
+        width: 90%;
+        margin: 50px auto 30px auto;
+        font-size: 30px;
+    }
+    /*Service */
+    .service img
+    {
+        margin-bottom: 70px
+    }
+    .service .service_hours{top: 10px}
+    .service_list ul li
+    {
+        padding: 9px 0px;
+        width: 30%;
+        display: inline-block
+    }
+    .service_list ul li:after{
+        width: 12px;
+        right: -12px;
+    }
+    .ability .ability_list ul li{
+        width: 30%;
+        display: inline-block;
+        
+    }
+    .ability .ability_list ul li i {
+        margin: 0px 18px
+    }
+    /*testimonials */
+    .testimonials {margin-top: 250px !important}
+    .carousel-control-next, .carousel-control-prev{width: 10%; height: 23%}
+    /*ability*/
+    .ability_info{margin-top: 220px; margin-bottom: 50px}
+    .our_partners {margin-top: 30px !important}
+    /*Blog Pge*/
+    .blog_page .blog article{width: 90%; display: block; margin: 30px auto
+    }
+    .blog_page .blog article .article_text{float: none}
+    .blog_page .changeList ul{width: 25%}
+    .blog_page .show_img .cover{width: 90%}
+    /*about page*/
+    .about_page .card_{text-align: center; margin-bottom: 40px}
+    .about_page .card_ img
+    {
+        display: flex;
+        width: 80%;
+        position: relative;
+        margin: auto;
+    }
+    .about_page .about_company ul li{width: 30%}
+    .about_page .about_company ul hr{display: none}
+    .about_page .about_company ul li:after{width: 1px !important}
+    .about_page .about_company ul li:before
+    {
+        content: '';
+        position: absolute;
+        width: 103%;
+        height: 1px !important;
+        background: rgba(0, 0, 0, 0.1);
+        bottom: -6px;
+        left: -4px;
+    }
+    .first_footer_list  img{ width: 35%}
+}
+@media (min-width: 577px) and (max-width: 769px)/*max width for sm*/
+{
+    .ask_cookie{height: 90px}
+    .ask_cookie p{font-size: 12px}
+    .ask_cookie input{width: 20%}
+    /*Top Header*/
+    .header_top ul{text-align: left}
+    /*Bottom Header*/
+    .header_icon{width: 60% !important}
+    .dropdown_inner{display: none}
+    .header_list
+    {
+        text-align: center !important;
+        width: 100% !important;
+        background: #303030;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        z-index: 9;
+        overflow: hidden;
+        height: 0px;
+        transition:0.6s ease-in-out
+    }
+    .header_list_open
+    {
+        height: 350px
+    }
+    .header_list li
+    {
+        z-index: 99;
+        display: block;
+        width: 100% !important;
+        position: relative;
+        margin: auto !important;
+        height: 45px;
+        line-height: 45px
+    }
+    .style_li .col-md-4{
+        display: none
+    }
+    
+
+    .style_li .col-md-4:nth-child(3){
+        display: block}
+    .header_list li i{display: none !important}
+    .header_list li:hover i{display: none !important}
+    .header_list{overflow-y: scroll; overflow-x: hidden}
+    .style_li{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 10% !important;
+        transition: 0.5s
+    }    
+    .style_li_open
+    {
+        height: 100% !important;
+        overflow-y: hidden
+    }
+    .style_li h5
+    {
+        text-align: center;
+        color: white;
+        margin: 4px auto;
+    }
+    .style_li .dropdown_inner{
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        min-height: 520px;
+        transform: translateY(0px) !important
+    }
+    .dropdown_mid{width: 100%; overflow-y: scroll; height: 100%}
+    .dropdown_inner{transform: translateY(0px) !important}
+    .dropdown_inner hr{display: none !important}
+    .list-inline-item:hover .dropdown_inner{transform: translateY(0px) !important}
+    .header_list li:last-child{margin-right: 0px !important}
+    .style_theme li{display: inline-block; width: 43% !important}
+    /*Bottom Header*/
+    .header_icon{width: 52% !important}
+    /*Item 1*/
+    .logo{width: 30% !important}
+    .slider{height: 330px! important}
+    .slider ul li{height: 100% !important}
+    .slider ul .item_1 .item1_h{
+        width: 80% !important;
+        margin-top:40px !important;
+        font-size:25px !important;
+        line-height:35px !important
+    }
+    .slider ul .item_1{background-size: 160% 100% !important}
+    .slider ul .item_1{background-repeat: no-repeat !important}
+    .slider ul .item_1 .item1_img{
+        width: 41.6% !important;
+        right: -40px !important;
+        top: 90px !important;
+        transform: rotate(-4deg);
+    }
+    .slider ul .item_1 .item1_p{
+        width: 85% !important;
+        font-size: 15px !important;
+    }
+    .item1_btn button{
+        padding: 3px 10px !important;
+        margin-right: 15px !important
+    }
+    .item1_btn button i {font-size: 15px !Important}
+    /*Item 2*/
+    .slider ul .item_2 .item2_h{padding-top: 30px !important; font-size: 30px !important}
+    .slider ul .item_2 .item2_p{
+        font-size: 20px !important;
+        width: 97% !important;
+        margin-left: 0px !important
+    }
+    .slider ul .item_2 .item2_btn{
+        padding: 4px 10px !Important;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%) !important ;
+        margin: 0px !important
+    }
+    .item2_btn_open{
+        bottom: 50px !important;
+    }
+    /*Item 3*/
+    .slider ul .item_3 .item3_h{
+        font-size:25px !important;
+        width: 60% !important;
+        margin-top: 20px !important;
+        margin-right:0px !important
+    }
+    .slider ul .item_3 .imgcover_p2{display: none}
+    .slider ul .item_3 .item3_p{display: none}
+    .slider ul .item_3 .item3_btn{margin-top: 0px !important}
+    /*Item 4*/
+    .slider ul .item_4{padding-left: 20px;}
+    .slider ul .item_4 .item4_h3{margin-top: 20px !Important; font-size:35px !Important}
+    .slider ul .item_4 .item4_h2{font-size: 48px !important}
+    .slider ul .item_4 .item4_p{width: 80% !important}
+    .slider ul .item_3 .item3_btn button{padding: 8px 25px !important; margin: 5px 10px !Important}
+    .slider ul .img_cover img{width: 100% !important}
+    .slider ul .item_3{overflow: hidden}
+    .slider ul .item_3 .imgcover_btn
+    {
+        left: 50% !important;
+        bottom: 30px !important;
+        padding: 5px 0px !important; 
+        font-size: 13px !important;
+        width: 100px; 
+    }
+    .slider ul .imgcover_p{width: 100% !important; font-size: 7px !Important}
+    
+    /*Articles*/
+    .our_blog ul .ul_ofArticle{
+        position: relative;
+        margin: auto;
+        width: 100% !important;
+        display: block;
+        float:none
+    }
+    .our_blog ul .ul_ofArticle article{
+        position: relative;
+        width: 85% !important;
+        margin: 20px auto !important
+    }
+    /* Experience */
+    .experience h2 {
+        width: 90%;
+        margin: 50px auto 30px auto;
+        font-size: 30px;
+    }
+    /*Service */
+    .service img
+    {
+        margin-bottom: 70px
+    }
+    .service_list ul li{padding: 9px 17px}
+    .ability_info{margin-top: 220px; margin-bottom: 50px}
+    .service_list ul li i{display: block}
+    .service_list ul li {
+        display: inline-block;
+        padding: 9px 7px;
+        margin: 0px 1px;
+        font-size: 16px;
+    }
+    .service .service_list ul li{display: inline-block}
+    /*testimonials */
+    .testimonials {margin-top: 250px !important}
+    .carousel-control-next, .carousel-control-prev{width: 10%; height: 23%}
+    /*ability*/
+    .ability_info{margin-top: 220px; margin-bottom: 50px}
+    .ability_list ul li i{display: block}
+    .ability_list ul li {
+        display: inline-block;
+        padding: 9px 7px;
+        margin: 0px 0px;
+        font-size: 16px;
+    }
+    .ability .ability_list ul li{display: inline-block}
+    .our_partners {margin-top: 30px !important}
+    /*Blog Pge*/
+    .blog_page .blog article{width: 90%; display: block; margin: 30px auto
+    }
+    .blog_page .blog article .article_text{float: none}
+    .blog_page .changeList ul{width: 25%}
+    .blog_page .show_img .cover{width: 90%}
+    /*about page*/
+    .about_page .card_{text-align: center; margin-bottom: 40px}
+    .about_page .card_ img
+    {
+        display: flex;
+        width: 80%;
+        position: relative;
+        margin: auto;
+    }
+    .about_page .about_company ul li{width: 30%}
+    .about_page .about_company ul hr{display: none}
+    .about_page .about_company ul li:after{width: 1px !important}
+    .about_page .about_company ul li:before
+    {
+        content: '';
+        position: absolute;
+        width: 103%;
+        height: 1px !important;
+        background: rgba(0, 0, 0, 0.1);
+        bottom: -6px;
+        left: -4px;
+    }
+    .first_footer_list  img{ width: 35%}
+    .footer_content .container
+    {
+        max-width: 680px
+    }
+}
+@media (min-width: 770px) and (max-width: 991px)/*max width for md*/
+{
+    /*Top Header*/
+    .header_top ul{text-align: left}
+    /*Bottom Header*/
+    .logo{width: 28% !Important}
+    .header_icon{width: 55% !important}
+    .dropdown_inner{display: none}
+    .header_list
+    {
+        text-align: center !important;
+        width: 100% !important;
+        background: #303030;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        z-index: 9;
+        overflow: hidden;
+        height: 0px;
+        transition:0.6s ease-in-out
+    }
+    .header_list_open
+    {
+        height: 350px
+    }
+    .header_list li
+    {
+        z-index: 99;
+        display: block;
+        width: 100% !important;
+        position: relative;
+        margin: auto !important;
+        height: 45px;
+        line-height: 45px
+    }
+    .style_li .col-md-4{
+        display: none
+    }
+    
+
+    .style_li .col-md-4:nth-child(3){
+        display: block}
+    .header_list li i{display: none !important}
+    .header_list li:hover i{display: none !important}
+    .header_list{overflow-y: scroll; overflow-x: hidden}
+    .style_li{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        height: 10% !important;
+        transition: 0.5s
+    }    
+    .style_li_open
+    {
+        height: 100% !important;
+        overflow-y: hidden
+    }
+    .style_li h5
+    {
+        text-align: center;
+        color: white;
+        margin: 4px auto;
+    }
+    .style_li .dropdown_inner{
+        opacity: 1;
+        visibility: visible;
+        display: block;
+        min-height: 520px;
+        transform: translateY(0px) !important
+    }
+    .dropdown_mid{width: 100%; overflow-y: scroll; height: 100%}
+    .dropdown_inner{transform: translateY(0px) !important}
+    .dropdown_inner hr{display: none !important}
+    .list-inline-item:hover .dropdown_inner{transform: translateY(0px) !important}
+    .header_list li:last-child{margin-right: 0px !important}
+    .style_theme li{display: inline-block; width: 43% !important}
+    /*Item 1*/
+    .slider{height: 330px! important}
+    .slider ul li{height: 100% !important}
+    .slider ul .item_1 .item1_h{
+        width: 80% !important;
+        margin-top:40px !important;
+        font-size:25px !important;
+        line-height:35px !important
+    }
+    .slider ul .item_1{background-size: 160% 100% !important}
+    .slider ul .item_1{background-repeat: no-repeat !important}
+    .slider ul .item_1 .item1_img{
+        width: 41.6% !important;
+        right: -40px !important;
+        top: 90px !important;
+        transform: rotate(-4deg);
+    }
+    .slider ul .item_1 .item1_p{
+        width: 85% !important;
+        font-size: 15px !important;
+    }
+    .item1_btn button{
+        padding: 3px 10px !important;
+        margin-right: 15px !important
+    }
+    .item1_btn button i {font-size: 15px !Important}
+    /*Item 2*/
+    .slider ul .item_2 .item2_h{padding-top: 30px !important; font-size: 30px !important}
+    .slider ul .item_2 .item2_p{
+        font-size: 20px !important;
+        width: 97% !important;
+        margin-left: 0px !important
+    }
+    .slider ul .item_2 .item2_btn{
+        padding: 4px 10px !Important;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%) !important ;
+        margin: 0px !important
+    }
+    .item2_btn_open{
+        bottom: 50px !important;
+    }
+    /*Item 3*/
+    .slider ul .item_3 .item3_h{
+        font-size:25px !important;
+        width: 60% !important;
+        margin-top: 20px !important;
+        margin-right:0px !important
+    }
+    .slider ul .item_3 .imgcover_p2{display: none}
+    .slider ul .item_3 .item3_p{display: none}
+    .slider ul .item_3 .item3_btn{margin-top: 0px !important}
+    /*Item 4*/
+    .slider ul .item_4{padding-left: 20px;}
+    .slider ul .item_4 .item4_h3{margin-top: 20px !Important; font-size:35px !Important}
+    .slider ul .item_4 .item4_h2{font-size: 48px !important}
+    .slider ul .item_4 .item4_p{width: 80% !important}
+    .slider ul .item_3 .item3_btn button{padding: 8px 25px !important; margin: 5px 10px !Important}
+    .slider ul .img_cover img{width: 100% !important}
+    .slider ul .item_3{overflow: hidden}
+    .slider ul .item_3 .imgcover_btn
+    {
+        left: 50% !important;
+        bottom: 30px !important;
+        padding: 5px 0px !important; 
+        font-size: 13px !important;
+        width: 100px; 
+    }
+    .slider ul .imgcover_p{width: 100% !important; font-size: 7px !Important}
+    .features h2{margin: 30px 0px}
+    /*Articles*/
+    .ourblog_layout  .container{max-width: 790px !important}
+    .our_blog ul .ul_ofArticle{
+        position: relative;
+        margin: auto;
+        width: 25% !important;
+        float:left
+    }
+    .our_blog ul .ul_ofArticle article h6{font-size: 18px}
+    .our_blog ul .ul_ofArticle article p{font-size: 12px}
+    .our_blog ul .ul_ofArticle .layout_text p{font-size: 17px}
+    .our_blog article button
+    {
+        width: 80px;
+        font-size:12px;
+        margin: auto 5px;
+    }
+    /* Experience */
+    .experience h2 {
+        width: 90%;
+        margin: 50px auto 30px auto;
+        font-size: 30px;
+    }
+    /*Service */
+    .service img
+    {
+        margin-bottom: 70px
+    }
+    .service_list ul li{padding: 9px 7px}
+    .carousel-control-next, .carousel-control-prev{width: 10%; height: 23%}
+    .our_partners {margin-top: 30px !important}
+    .ability_list ul li i{display: block}
+    .ability_list ul li {
+        display: inline-block;
+        padding: 9px 7px;
+        margin: 0px 0px;
+        font-size: 16px;
+    }
+    .ability .ability_list ul li{display: inline-block}
+    .ability .hand_img{width: 135%}
+    footer .third_footer_list button{height: 65px}
+    footer .container {max-width: 770px !important}
+    /*Blog Pge*/
+    .blog_page .blog article{width: 45%; margin-right: 10px}
+    .blog_page .changeList ul{width: 20%}
+    .blog_page .show_img .cover{width: 70%}
+    /*About*/
+    /*about page*/
+    .about_page .card_{text-align: center; margin-bottom: 40px}
+    .about_page .card_ img
+    {
+        display: flex;
+        width: 80%;
+        position: relative;
+        margin: auto;
+    }
+    .about_page .about_company ul li{height: 120px;}
+    .about_page .container{max-width: 900px}
+    .first_footer_list img{width: 100%}
+    footer .footer_content .third_footer_list button
+    {
+        width: 100%;
+        height: 70px;
+        
+    }
+    }
+@media (min-width: 992px) and (max-width: 1198px)/*max width for lg*/
+{
+    /*Header_bottom*/
+    .header_list{width: 76%; text-align: left !important}
+    .dropdown_mid{left: -100%}
+    .header_icon {width: 12%}
+    .header_icon li:nth-child(2){margin-right: 50px }
+    .bottom-header ul .list-link:nth-child(9) i
+    {
+        right: -30px;
+    }
+    .bottom-header ul .list-link:nth-child(8) i
+    {
+        right: 0px
+    }
+    .bottom-header ul .list-link:nth-child(1){margin-left: 50px}
+    .bottom-header ul .list-link{margin-right: 0px}
+    .features h2{margin: 30px 0px; width: 90%}
+    .features p{margin: 30px 0px}
+    .service ul li{padding: 10px}
+    .ability_list ul li i{display: block}
+    .ability_list ul li {
+        display: inline-block;
+        padding: 9px 7px;
+        margin: 0px 0px;
+        font-size: 16px;
+    }
+    .ability .ability_list ul li{display: inline-block}
+    /*Blog Pge*/
+    .blog_page .blog article{width: 45%; margin: 2%}
+    .blog_page .changeList ul{width: 12%}
+    .blog_page .show_img .cover{width: 70%}
+    .first_footer_list img{width: 100%}
+    footer .footer_content .third_footer_list button
+    {
+        width: 100%;
+        height: 70px;
+        
+    }
+}

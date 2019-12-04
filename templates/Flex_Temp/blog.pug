@@ -1,0 +1,273 @@
+doctype
+mixin article_blog(class_name,img_src, img_class,span_1,span_2,header_text, paragragh)
+    article(class= ' ' + class_name)
+        .article_layout
+            img(src=img_src class=" " + img_class)
+            .layout
+            ul.list-unstyled
+                li 
+                    i(class="fas fa-info")            
+                li 
+                    i(class="fas fa-search img_open") 
+        .article_text
+            h6 By 
+                span(class=" ")= span_1 
+                
+                span(class="span_right ")= span_2
+            h3=header_text
+            p.dl-mt-10= paragragh
+            .comment
+                hr
+                span 
+                    i(class="far fa-gem") 
+                    |  0
+            ul.listunstyled
+                li
+                    a(href="#") PEOPLE ,
+                li
+                    a(href="#") TRAVAL
+html
+    head
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/blog.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(rel="stylesheet" href="css/theme_default.css")
+    body
+        include header_.pug
+        .blog_page
+            .blog_img
+                .layout
+                h1.text-center BLOG PAGE
+            section.blog.dl-mt-100
+
+                .article_list.article_list_1.active
+                    +article_blog(
+                    'article_1',
+                    'images/features/features1.jpg',
+                    'img_1',
+                    'NourEddin',
+                    'November 23, 2019',
+                    'Trip That You Will Never Forget',
+                    'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+                    +article_blog(
+                        'article_2',
+                        'images/features/features2.jpg',
+                        'img_2',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+                    +article_blog(
+                        'article_3',
+                        'images/features/features3.jpg',
+                        'img_3',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_4',
+                        'images/features/features4.jpg',
+                        'img_4',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_4',
+                        'images/features/features4.jpg',
+                        'img_4',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_4',
+                        'images/features/features4.jpg',
+                        'img_4',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )        
+                .article_list.article_list_2
+                    +article_blog(
+                    'article_1',
+                    'images/features/features1.jpg',
+                    'img_1',
+                    'NourEddin',
+                    'November 23, 2019',
+                    'Trip That You Will Never Forget',
+                    'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+                    +article_blog(
+                        'article_2',
+                        'images/features/features2.jpg',
+                        'img_2',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+                    +article_blog(
+                        'article_3',
+                        'images/features/features3.jpg',
+                        'img_3',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_4',
+                        'images/features/features4.jpg',
+                        'img_4',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_4',
+                        'images/features/features4.jpg',
+                        'img_4',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+                    +article_blog(
+                        'article_4',
+                        'images/features/features4.jpg',
+                        'img_4',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )
+
+                    +article_blog(
+                        'article_5',
+                        'images/features/features1.jpg',
+                        'img_5',
+                        'NourEddin',
+                        'November 23, 2019',
+                        'Trip That You Will Never Forget',
+                        'Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent… '
+                    )            
+
+            .changeList
+                ul.list-unstyled
+                    li(class="active_list" article-list=".article_list_1") 1
+                    li(article-list='.article_list_2') 2
+            section.show_img
+                .cover
+                    img(src="images/experience.png")
+
+        include footer.pug
+        include includes/scripts.pug
+        script(src="js/jQuery_header.js")
+        script(src="js/jQuery_blog.js")
+        script(src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js")

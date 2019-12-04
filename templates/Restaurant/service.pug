@@ -1,0 +1,111 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title Service
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/service.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet") 
+    body
+        include header.pug
+        .service_page
+            section.service.text-center
+                .layout
+                    .layout_text
+                        h1 Service Us
+                        p Everythins you Know Service Plate
+            section.service_text.text-center.dl-pt-70.dl-pb-70.dl-mb-50
+                .container
+                    h2 Restaurant Service
+                    +templateStyle
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            section.our_service.text-center.dl-pb-40
+                .container
+                    .row.dl-mb-30
+
+                        .col-lg-3.col-md-6
+                            .card.active
+                                img(src="images/service/birthday_bg.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/birthday.png")
+                                    img(src="images/service/birthday_white.png")
+                                    h3 Birthday Party
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/private_dining_bg.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/private_dining.png")
+                                    img(src="images/service/private_dining_white.png")
+                                    h3 Private Dining
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/gradution_bg.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/charity.png")  
+                                    img(src="images/service/charity_white.png")  
+                                    h3 Charity Events
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/chirty.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/gradution.png")
+                                    img(src="images/service/gradution_white.png")
+                                    h3 Conscerts By Request
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            section.our_service.row_2.text-center.dl-pb-40.dl-mb-30
+                .container
+                    .row
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/gradution_bg.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/gradution.png")
+                                    img(src="images/service/gradution_white.png")
+                                    h3 Conscerts By Request
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/chirty.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/charity.png")
+                                    img(src="images/service/charity_white.png")
+                                    h3 Charity Events
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/private_dining_bg.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/private_dining.png")
+                                    img(src="images/service/private_dining_white.png")
+                                    h3 Private Dining
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        .col-lg-3.col-md-6
+                            .card
+                                img(src="images/service/birthday_bg.png" width="100%" height="100%" class="layout_img")
+                                .layout
+                                .card_text
+                                    img(src="images/service/birthday.png")
+                                    img(src="images/service/birthday_white.png")
+                                    h3 Birthday Party
+                                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")

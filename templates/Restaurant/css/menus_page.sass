@@ -1,0 +1,74 @@
+$mainColor: #FCDA9A
+.main
+    position: relative 
+    width: 100%
+    height: 400px
+    h2
+        color: $mainColor
+        line-height: 400px
+        font-family: 'Dancing Script', cursive
+        font-size: 55px
+    .layout
+        position: absolute
+        top: 0px
+        left: 0px
+        width: 100%
+        height: 100%
+        background: rgba(0,0,0,0.6)
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+.menus
+    h2
+        font-family: 'Great Vibes', cursive
+        font-weight: bold 
+        font-size: 40px
+.menu
+    width: 100%
+    position: relative 
+    margin: auto
+    display: inline-flex
+    padding-bottom: 30px
+    .menu_img
+        width: 100px
+        height: 100px
+        img
+            width: 100%
+            height: 100%
+            border-radius: 50%
+    .menu_text
+        width: 80%
+        margin-left: 20px
+        .list_price
+            height: 35px
+            border-bottom: 1px dashed $mainColor
+            margin-bottom: 20px
+            cursor: pointer
+            h5
+                transition: 0.4s
+            &:hover
+                h5
+
+                    color: $mainColor
+        a
+            width: 80%
+            float: left
+        h5
+            width: 20%
+            text-align: center
+            float: left
+            
+.start
+    background: url('../images/menus/start/main.png') no-repeat !important
+    background-size: cover              
+.main
+    background: url('../images/menus/main/main.png') no-repeat
+    background-size: cover            
+.desert
+    background: url('../images/menus/desert/main.png') no-repeat
+    background-size: cover            
+.drinks
+    background: url('../images/menus/drinks/main.png') no-repeat
+    background-size: cover
+    

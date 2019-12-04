@@ -1,0 +1,134 @@
+
+doctype
+html
+    head
+
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/about_us.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(rel="stylesheet" href="css/theme_default.css")
+    body
+        include header_.pug
+        .about_page
+            section.about_header
+                .layout_header
+                h2.h1.text-center ABOUT US
+            section.about_info.dl-pt-100.dl-pb-100
+                .container
+                    .row
+                        .col-md-5
+                            img(src="images/about-us/screen.png")
+                        .col-md-6.offset-md-1.text-left
+                            h4 Design Your Dream & Make Different
+                            p.dl-mt-20 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            p.dl-mt-20 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+                            button ABOUT US
+            section.about_word.dl-mt-60.dl-mb-60.text-center
+                h3.dl-mb-20 THIS AWESOME THEME CAN MAKE YOU DESIGN EASYER
+                p.dl-mt-20 On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment
+                button.dl-mt-30 PURCHASE NOW
+            section.teamWork.text-left.dl-pt-100.dl-pb-100
+                .container
+                    .row
+
+                        .col-md-4
+                            .card_
+                                .card_img
+                                    img(src="images/team/person_1.png")
+                                h4.dl-mt-20 Jason Andrews
+                                p.dl-mt-10 DESIGNER, DEVELOPER
+                                p.dl-mt-20 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                .social_list
+
+                                    span
+                                        i(class="fab fa-facebook-f")
+                                    |
+                                    |
+                                    span
+                                        i(class="fab fa-twitter")
+                                    |
+                                    |
+                                    span
+                                        i(class="fab fa-facebook-messenger")
+                                    |
+                                    |
+                        .col-md-4
+                            .card_
+                                .card_img
+                                    img(src="images/team/person_2.png")
+                                h4.dl-mt-20 Jason Andrews
+                                p.dl-mt-10 FULL STACK
+                                p.dl-mt-20 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                .social_list
+
+                                    span
+                                        i(class="fab fa-facebook-f")
+                                    |
+                                    |
+                                    span
+                                        i(class="fab fa-twitter")
+                                    |
+                                    |
+                                    span
+                                        i(class="fab fa-facebook-messenger")
+                                    |
+                                    |                
+                        .col-md-4
+                            .card_
+                                .card_img
+                                    img(src="images/team/person_3.png")
+                                h4.dl-mt-20 Jason Andrews
+                                p.dl-mt-10 DESIGNER, DEVELOPER
+                                p.dl-mt-20 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                .social_list
+
+                                    span
+                                        i(class="fab fa-facebook-f")
+                                    |
+                                    |
+                                    span
+                                        i(class="fab fa-twitter")
+                                    |
+                                    |
+                                    span
+                                        i(class="fab fa-facebook-messenger")
+                                    |
+                                    |
+            section.about_img.text-center.dl-mb-30
+                .img_cover
+                    img(src="images/team/left_about.png")
+                    .layout
+                        h4 PREVOUS WORK        
+                .img_cover
+                    img(src="images/team/right_about.jpg")
+                    .layout
+                        h4 CASE STUDIES
+            section.about_company.dl-mt-100.dl-mb-100
+                .container
+                    ul.list-unstyled
+                        li
+                            .company_1
+                        li
+                            .company_2
+                        li
+                            .company_3
+                        li
+                            .company_4
+                        li
+                            .company_5
+                        hr
+                        li
+                            .company_6
+                        li
+                            .company_7
+                        li
+                            .company_8
+                        li
+                            .company_9
+                        li
+                            .company_10
+
+        include footer.pug
+        include includes/scripts.pug
+        script(src="js/jQuery_header.js")
+        script(src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js")

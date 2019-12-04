@@ -1,0 +1,95 @@
+mixin templateStyle
+    .template_style
+        .template_
+            img(src="images/template_icon.png")
+doctype
+html
+    head
+        title Reservasyon
+        include includes/stylies.pug
+        link(rel="stylesheet" href="css/header_footer.css")
+        link(rel="stylesheet" href="css/reservasyon.css")
+        link(rel="stylesheet" href="css/mediaQuery.css")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet") 
+    body
+        include header.pug
+        section.reservasyon_header.text-center
+            .layout
+                .container
+                    .row
+                        .col-md-8
+                            .header_text.text-left
+                                h2 Are you looking for a quite place?
+                                p Make You Feel Good is Our Priority
+                        .col-md-4
+                            button Book A Table
+        section.about_place.text-center.dl-mt-60.dl-mb-60
+            .container
+                h2.h1 About Our Place
+                +templateStyle
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                       
+        section.reservasyon
+            .layout
+                .container
+                    .row
+                        .col-md-4
+                            img(src="images/reservasyon/restaurant_place1.png" width="100%" height="300")
+                            .place_text.text-left.dl-mt-10
+                                h5 Restaurant Place 1 : 
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        .col-md-4.text-center
+                            h2.h1.dl-mt-20 Book Your Table
+                            +templateStyle
+                            form
+                                input(type='text' placeholder="Your Name")
+                                input(type='text' placeholder="Date ex: 01/01/2020")
+                                select
+                                    option(value='!_') 08:00 am
+                                    option(value='2_') 08:30 am
+                                    option(value='3_') 09:00 am
+                                    option(value='4_') 09:30 am
+                                    option(value='5_') 10:00 am
+                                    option(value='6_') 10:30 am
+                                    option(value='7_') 11:00 am
+                                    option(value='8_') 11:30 am                                
+                                    option(value='!_') 12:00 pm
+                                    option(value='2_') 12:30 pm
+                                    option(value='3_') 13:00 pm
+                                    option(value='4_') 13:30 pm
+                                    option(value='5_') 14:00 pm
+                                    option(value='6_') 14:30 pm
+                                    option(value='7_') 15:00 pm
+                                    option(value='8_') 15:30 pm                                    
+                                    option(value='4_') 16:30 pm
+                                    option(value='5_') 16:00 pm
+                                    option(value='6_') 17:30 pm
+                                    option(value='7_') 17:00 pm
+                                    option(value='8_') 18:30 pm                                    
+                                    option(value='5_') 18:00 pm
+                                    option(value='6_') 19:30 pm
+                                    option(value='7_') 19:00 pm
+                                    option(value='8_') 20:30 pm                                    
+                                    option(value='4_') 20:30 pm
+                                    option(value='5_') 21:00 pm
+                                    option(value='6_') 21:30 pm
+                                select
+                                    option(value='1_person') 1 person
+                                    option(value='2_person') 2 person
+                                    option(value='3_person') 3 person
+                                    option(value='4_person') 4 person
+                                    option(value='5_person') 5 person
+                                    option(value='6_person') 6 person
+                                    option(value='7_person') 7 person
+                                    option(value='8_person') 8 person
+                                button Find Table
+                        .col-md-4
+                            img(src="images/reservasyon/restaurant_place2.png" width="100%" height="300")
+                            .place_text.text-left.dl-mt-10
+                                h5 Restaurant Place 2 : 
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+
+        include footer.pug
+        include includes/scripts
+        script(src="js/javascript.js")
+        script(src="js/reservasyon.js")

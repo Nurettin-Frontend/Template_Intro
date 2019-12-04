@@ -1,0 +1,156 @@
+@import 'header.sass'
+ul
+    padding: 0px 
+    margin: 0px
+@import 'footer.sass'
+.about_header
+    background: url('../images/green-building-solutions.jpg') no-repeat center center fixed
+    background-size: cover
+    height: 553px 
+    width: 100%
+    z-index: 1
+    position: relative
+    .layout_header
+        position: absolute
+        top: 0px
+        left: 0px
+        height: 100%
+        width: 100%
+        background: rgba(0,0,0,0.7)
+    h2
+        position: absolute
+        top: 45%
+        left: 50%
+        transform: translate(-50%,-50%)
+        font-size: 60px
+.about_info
+    background: #ececec8a
+    img
+        width: 100%
+        margin-bottom: 40px
+    button
+        padding: 7px 25px
+        background: transparent
+        border: 1px solid black
+        margin-top: 30px
+        transition: 0.4s
+        color: black
+        &:hover
+            color: white
+.about_word
+    button
+        padding: 7px 25px
+        background: transparent
+        border: 1px solid black
+        margin-top: 30px
+        transition: 0.4s
+        color: black
+        &:hover
+            color: white
+.teamWork
+    .card_img
+        width: 100%
+        height: 300px
+        img
+            width: 100%
+            height: 100%
+    background: #ececec8a
+    span
+        width: 25px
+        height: 25px
+        border-radius: 50%
+        border: none
+        background: #2f2f2f
+        line-height: 25px
+        font-size: 13px
+        color: white
+        display: inline-block
+        margin-right: 3px
+        margin-top: 10px
+        transition: 0.4s
+        cursor: pointer
+        text-align: center
+.about_img
+    position: relative
+    width: 100%
+    height: 350px
+    .img_cover
+        width: 50%
+        float: left
+        height: 100%
+        position: relative
+        overflow: hidden
+        .layout
+            position: absolute
+            top: 0px
+            left: 0px
+            width: 100%
+            height: 100%
+            background: rgba(0,0,0,0.7)
+            transition: 0.8s
+            cursor: pointer
+
+        img
+            position: absolute
+            left: 0px
+            top: 0px
+            transform: scale(1.2)
+            width: 100%
+            height: 100%
+            transition: 0.8s
+        h4
+            color: white
+            position: absolute
+            top: 50% 
+            left: 50%
+            transform: translate(-50%,-50%)
+            font-size: 25px
+            color: white
+            transition: 0.6s
+        &:hover
+            .layout
+                background: rgba(0,0,0,0.1)
+            img
+                transform: scale(1)
+            h4
+                opacity: 0
+.about_company
+    position: relative
+    min-height: 300px
+    width: 100%
+    ul
+        position: relative
+        width: 100%
+        height: 100%
+        li
+            display: inline-block
+            width: 19%
+            height: 160px
+            transition: 0.4s
+            position: relative
+            div
+                width: 100%
+                height: 100%
+            &:after
+                content: ''
+                position: absolute
+                right: 0px
+                width: 1px
+                height: 104%
+                background: rgba(0,0,0,0.1)
+                top: 0px
+            &:nth-child(5)
+                &:after
+                    width: 0px            
+            &:nth-child(11)
+                &:after
+                    width: 0px
+            &:hover 
+                filter: grayscale(100%)
+        hr
+            margin: 0px
+$companyList: 1 2 3 4 5 6 7 8 9 10
+@each $company in $companyList 
+    .company_#{$company}
+        background: url('../images/icon_slider/our-partners-#{$company}.png') no-repeat
+        background-size: contain
